@@ -1,0 +1,145 @@
+{
+   "api_version": 4,
+   "error": null,
+   "result": [
+      {
+         "id": 68496835,
+         "name": "28-FITDM_Search_CostCenter",
+         "userId": 2057801,
+         "publicToken": "Z0udeJxEQ47Gh5NYmqjG0tVv5GajLh7a2mvzjf3Scx8c1R90Xv",
+         "ended": 1687464135,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 25,
+         "created": 1687460451,
+         "updated": 1698473225,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 2,
+         "parallelTestsInAccount": 2,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "bde233339207170e17e0a820432b0a23be5ac46393597ba4a2e4598e67370363",
+               "name": "default-scenario-12762721",
+               "test": "28-FITDM_Search_CostCenter",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 25,
+               "usersNotConfigured": false,
+               "holdFor": "58m",
+               "durationIsNotConfigured": false,
+               "iterationAndDurationDisabled": false,
+               "rampUp": "1m",
+               "steps": 0,
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 25
+               },
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "9dbf38c17d36f4ce0cde5b8f9a6a116dce0cf822",
+               "scenario": "default-scenario-12762721"
+            }
+         ],
+         "useV4Pipeline": true,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "_28_FITDM_Search_CostCenter": {
+                        "title": "28-FITDM_Search_CostCenter",
+                        "type": "object",
+                        "properties": {
+                           "_28CostCenterNK": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "_28CostCenterNK": "valueOfCSV(\"28-FITDM_Search_CostCenter.csv\", \"28CostCenterNK\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "28-FITDM_Search_CostCenter.csv"
+                              },
+                              "type": "csv",
+                              "name": "28-FITDM_Search_CostCenter.csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": false
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "28-FITDM_Search_CostCenter.csv",
+                              "quoted": false,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "_28CostCenterNK",
+                                    "headerName": "28CostCenterNK"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "restored": 1695829474,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "tags": [
+            {
+               "id": 481423,
+               "label": "28-FITDM_Search_CostCenter-25Concurrency"
+            }
+         ],
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 12762721,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-64949a6440612547588781"
+         ]
+      }
+   ],
+   "request_id": "653fb74f97b99",
+   "limit": 10,
+   "skip": 0,
+   "total": 1,
+   "hidden": 0
+}

@@ -1,0 +1,144 @@
+{
+   "api_version": 4,
+   "error": null,
+   "result": [
+      {
+         "id": 68323707,
+         "name": "07-FITDM_Fetch_GFSClientContracts-Test2Env-June_12",
+         "userId": 2057801,
+         "publicToken": "76KTCEV4vyuE9FRGMXPAORxu6zPhpPLCHEB36hIxh52tsflx2w",
+         "ended": 1686607432,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 1,
+         "created": 1686603757,
+         "updated": 1697781786,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 1,
+         "parallelTestsInAccount": 2,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "5f9304c3a44e0f1274e1dacdbf7520bc0ce61e2a15c1c4dd6f5e2c2639de0c98",
+               "name": "default-scenario-12718215",
+               "test": "07-FITDM_Fetch_GFSClientContracts-Test2Env-June_12",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 1,
+               "usersNotConfigured": false,
+               "holdFor": "60m",
+               "durationIsNotConfigured": false,
+               "iterationAndDurationDisabled": false,
+               "rampUp": "0m",
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 1
+               },
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "9b27b9f6cbc7479ca154a4850ac4813439d99883",
+               "scenario": "default-scenario-12718215"
+            }
+         ],
+         "useV4Pipeline": true,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "_07_FITDM_Fetch_GFSClientContracts": {
+                        "title": "07-FITDM_Fetch_GFSClientContracts",
+                        "type": "object",
+                        "properties": {
+                           "_07ClientContractNK": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "_07ClientContractNK": "valueOfCSV(\"07-FITDM_Fetch_GFSClientContracts.csv\", \"07ClientContractNK\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "07-FITDM_Fetch_GFSClientContracts.csv"
+                              },
+                              "type": "csv",
+                              "name": "07-FITDM_Fetch_GFSClientContracts.csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": false
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "07-FITDM_Fetch_GFSClientContracts.csv",
+                              "quoted": false,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "_07ClientContractNK",
+                                    "headerName": "07ClientContractNK"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "restored": 1695145002,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "tags": [
+            {
+               "id": 472645,
+               "label": "07-FITDM_Fetch_GFSClientContracts-1Concurrency"
+            }
+         ],
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 12718215,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-648787edc9dd5874507809"
+         ]
+      }
+   ],
+   "request_id": "653fb6d883073",
+   "limit": 10,
+   "skip": 0,
+   "total": 1,
+   "hidden": 0
+}

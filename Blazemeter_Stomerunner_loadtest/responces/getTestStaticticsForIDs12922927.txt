@@ -1,0 +1,279 @@
+{
+   "api_version": 4,
+   "error": null,
+   "result": [
+      {
+         "id": 69081008,
+         "name": "45-FITDM_LDV_GetEntitiesOfferingOFALMDetails",
+         "userId": 2057801,
+         "publicToken": "p0nzV4BG3EGxOtVfgu8Nj2z7ys1guleO2C4OCj3Jw6RhT8tlyt",
+         "ended": 1691176268,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 25,
+         "created": 1691172524,
+         "updated": 1698473768,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 2,
+         "parallelTestsInAccount": 2,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "d6aca5bd961b6e6c20efddfd6dcbcf5b6454652f8c22047291ab1b2f40078524",
+               "name": "default-scenario-12922927",
+               "test": "45-FITDM_LDV_GetEntitiesOfferingOFALMDetails",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 25,
+               "usersNotConfigured": false,
+               "holdFor": "59m",
+               "durationIsNotConfigured": false,
+               "iterationAndDurationDisabled": false,
+               "rampUp": "1m",
+               "steps": 0,
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 25
+               },
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "7d8acd9de718799086db661997696612fa1c2b17",
+               "scenario": "default-scenario-12922927"
+            }
+         ],
+         "useV4Pipeline": true,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "_45_FITDM_LDV_GetEntitiesOfferingOFALMDetails": {
+                        "title": "45-FITDM_LDV_GetEntitiesOfferingOFALMDetails",
+                        "type": "object",
+                        "properties": {
+                           "_45ParentEntityPartyReferenceID": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "_45ParentEntityPartyReferenceID": "valueOfCSV(\"45-FITDM_LDV_GetEntitiesOfferingOFALMDetails.csv\", \"45ParentEntityPartyReferenceID\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "45-FITDM_LDV_GetEntitiesOfferingOFALMDetails.csv"
+                              },
+                              "type": "csv",
+                              "name": "45-FITDM_LDV_GetEntitiesOfferingOFALMDetails.csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": false
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "45-FITDM_LDV_GetEntitiesOfferingOFALMDetails.csv",
+                              "quoted": false,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "_45ParentEntityPartyReferenceID",
+                                    "headerName": "45ParentEntityPartyReferenceID"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "restored": 1695831010,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "tags": [
+            {
+               "id": 509030,
+               "label": "45-FITDM_LDV_GetEntitiesOfferingOFALMDetails-25C"
+            }
+         ],
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 12922927,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-64cd3eaca884c748117700"
+         ]
+      },
+      {
+         "id": 68927718,
+         "name": "45-FITDM_LDV_GetEntitiesOfferingOFALMDetails",
+         "userId": 2057801,
+         "publicToken": "VeljBNr0qAo8uyVYdFMvQeRMCRGHEfC85GwB3sKVEDxZJhQE58",
+         "ended": 1690215905,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 25,
+         "created": 1690212156,
+         "updated": 1698473586,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 1,
+         "parallelTestsInAccount": 2,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "d6aca5bd961b6e6c20efddfd6dcbcf5b6454652f8c22047291ab1b2f40078524",
+               "name": "default-scenario-12922927",
+               "test": "45-FITDM_LDV_GetEntitiesOfferingOFALMDetails",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 25,
+               "usersNotConfigured": false,
+               "holdFor": "59m",
+               "durationIsNotConfigured": false,
+               "iterationAndDurationDisabled": false,
+               "rampUp": "1m",
+               "steps": 0,
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 25
+               },
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "7d8acd9de718799086db661997696612fa1c2b17",
+               "scenario": "default-scenario-12922927"
+            }
+         ],
+         "useV4Pipeline": true,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "_45_FITDM_LDV_GetEntitiesOfferingOFALMDetails": {
+                        "title": "45-FITDM_LDV_GetEntitiesOfferingOFALMDetails",
+                        "type": "object",
+                        "properties": {
+                           "_45ParentEntityPartyReferenceID": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "_45ParentEntityPartyReferenceID": "valueOfCSV(\"45-FITDM_LDV_GetEntitiesOfferingOFALMDetails.csv\", \"45ParentEntityPartyReferenceID\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "45-FITDM_LDV_GetEntitiesOfferingOFALMDetails.csv"
+                              },
+                              "type": "csv",
+                              "name": "45-FITDM_LDV_GetEntitiesOfferingOFALMDetails.csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": false
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "45-FITDM_LDV_GetEntitiesOfferingOFALMDetails.csv",
+                              "quoted": false,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "_45ParentEntityPartyReferenceID",
+                                    "headerName": "45ParentEntityPartyReferenceID"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "restored": 1695831004,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "tags": [
+            {
+               "id": 509030,
+               "label": "45-FITDM_LDV_GetEntitiesOfferingOFALMDetails-25C"
+            }
+         ],
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 12922927,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-64be973d1def5978859718"
+         ]
+      }
+   ],
+   "request_id": "653fb7b6083f5",
+   "limit": 10,
+   "skip": 0,
+   "total": 2,
+   "hidden": 0
+}

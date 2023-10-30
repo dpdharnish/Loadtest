@@ -1,0 +1,467 @@
+{
+   "api_version": 4,
+   "error": null,
+   "result": [
+      {
+         "id": 69683068,
+         "name": "60-FITDM_Calculate_CoveredPersonCOC",
+         "userId": 2057801,
+         "publicToken": "Uqlh4hh9rnT40QFN6LHsBurgIDV1x3sVwmeuS9hu5CYNruxDEm",
+         "ended": 1695314828,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 1,
+         "created": 1695311181,
+         "updated": 1697979244,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 2,
+         "parallelTestsInAccount": 2,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "f11dd4e6b10d2daa1dd79b9b65e096ac3eaab854809731fc07141438b5819310",
+               "name": "default-scenario-13337082",
+               "test": "60-FITDM_Calculate_CoveredPersonCOC",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 1,
+               "usersNotConfigured": false,
+               "holdFor": "3599s",
+               "durationIsNotConfigured": false,
+               "iterationAndDurationDisabled": true,
+               "rampUp": "1s",
+               "iterations": -1,
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 1
+               },
+               "locationsWeighted": false,
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "91495b11a1b65e837ae5465987ba4697173b73db",
+               "scenario": "default-scenario-13337082"
+            }
+         ],
+         "useV4Pipeline": true,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "_60_FITDM_Calculate_CoveredPersonCOC": {
+                        "title": "60-FITDM_Calculate_CoveredPersonCOC",
+                        "type": "object",
+                        "properties": {
+                           "_60EmployeeNK": {
+                              "type": "string"
+                           },
+                           "_60CoveredPersonStartDate": {
+                              "type": "string"
+                           },
+                           "_60PortfolioRelationshipNK": {
+                              "type": "string"
+                           },
+                           "_60PRID": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "_60EmployeeNK": "valueOfCSV(\"60-FITDM_Calculate_CoveredPersonCOC.csv\", \"60EmployeeNK\")",
+                           "_60CoveredPersonStartDate": "valueOfCSV(\"60-FITDM_Calculate_CoveredPersonCOC.csv\", \"60CoveredPersonStartDate\")",
+                           "_60PortfolioRelationshipNK": "valueOfCSV(\"60-FITDM_Calculate_CoveredPersonCOC.csv\", \"60PortfolioRelationshipNK\")",
+                           "_60PRID": "valueOfCSV(\"60-FITDM_Calculate_CoveredPersonCOC.csv\", \"60PRID\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "60-FITDM_Calculate_CoveredPersonCOC.csv"
+                              },
+                              "type": "csv",
+                              "name": "60-FITDM_Calculate_CoveredPersonCOC.csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": false
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "60-FITDM_Calculate_CoveredPersonCOC.csv",
+                              "quoted": false,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "_60EmployeeNK",
+                                    "headerName": "60EmployeeNK"
+                                 },
+                                 {
+                                    "propertyName": "_60CoveredPersonStartDate",
+                                    "headerName": "60CoveredPersonStartDate"
+                                 },
+                                 {
+                                    "propertyName": "_60PortfolioRelationshipNK",
+                                    "headerName": "60PortfolioRelationshipNK"
+                                 },
+                                 {
+                                    "propertyName": "_60PRID",
+                                    "headerName": "60PRID"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 13337082,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-650c654e66dda733577439"
+         ]
+      },
+      {
+         "id": 69671844,
+         "name": "60-FITDM_Calculate_CoveredPersonCOC",
+         "userId": 2057801,
+         "publicToken": "7g7gA7F2LvzmnFol2q0Jl9QFSdUdBSGP7mPg2MGjyPUdIL0YP7",
+         "ended": 1695245564,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 1,
+         "created": 1695241919,
+         "updated": 1697901724,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 1,
+         "parallelTestsInAccount": 2,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "f11dd4e6b10d2daa1dd79b9b65e096ac3eaab854809731fc07141438b5819310",
+               "name": "default-scenario-13337082",
+               "test": "60-FITDM_Calculate_CoveredPersonCOC",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 1,
+               "usersNotConfigured": false,
+               "holdFor": "3599s",
+               "durationIsNotConfigured": false,
+               "iterationAndDurationDisabled": true,
+               "rampUp": "1s",
+               "iterations": -1,
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 1
+               },
+               "locationsWeighted": false,
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "91495b11a1b65e837ae5465987ba4697173b73db",
+               "scenario": "default-scenario-13337082"
+            }
+         ],
+         "useV4Pipeline": true,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "_60_FITDM_Calculate_CoveredPersonCOC": {
+                        "title": "60-FITDM_Calculate_CoveredPersonCOC",
+                        "type": "object",
+                        "properties": {
+                           "_60EmployeeNK": {
+                              "type": "string"
+                           },
+                           "_60CoveredPersonStartDate": {
+                              "type": "string"
+                           },
+                           "_60PortfolioRelationshipNK": {
+                              "type": "string"
+                           },
+                           "_60PRID": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "_60EmployeeNK": "valueOfCSV(\"60-FITDM_Calculate_CoveredPersonCOC.csv\", \"60EmployeeNK\")",
+                           "_60CoveredPersonStartDate": "valueOfCSV(\"60-FITDM_Calculate_CoveredPersonCOC.csv\", \"60CoveredPersonStartDate\")",
+                           "_60PortfolioRelationshipNK": "valueOfCSV(\"60-FITDM_Calculate_CoveredPersonCOC.csv\", \"60PortfolioRelationshipNK\")",
+                           "_60PRID": "valueOfCSV(\"60-FITDM_Calculate_CoveredPersonCOC.csv\", \"60PRID\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "60-FITDM_Calculate_CoveredPersonCOC.csv"
+                              },
+                              "type": "csv",
+                              "name": "60-FITDM_Calculate_CoveredPersonCOC.csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": false
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "60-FITDM_Calculate_CoveredPersonCOC.csv",
+                              "quoted": false,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "_60EmployeeNK",
+                                    "headerName": "60EmployeeNK"
+                                 },
+                                 {
+                                    "propertyName": "_60CoveredPersonStartDate",
+                                    "headerName": "60CoveredPersonStartDate"
+                                 },
+                                 {
+                                    "propertyName": "_60PortfolioRelationshipNK",
+                                    "headerName": "60PortfolioRelationshipNK"
+                                 },
+                                 {
+                                    "propertyName": "_60PRID",
+                                    "headerName": "60PRID"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 13337082,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-650b56bfca306530556506"
+         ]
+      },
+      {
+         "id": 69906297,
+         "name": "60-FITDM_Calculate_CoveredPersonCOC",
+         "userId": 2057801,
+         "publicToken": "nkE91BfWdKOOkKz3nBoVyZrJ2y0LYkp43sJC4yRT7hJg7WKAFT",
+         "ended": 1696871335,
+         "delayedStartReady": false,
+         "runnerUserId": 1653225,
+         "charges": [],
+         "maxUsers": 1,
+         "created": 1696867694,
+         "updated": 1696871640,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 5,
+         "parallelTestsInAccount": 6,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "f11dd4e6b10d2daa1dd79b9b65e096ac3eaab854809731fc07141438b5819310",
+               "name": "default-scenario-13337082",
+               "test": "60-FITDM_Calculate_CoveredPersonCOC",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 1,
+               "usersNotConfigured": false,
+               "holdFor": "3599s",
+               "durationIsNotConfigured": false,
+               "iterationAndDurationDisabled": true,
+               "rampUp": "1s",
+               "iterations": -1,
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 1
+               },
+               "locationsWeighted": false,
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "91495b11a1b65e837ae5465987ba4697173b73db",
+               "scenario": "default-scenario-13337082"
+            }
+         ],
+         "useV4Pipeline": true,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "_60_FITDM_Calculate_CoveredPersonCOC": {
+                        "title": "60-FITDM_Calculate_CoveredPersonCOC",
+                        "type": "object",
+                        "properties": {
+                           "_60EmployeeNK": {
+                              "type": "string"
+                           },
+                           "_60CoveredPersonStartDate": {
+                              "type": "string"
+                           },
+                           "_60PortfolioRelationshipNK": {
+                              "type": "string"
+                           },
+                           "_60PRID": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "_60EmployeeNK": "valueOfCSV(\"60-FITDM_Calculate_CoveredPersonCOC.csv\", \"60EmployeeNK\")",
+                           "_60CoveredPersonStartDate": "valueOfCSV(\"60-FITDM_Calculate_CoveredPersonCOC.csv\", \"60CoveredPersonStartDate\")",
+                           "_60PortfolioRelationshipNK": "valueOfCSV(\"60-FITDM_Calculate_CoveredPersonCOC.csv\", \"60PortfolioRelationshipNK\")",
+                           "_60PRID": "valueOfCSV(\"60-FITDM_Calculate_CoveredPersonCOC.csv\", \"60PRID\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "60-FITDM_Calculate_CoveredPersonCOC.csv"
+                              },
+                              "type": "csv",
+                              "name": "60-FITDM_Calculate_CoveredPersonCOC.csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": false
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "60-FITDM_Calculate_CoveredPersonCOC.csv",
+                              "quoted": false,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "_60EmployeeNK",
+                                    "headerName": "60EmployeeNK"
+                                 },
+                                 {
+                                    "propertyName": "_60CoveredPersonStartDate",
+                                    "headerName": "60CoveredPersonStartDate"
+                                 },
+                                 {
+                                    "propertyName": "_60PortfolioRelationshipNK",
+                                    "headerName": "60PortfolioRelationshipNK"
+                                 },
+                                 {
+                                    "propertyName": "_60PRID",
+                                    "headerName": "60PRID"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": false,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 13337082,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-6524256f7b0b1081158141"
+         ]
+      }
+   ],
+   "request_id": "653fb8255e48b",
+   "limit": 10,
+   "skip": 0,
+   "total": 3,
+   "hidden": 0
+}

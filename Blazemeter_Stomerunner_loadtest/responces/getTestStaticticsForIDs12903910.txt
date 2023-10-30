@@ -1,0 +1,163 @@
+{
+   "api_version": 4,
+   "error": null,
+   "result": [
+      {
+         "id": 68880332,
+         "name": "39-FITDM_Get_CoveredPersonPartnerInOffice_v1",
+         "userId": 2057801,
+         "publicToken": "TukCg2cn3BOtUJFPKMmCK2VRPtNUD3enbSZRsTCKk8hLv9rkdh",
+         "ended": 1689868347,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 15,
+         "created": 1689863933,
+         "updated": 1698473527,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 1,
+         "parallelTestsInAccount": 1,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "f51be37302475e18e92d8618547e8880ee24dc00b1d4133a5c05af8c909c7266",
+               "name": "default-scenario-12903910",
+               "test": "39-FITDM_Get_CoveredPersonPartnerInOffice_v1",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 15,
+               "usersNotConfigured": false,
+               "holdFor": "259199s",
+               "durationIsNotConfigured": true,
+               "iterationAndDurationDisabled": true,
+               "rampUp": "1s",
+               "iterations": 1,
+               "steps": 0,
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 1
+               },
+               "locationsWeighted": false,
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "bda397c2b346ec94011fd2fe9d915b27e55ebea6",
+               "scenario": "default-scenario-12903910"
+            }
+         ],
+         "useV4Pipeline": true,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "_39_FITDM_Get_CoveredPersonPartnerInOffice_v1": {
+                        "title": "39-FITDM_Get_CoveredPersonPartnerInOffice_v1",
+                        "type": "object",
+                        "properties": {
+                           "_39EmployeeNK": {
+                              "type": "string"
+                           },
+                           "_39CoveredPersonStartDate": {
+                              "type": "string"
+                           },
+                           "_39CoveredPersonEndDate": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "_39EmployeeNK": "valueOfCSV(\"39-FITDM_Get_CoveredPersonPartnerInOffice_v1.csv\", \"39EmployeeNK\")",
+                           "_39CoveredPersonStartDate": "valueOfCSV(\"39-FITDM_Get_CoveredPersonPartnerInOffice_v1.csv\", \"39CoveredPersonStartDate\")",
+                           "_39CoveredPersonEndDate": "valueOfCSV(\"39-FITDM_Get_CoveredPersonPartnerInOffice_v1.csv\", \"39CoveredPersonEndDate\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "39-FITDM_Get_CoveredPersonPartnerInOffice_v1.csv"
+                              },
+                              "type": "csv",
+                              "name": "39-FITDM_Get_CoveredPersonPartnerInOffice_v1.csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": false
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "39-FITDM_Get_CoveredPersonPartnerInOffice_v1.csv",
+                              "quoted": false,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "_39EmployeeNK",
+                                    "headerName": "39EmployeeNK"
+                                 },
+                                 {
+                                    "propertyName": "_39CoveredPersonStartDate",
+                                    "headerName": "39CoveredPersonStartDate"
+                                 },
+                                 {
+                                    "propertyName": "_39CoveredPersonEndDate",
+                                    "headerName": "39CoveredPersonEndDate"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "restored": 1695830370,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "tags": [
+            {
+               "id": 505503,
+               "label": "39-FITDM_Get_CoveredPersonPartnerInOffice_v1"
+            }
+         ],
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 12903910,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-64b946fdee2e8888029912"
+         ]
+      }
+   ],
+   "request_id": "653fb78f73b2c",
+   "limit": 10,
+   "skip": 0,
+   "total": 1,
+   "hidden": 0
+}

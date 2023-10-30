@@ -1,0 +1,5 @@
+﻿Domain,BusinessUnit,ApplicationName,TestScenario,TestID1,TestID2,TestID3,TestID4,TestID5,TestID6,TestID7,TestID8,TestID9,TestID10,TestID11,TestID12,TestID13,TestID14,TestID15,TestID16,TestID17,TestID18,TestID19,TestID20,TestID21,TestID22,TestID23,TestID24,TestID25,TestID26,TestID27,TestID28,TestID29,TestID30
+xLoS,US_PartnerAffairs,YES,YES API 1000user,61,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Domain1,US_Partner,Partner Tax survey,Scalability_1500UsersTest_MobileAPIs,58,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Domain2,IN_PartnerAffairs,Partner  survey,Scalability_2000Users_Test,53,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Domain3,US_Space Management,Hotelling,Multi_user_meeting_20users,38,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

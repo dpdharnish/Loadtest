@@ -1,0 +1,161 @@
+{
+   "api_version": 4,
+   "error": null,
+   "result": [
+      {
+         "id": 68492512,
+         "name": "25-FITDM_Get_GFSWBSCodesByContractsAndDate-June_22",
+         "userId": 2057801,
+         "publicToken": "JumM1xWynDtU5rSlv65EDldIQn9YYo2dRAwyU3B04unJiPlCgy",
+         "ended": 1687449629,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 25,
+         "created": 1687445860,
+         "updated": 1698473166,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 4,
+         "parallelTestsInAccount": 4,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "8a2b8aacd33a6a0f923a7dd921851cfba25c3ed5d1d55fecb550178695f79583",
+               "name": "default-scenario-12761191",
+               "test": "25-FITDM_Get_GFSWBSCodesByContractsAndDate-June_22",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 25,
+               "usersNotConfigured": false,
+               "holdFor": "59m",
+               "durationIsNotConfigured": false,
+               "iterationAndDurationDisabled": false,
+               "rampUp": "1m",
+               "steps": 0,
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 25
+               },
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "a554780c99f73772073f53d0351e4ac4a5748fa9",
+               "scenario": "default-scenario-12761191"
+            }
+         ],
+         "useV4Pipeline": true,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "_25_FITDM_Get_GFSWBSCodesByContractsAndDate": {
+                        "title": "25-FITDM_Get_GFSWBSCodesByContractsAndDate",
+                        "type": "object",
+                        "properties": {
+                           "_25ContractCode": {
+                              "type": "string"
+                           },
+                           "_25ContractCode1": {
+                              "type": "string"
+                           },
+                           "_25EngagementCreationDate": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "_25ContractCode": "valueOfCSV(\"25-FITDM_Get_GFSWBSCodesByContractsAndDate.csv\", \"25ContractCode\")",
+                           "_25ContractCode1": "valueOfCSV(\"25-FITDM_Get_GFSWBSCodesByContractsAndDate.csv\", \"25ContractCode1\")",
+                           "_25EngagementCreationDate": "valueOfCSV(\"25-FITDM_Get_GFSWBSCodesByContractsAndDate.csv\", \"25EngagementCreationDate\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "25-FITDM_Get_GFSWBSCodesByContractsAndDate.csv"
+                              },
+                              "type": "csv",
+                              "name": "25-FITDM_Get_GFSWBSCodesByContractsAndDate.csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": false
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "25-FITDM_Get_GFSWBSCodesByContractsAndDate.csv",
+                              "quoted": false,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "_25ContractCode",
+                                    "headerName": "25ContractCode"
+                                 },
+                                 {
+                                    "propertyName": "_25ContractCode1",
+                                    "headerName": "25ContractCode1"
+                                 },
+                                 {
+                                    "propertyName": "_25EngagementCreationDate",
+                                    "headerName": "25EngagementCreationDate"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "restored": 1695829430,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "tags": [
+            {
+               "id": 481036,
+               "label": "25-FITDM_Get_GFSWBSCodesByContractsAndDate-25Concurrency"
+            }
+         ],
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 12761191,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-64946174726d2766297873"
+         ]
+      }
+   ],
+   "request_id": "653fb744448cb",
+   "limit": 10,
+   "skip": 0,
+   "total": 1,
+   "hidden": 0
+}

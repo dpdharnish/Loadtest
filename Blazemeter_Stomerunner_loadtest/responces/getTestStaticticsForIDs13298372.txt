@@ -1,0 +1,166 @@
+{
+   "api_version": 4,
+   "error": null,
+   "result": [
+      {
+         "id": 69603860,
+         "name": "MCD_5KLT_BBR2023",
+         "userId": 1694171,
+         "publicToken": "X3gEyENfQbZDaIZdRRejO11PuFQfRADdkVMjx5CaUgd9N9qa19",
+         "ended": 1694767964,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 5000,
+         "created": 1694761354,
+         "updated": 1697442232,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 2,
+         "parallelTestsInAccount": 2,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "4497021bb405e6e1c350dd98040a074daac4813209ab7a845e99a2d07ce4d31e",
+               "name": "default-scenario-13298372",
+               "test": "MCD_5KLT_BBR2023",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 1,
+               "usersNotConfigured": true,
+               "holdFor": "259200s",
+               "durationIsNotConfigured": true,
+               "iterationAndDurationDisabled": true,
+               "steps": 0,
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 10
+               },
+               "locationsWeighted": false,
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "db9973e40362ea2ce220263c6b030225e84eebd6",
+               "scenario": "default-scenario-13298372"
+            }
+         ],
+         "useV4Pipeline": true,
+         "shutdownAt": 1694767927,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "MCD_TestUsers": {
+                        "title": "MCD_TestUsers",
+                        "type": "object",
+                        "properties": {
+                           "FullName": {
+                              "type": "string"
+                           },
+                           "EmployeeId": {
+                              "type": "string"
+                           },
+                           "EmployeeGuid": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "FullName": "valueOfCSV(\"MCD_TestUsers.csv\", \"FullName\")",
+                           "EmployeeId": "valueOfCSV(\"MCD_TestUsers.csv\", \"EmployeeId\")",
+                           "EmployeeGuid": "valueOfCSV(\"MCD_TestUsers.csv\", \"EmployeeGuid\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "MCD_TestUsers.csv"
+                              },
+                              "type": "csv",
+                              "name": "MCD_TestUsers.csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": false,
+                              "fileEncoding": "UTF-8"
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "MCD_TestUsers.csv",
+                              "quoted": false,
+                              "delimiter": ",",
+                              "fileEncoding": "UTF-8",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "FullName",
+                                    "headerName": "FullName"
+                                 },
+                                 {
+                                    "propertyName": "EmployeeId",
+                                    "headerName": "EmployeeId"
+                                 },
+                                 {
+                                    "propertyName": "EmployeeGuid",
+                                    "headerName": "EmployeeGuid"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "useSecondsUnit": true,
+         "useLiveEngineMetrics": true,
+         "testId": 13298372,
+         "projectId": 1086017,
+         "sessionsId": [
+            "r-v4-6504018b461e3456237472",
+            "r-v4-6504018b4a9e2215130221",
+            "r-v4-6504018b4ee1b834458713",
+            "r-v4-6504018b52fb4324842151",
+            "r-v4-6504018b5753b940780578",
+            "r-v4-6504018b5bb0e695261656",
+            "r-v4-6504018b60ae0147177101",
+            "r-v4-6504018b6546b480895473",
+            "r-v4-6504018b6a046335751660",
+            "r-v4-6504018b6e755758058647"
+         ]
+      }
+   ],
+   "request_id": "653fb68a06fe4",
+   "limit": 10,
+   "skip": 0,
+   "total": 1,
+   "hidden": 0
+}

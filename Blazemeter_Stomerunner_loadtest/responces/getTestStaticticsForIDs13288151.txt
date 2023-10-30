@@ -1,0 +1,160 @@
+{
+   "api_version": 4,
+   "error": null,
+   "result": [
+      {
+         "id": 69581035,
+         "name": "MCD_2KLT_BBR2023",
+         "userId": 1694171,
+         "publicToken": "OM1siAc005tH9J8HbafhjnXVMArmlXo0UHwgBqYeasIMeVdX85",
+         "ended": 1694624492,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 2000,
+         "created": 1694619364,
+         "updated": 1697287305,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 2,
+         "parallelTestsInAccount": 2,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "5c31d9f42752d734ba495d64b9d2a1f0d2ef5dae5bd2ebb20525a82432d175e3",
+               "name": "default-scenario-13288151",
+               "test": "MCD_2KLT_BBR2023",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 1,
+               "usersNotConfigured": true,
+               "holdFor": "259200s",
+               "durationIsNotConfigured": true,
+               "iterationAndDurationDisabled": true,
+               "steps": 0,
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 4
+               },
+               "locationsWeighted": false,
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "2dbc1e15186b51fbb73655212d079273d803a169",
+               "scenario": "default-scenario-13288151"
+            }
+         ],
+         "useV4Pipeline": true,
+         "shutdownAt": 1694624452,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "MCD_TestUsers": {
+                        "title": "MCD_TestUsers",
+                        "type": "object",
+                        "properties": {
+                           "FullName": {
+                              "type": "string"
+                           },
+                           "EmployeeId": {
+                              "type": "string"
+                           },
+                           "EmployeeGuid": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "FullName": "valueOfCSV(\"MCD_TestUsers.csv\", \"FullName\")",
+                           "EmployeeId": "valueOfCSV(\"MCD_TestUsers.csv\", \"EmployeeId\")",
+                           "EmployeeGuid": "valueOfCSV(\"MCD_TestUsers.csv\", \"EmployeeGuid\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "MCD_TestUsers.csv"
+                              },
+                              "type": "csv",
+                              "name": "MCD_TestUsers.csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": false,
+                              "fileEncoding": "UTF-8"
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "MCD_TestUsers.csv",
+                              "quoted": false,
+                              "delimiter": ",",
+                              "fileEncoding": "UTF-8",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "FullName",
+                                    "headerName": "FullName"
+                                 },
+                                 {
+                                    "propertyName": "EmployeeId",
+                                    "headerName": "EmployeeId"
+                                 },
+                                 {
+                                    "propertyName": "EmployeeGuid",
+                                    "headerName": "EmployeeGuid"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 13288151,
+         "projectId": 1086017,
+         "sessionsId": [
+            "r-v4-6501d6e5168ec183825361",
+            "r-v4-6501d6e51c3f3207660307",
+            "r-v4-6501d6e521d86473598393",
+            "r-v4-6501d6e526812343741575"
+         ]
+      }
+   ],
+   "request_id": "653fb68e7e8ac",
+   "limit": 10,
+   "skip": 0,
+   "total": 1,
+   "hidden": 0
+}

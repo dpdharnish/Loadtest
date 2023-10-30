@@ -1,0 +1,228 @@
+{
+   "api_version": 4,
+   "error": null,
+   "result": [
+      {
+         "id": 68319291,
+         "name": "06-FITDM_Search_GFSClients-Test2-June_12",
+         "userId": 2057801,
+         "publicToken": "vM5UaIORSA2YRcpKVxUfBJHB7Y2kPqjemm9hLCJ8Xs9cAGOMi0",
+         "ended": 1686589300,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 25,
+         "created": 1686585578,
+         "updated": 1698473107,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 8,
+         "parallelTestsInAccount": 8,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "395daa09c028526a56bcc120b99fbde6825d6ef6bcf1a416c814cafe54cde356",
+               "name": "default-scenario-12715912",
+               "test": "06-FITDM_Search_GFSClients-Test2-June_12",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 25,
+               "usersNotConfigured": false,
+               "holdFor": "59m",
+               "durationIsNotConfigured": false,
+               "iterationAndDurationDisabled": false,
+               "rampUp": "1m",
+               "steps": 0,
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 25
+               },
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "7084b67925d19a1275a4929fdba17105e20357f6",
+               "scenario": "default-scenario-12715912"
+            }
+         ],
+         "useV4Pipeline": true,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            []
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "restored": 1695825522,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "tags": [
+            {
+               "id": 472117,
+               "label": "6-FITDM_Search_GFSClients-25Concurrency"
+            }
+         ],
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 12715912,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-648740eacdad5975619012"
+         ]
+      },
+      {
+         "id": 68320289,
+         "name": "06-FITDM_Search_GFSClients-Test2-June_12",
+         "userId": 2057801,
+         "publicToken": "Vpf4OeNXYqRWnhy8M8AmTypUPj2ZTogaWNAbydaGzjde595JIW",
+         "ended": 1686593362,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 25,
+         "created": 1686589614,
+         "updated": 1698473107,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 5,
+         "parallelTestsInAccount": 5,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "395daa09c028526a56bcc120b99fbde6825d6ef6bcf1a416c814cafe54cde356",
+               "name": "default-scenario-12715912",
+               "test": "06-FITDM_Search_GFSClients-Test2-June_12",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 25,
+               "usersNotConfigured": false,
+               "holdFor": "59m",
+               "durationIsNotConfigured": false,
+               "iterationAndDurationDisabled": false,
+               "rampUp": "1m",
+               "steps": 0,
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 25
+               },
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "349af33b311e79b22f5e0d5cebdc8f90d3650584",
+               "scenario": "default-scenario-12715912"
+            }
+         ],
+         "useV4Pipeline": true,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "_06_FITDM_Search_GFSClients": {
+                        "title": "06-FITDM_Search_GFSClients",
+                        "type": "object",
+                        "properties": {
+                           "_06ClientDescription": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "_06ClientDescription": "valueOfCSV(\"06-FITDM_Search_GFSClients.csv\", \"06ClientDescription\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "06-FITDM_Search_GFSClients.csv"
+                              },
+                              "type": "csv",
+                              "name": "06-FITDM_Search_GFSClients.csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": true
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "06-FITDM_Search_GFSClients.csv",
+                              "quoted": true,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "_06ClientDescription",
+                                    "headerName": "06ClientDescription"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "restored": 1695825532,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "tags": [
+            {
+               "id": 472117,
+               "label": "6-FITDM_Search_GFSClients-25Concurrency"
+            }
+         ],
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 12715912,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-648750aeac771299184755"
+         ]
+      }
+   ],
+   "request_id": "653fb6d37e0af",
+   "limit": 10,
+   "skip": 0,
+   "total": 2,
+   "hidden": 0
+}

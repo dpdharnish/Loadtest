@@ -1,0 +1,366 @@
+[
+   {
+      "id": 412,
+      "testName": "Loadtest_16Users_1020_Run2_WithTT",
+      "status": "PASSED",
+      "startOn": "1697803341468",
+      "duration": "4072512",
+      "vusersNum": 16,
+      "errorCode": "-1",
+      "triggeredBy": "anusha sangili",
+      "uiVusersNum": 16,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {}
+      },
+      "totalCount": "16",
+      "isBenchmark": false
+   },
+   {
+      "id": 411,
+      "testName": "Loadtest_16Users_1020_Run2_WithTT",
+      "status": "PASSED",
+      "startOn": "1697796148868",
+      "duration": "4079020",
+      "vusersNum": 16,
+      "errorCode": "-1",
+      "triggeredBy": "anusha sangili",
+      "uiVusersNum": 16,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {}
+      },
+      "totalCount": "16",
+      "isBenchmark": false
+   },
+   {
+      "id": 409,
+      "testName": "Loadtest_16Users_1020_Run2_WithTT",
+      "status": "STOPPED",
+      "startOn": "1697793819429",
+      "duration": "834049",
+      "vusersNum": 16,
+      "errorCode": "-1",
+      "triggeredBy": "anusha sangili",
+      "uiVusersNum": 16,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {
+            "id": "-1"
+         }
+      },
+      "totalCount": "16",
+      "isBenchmark": false
+   },
+   {
+      "id": 405,
+      "testName": "Loadtest_16Users_1020_Run2_WithTT",
+      "status": "PASSED",
+      "startOn": "1697748314938",
+      "duration": "4091351",
+      "vusersNum": 16,
+      "errorCode": "-1",
+      "triggeredBy": "anusha sangili",
+      "uiVusersNum": 16,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {}
+      },
+      "totalCount": "16",
+      "isBenchmark": false
+   },
+   {
+      "id": 404,
+      "testName": "Loadtest_16Users_1020_Run2_WithTT",
+      "status": "STOPPED",
+      "startOn": "1697747204664",
+      "duration": "347048",
+      "vusersNum": 16,
+      "errorCode": "-1",
+      "triggeredBy": "anusha sangili",
+      "uiVusersNum": 16,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {
+            "id": "-1"
+         }
+      },
+      "totalCount": "16",
+      "isBenchmark": false
+   },
+   {
+      "id": 403,
+      "testName": "Loadtest_16Users_1020_Run2_WithTT",
+      "status": "STOPPED",
+      "startOn": "1697743266875",
+      "duration": "1485010",
+      "vusersNum": 16,
+      "errorCode": "-1",
+      "triggeredBy": "anusha sangili",
+      "uiVusersNum": 16,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {
+            "id": "-1"
+         }
+      },
+      "totalCount": "16",
+      "isBenchmark": false
+   },
+   {
+      "id": 402,
+      "testName": "Loadtest_16Users_1020_Run2_WithTT",
+      "status": "STOPPED",
+      "startOn": "1697741302370",
+      "duration": "124239",
+      "vusersNum": 16,
+      "errorCode": "-1",
+      "triggeredBy": "anusha sangili",
+      "uiVusersNum": 16,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {
+            "id": "-1"
+         }
+      },
+      "totalCount": "16",
+      "isBenchmark": false
+   },
+   {
+      "id": 400,
+      "testName": "Loadtest_16Users_1020_Run2_WithTT",
+      "status": "PASSED",
+      "startOn": "1697726244844",
+      "duration": "3962789",
+      "vusersNum": 16,
+      "errorCode": "-1",
+      "triggeredBy": "anusha sangili",
+      "uiVusersNum": 16,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {}
+      },
+      "totalCount": "16",
+      "isBenchmark": false
+   },
+   {
+      "id": 391,
+      "testName": "Loadtest_16Users_1020_Run2_WithTT",
+      "status": "PASSED",
+      "startOn": "1697690143762",
+      "duration": "4030336",
+      "vusersNum": 16,
+      "errorCode": "-1",
+      "triggeredBy": "anusha sangili",
+      "uiVusersNum": 16,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {}
+      },
+      "totalCount": "16",
+      "isBenchmark": false
+   },
+   {
+      "id": 390,
+      "testName": "Loadtest_16Users_1020_Run2_WithTT",
+      "status": "PASSED",
+      "startOn": "1697663382760",
+      "duration": "4087522",
+      "vusersNum": 16,
+      "errorCode": "-1",
+      "triggeredBy": "anusha sangili",
+      "uiVusersNum": 16,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {}
+      },
+      "totalCount": "16",
+      "isBenchmark": false
+   },
+   {
+      "id": 389,
+      "testName": "Loadtest_16Users_1020_Run2_WithTT",
+      "status": "STOPPED",
+      "startOn": "1697662272039",
+      "duration": "306162",
+      "vusersNum": 16,
+      "errorCode": "-1",
+      "triggeredBy": "anusha sangili",
+      "uiVusersNum": 16,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {
+            "id": "-1"
+         }
+      },
+      "totalCount": "16",
+      "isBenchmark": false
+   },
+   {
+      "id": 387,
+      "testName": "Loadtest_16Users_1020_Run2_WithTT",
+      "status": "STOPPED",
+      "startOn": "1697645423238",
+      "duration": "611414",
+      "vusersNum": 16,
+      "errorCode": "-1",
+      "triggeredBy": "anusha sangili",
+      "uiVusersNum": 16,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {
+            "id": "-1"
+         }
+      },
+      "totalCount": "16",
+      "isBenchmark": false
+   },
+   {
+      "id": 384,
+      "testName": "Loadtest_16Users_1020_Run2_WithTT",
+      "status": "PASSED",
+      "startOn": "1697577577564",
+      "duration": "4121174",
+      "vusersNum": 16,
+      "errorCode": "-1",
+      "triggeredBy": "anusha sangili",
+      "uiVusersNum": 16,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {}
+      },
+      "totalCount": "16",
+      "isBenchmark": false
+   },
+   {
+      "id": 383,
+      "testName": "Loadtest_16Users_1020_Run2_WithTT",
+      "status": "PASSED",
+      "startOn": "1697569692009",
+      "duration": "4141567",
+      "vusersNum": 15,
+      "errorCode": "-1",
+      "triggeredBy": "anusha sangili",
+      "uiVusersNum": 15,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {}
+      },
+      "totalCount": "16",
+      "isBenchmark": false
+   },
+   {
+      "id": 382,
+      "testName": "Loadtest_16Users_1020_Run2_WithTT",
+      "status": "PASSED",
+      "startOn": "1697560794962",
+      "duration": "4111713",
+      "vusersNum": 15,
+      "errorCode": "-1",
+      "triggeredBy": "anusha sangili",
+      "uiVusersNum": 15,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {}
+      },
+      "totalCount": "16",
+      "isBenchmark": false
+   },
+   {
+      "id": 381,
+      "testName": "Loadtest_16Users_1020_Run2_WithTT",
+      "status": "PASSED",
+      "startOn": "1697548341294",
+      "duration": "4128939",
+      "vusersNum": 15,
+      "errorCode": "-1",
+      "triggeredBy": "anusha sangili",
+      "uiVusersNum": 15,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {}
+      },
+      "totalCount": "16",
+      "isBenchmark": false
+   }
+]

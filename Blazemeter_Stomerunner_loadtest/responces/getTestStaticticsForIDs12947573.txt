@@ -1,0 +1,161 @@
+{
+   "api_version": 4,
+   "error": null,
+   "result": [
+      {
+         "id": 68959818,
+         "name": "59-FITDM_Fetch_JointBusinessRelationships ",
+         "userId": 2057801,
+         "publicToken": "fKooGAbPFRWZ5HWyLZcIYawby3QuGticfShQL0UfwQbRb54AKk",
+         "ended": 1690397517,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 100,
+         "created": 1690393547,
+         "updated": 1698473645,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 3,
+         "parallelTestsInAccount": 3,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "a2a4f77f0c693b097d24b042ae50b175f2fcf1146413f0b9a27b60d2b3f08fbe",
+               "name": "default-scenario-12947573",
+               "test": "59-FITDM_Fetch_JointBusinessRelationships ",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 100,
+               "usersNotConfigured": false,
+               "holdFor": "59m",
+               "durationIsNotConfigured": false,
+               "iterationAndDurationDisabled": false,
+               "rampUp": "1m",
+               "steps": 0,
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "8dd00c4c083251482a6e04c8df569748b10b1055",
+               "scenario": "default-scenario-12947573"
+            }
+         ],
+         "useV4Pipeline": true,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "_59_FITDM_Fetch_JointBusinessRelationships": {
+                        "title": "59-FITDM_Fetch_JointBusinessRelationships",
+                        "type": "object",
+                        "properties": {
+                           "_59PartnerEmployeeNK": {
+                              "type": "string"
+                           },
+                           "_59HistoryStartDate": {
+                              "type": "string"
+                           },
+                           "_59HistoryEndDate": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "_59PartnerEmployeeNK": "valueOfCSV(\"59-FITDM_Fetch_JointBusinessRelationships.csv\", \"59PartnerEmployeeNK\")",
+                           "_59HistoryStartDate": "valueOfCSV(\"59-FITDM_Fetch_JointBusinessRelationships.csv\", \"59HistoryStartDate\")",
+                           "_59HistoryEndDate": "valueOfCSV(\"59-FITDM_Fetch_JointBusinessRelationships.csv\", \"59HistoryEndDate\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "59-FITDM_Fetch_JointBusinessRelationships.csv"
+                              },
+                              "type": "csv",
+                              "name": "59-FITDM_Fetch_JointBusinessRelationships.csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": false
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "59-FITDM_Fetch_JointBusinessRelationships.csv",
+                              "quoted": false,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "_59PartnerEmployeeNK",
+                                    "headerName": "59PartnerEmployeeNK"
+                                 },
+                                 {
+                                    "propertyName": "_59HistoryStartDate",
+                                    "headerName": "59HistoryStartDate"
+                                 },
+                                 {
+                                    "propertyName": "_59HistoryEndDate",
+                                    "headerName": "59HistoryEndDate"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "restored": 1695833246,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "tags": [
+            {
+               "id": 511389,
+               "label": "59-FITDM_Fetch_JointBusinessRelationships -100C"
+            }
+         ],
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 12947573,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-64c15bcbd98ca499985992"
+         ]
+      }
+   ],
+   "request_id": "653fb8218f983",
+   "limit": 10,
+   "skip": 0,
+   "total": 1,
+   "hidden": 0
+}

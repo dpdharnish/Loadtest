@@ -1,0 +1,145 @@
+{
+   "api_version": 4,
+   "error": null,
+   "result": [
+      {
+         "id": 68497777,
+         "name": "29-FITDM_Search_EmployeeType",
+         "userId": 2057801,
+         "publicToken": "sNB8AfoQ8rBsxMg4Xo4VkBvWgkoQvFYCeWwtSs7yAa5u9vcR1y",
+         "ended": 1687468349,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 25,
+         "created": 1687464570,
+         "updated": 1698473224,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 1,
+         "parallelTestsInAccount": 1,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "570d9343f1139df4aea6cf769a66e59b76610e8ba7e16c5e7315d04214358540",
+               "name": "default-scenario-12762871",
+               "test": "29-FITDM_Search_EmployeeType",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 25,
+               "usersNotConfigured": false,
+               "holdFor": "59m",
+               "durationIsNotConfigured": false,
+               "iterationAndDurationDisabled": false,
+               "rampUp": "1m",
+               "steps": 0,
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 25
+               },
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "33c5ee38e68ceec95d7072f80eec456134cf4e6a",
+               "scenario": "default-scenario-12762871"
+            }
+         ],
+         "useV4Pipeline": true,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "_29_FITDM_Search_EmployeeType": {
+                        "title": "29-FITDM_Search_EmployeeType",
+                        "type": "object",
+                        "properties": {
+                           "_29EmployeeTypeDescription": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "_29EmployeeTypeDescription": "valueOfCSV(\"29-FITDM_Search_EmployeeType.csv\", \"29EmployeeTypeDescription\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "29-FITDM_Search_EmployeeType.csv"
+                              },
+                              "type": "csv",
+                              "name": "29-FITDM_Search_EmployeeType.csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": false
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "29-FITDM_Search_EmployeeType.csv",
+                              "quoted": false,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "_29EmployeeTypeDescription",
+                                    "headerName": "29EmployeeTypeDescription"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "restored": 1695829491,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "tags": [
+            {
+               "id": 481426,
+               "label": "29-FITDM_Search_EmployeeType-25Concurrency"
+            }
+         ],
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 12762871,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-6494aa9a5ab8f659163417"
+         ]
+      }
+   ],
+   "request_id": "653fb753c57c4",
+   "limit": 10,
+   "skip": 0,
+   "total": 1,
+   "hidden": 0
+}

@@ -1,0 +1,152 @@
+{
+   "api_version": 4,
+   "error": null,
+   "result": [
+      {
+         "id": 68281020,
+         "name": "17-FITDM_Get_ComplianceProfileFolders-Test2Env-June_09",
+         "userId": 2057801,
+         "publicToken": "v8TAvZx99rwccyBYDcEiGcFshKBPoZNzBofEMpoya9YrKvRVww",
+         "ended": 1686345224,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 50,
+         "created": 1686341418,
+         "updated": 1698473105,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 3,
+         "parallelTestsInAccount": 4,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "8731bbef41038a51d032662f594399114f5f8595bb78612ce624de5697f6fc09",
+               "name": "default-scenario-12707883",
+               "test": "17-FITDM_Get_ComplianceProfileFolders-Test2Env-June_09",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 50,
+               "usersNotConfigured": false,
+               "holdFor": "59m",
+               "durationIsNotConfigured": false,
+               "iterationAndDurationDisabled": false,
+               "rampUp": "1m",
+               "steps": 0,
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 50
+               },
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "15eeb427c5d6c63399d118fc692391441c583310",
+               "scenario": "default-scenario-12707883"
+            }
+         ],
+         "useV4Pipeline": true,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "_17_FITDM_Get_ComplianceProfileFolders_TestData": {
+                        "title": "17-FITDM_Get_ComplianceProfileFolders-TestData",
+                        "type": "object",
+                        "properties": {
+                           "_17EmployeeNK": {
+                              "type": "string"
+                           },
+                           "_17CPIsDisposed": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "_17EmployeeNK": "valueOfCSV(\"17-FITDM_Get_ComplianceProfileFolders-TestData.csv\", \"17EmployeeNK\")",
+                           "_17CPIsDisposed": "valueOfCSV(\"17-FITDM_Get_ComplianceProfileFolders-TestData.csv\", \"17CPIsDisposed\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "17-FITDM_Get_ComplianceProfileFolders-TestData.csv"
+                              },
+                              "type": "csv",
+                              "name": "17-FITDM_Get_ComplianceProfileFolders-TestData.csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": false
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "17-FITDM_Get_ComplianceProfileFolders-TestData.csv",
+                              "quoted": false,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "_17EmployeeNK",
+                                    "headerName": "17EmployeeNK"
+                                 },
+                                 {
+                                    "propertyName": "_17CPIsDisposed",
+                                    "headerName": "17CPIsDisposed"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "restored": 1695825874,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "tags": [
+            {
+               "id": 470244,
+               "label": "17-FITDM_Get_ComplianceProfileFolders-50Concurrency"
+            }
+         ],
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 12707883,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-6483872a9ad17610048929"
+         ]
+      }
+   ],
+   "request_id": "653fb71c83de2",
+   "limit": 10,
+   "skip": 0,
+   "total": 1,
+   "hidden": 0
+}

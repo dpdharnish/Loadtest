@@ -1,0 +1,18 @@
+[
+   {
+      "name": "T01_Launch Application",
+      "loadTestScriptId": 269,
+      "scriptName": "Snapshots-PM (1)",
+      "breakers": 0,
+      "slaStatus": "N/A",
+      "slaThreshold": null,
+      "percentileTRT_90": 2.0041999340057375,
+      "passed": 29,
+      "failed": 0,
+      "avgTRT": 1.4204823503823116,
+      "minTRT": 0.7600001258850098,
+      "maxTRT": 4.550998912811279,
+      "percentileTRT": 2.0041999340057375,
+      "stdDeviation": 0.7556080164837348
+   }
+]

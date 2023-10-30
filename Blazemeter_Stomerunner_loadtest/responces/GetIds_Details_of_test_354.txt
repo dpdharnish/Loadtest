@@ -1,0 +1,19 @@
+[
+   {
+      "name": "T01_Launch Application",
+      "loadTestScriptId": 293,
+      "scriptName": "PM-Trueclient-50 User",
+      "breakers": 0,
+      "slaStatus": "N/A",
+      "slaThreshold": null,
+      "percentileTRT_90": 33.066098022460935,
+      "slaTrend": -0.019947846641252164,
+      "passed": 6,
+      "failed": 0,
+      "avgTRT": 11.89883289496104,
+      "minTRT": 0.8950000305175781,
+      "maxTRT": 33.25299901199341,
+      "percentileTRT": 33.066098022460935,
+      "stdDeviation": 14.888129033941661
+   }
+]

@@ -1,0 +1,168 @@
+{
+   "api_version": 4,
+   "error": null,
+   "result": [
+      {
+         "id": 68244519,
+         "name": "04-FITDM_Search_GFSContractsByPrids-Test2Env",
+         "userId": 2057801,
+         "publicToken": "vKUXINnhSSEzBHLICMgaeyWHJhQiiWfplTWjZ4mi7jZBJfARot",
+         "ended": 1686170726,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 25,
+         "created": 1686166995,
+         "updated": 1698473046,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 3,
+         "parallelTestsInAccount": 3,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "c5db5ce53b745b7a5f1da9fa9595be7b12b7c27cea3cd845e9cda39f41b8a706",
+               "name": "default-scenario-12698391",
+               "test": "04-FITDM_Search_GFSContractsByPrids-Test2Env",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 25,
+               "usersNotConfigured": false,
+               "holdFor": "59m",
+               "durationIsNotConfigured": false,
+               "iterationAndDurationDisabled": false,
+               "rampUp": "1m",
+               "steps": 0,
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 25
+               },
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "abb402b1d8d41dcdcfbbdf39907d7851a8617d32",
+               "scenario": "default-scenario-12698391"
+            }
+         ],
+         "useV4Pipeline": true,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "_04_FITDM_Search_GFSContractsByPrids_TestData": {
+                        "title": "04-FITDM_Search_GFSContractsByPrids-TestData",
+                        "type": "object",
+                        "properties": {
+                           "_04EntityPrid": {
+                              "type": "string"
+                           },
+                           "_04EntityPrid1": {
+                              "type": "string"
+                           },
+                           "_04StartDate": {
+                              "type": "string"
+                           },
+                           "_04EndDate": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "_04EntityPrid": "valueOfCSV(\"04-FITDM_Search_GFSContractsByPrids-TestData.csv\", \"04EntityPrid\")",
+                           "_04EntityPrid1": "valueOfCSV(\"04-FITDM_Search_GFSContractsByPrids-TestData.csv\", \"04EntityPrid1\")",
+                           "_04StartDate": "valueOfCSV(\"04-FITDM_Search_GFSContractsByPrids-TestData.csv\", \"04StartDate\")",
+                           "_04EndDate": "valueOfCSV(\"04-FITDM_Search_GFSContractsByPrids-TestData.csv\", \"04EndDate\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "04-FITDM_Search_GFSContractsByPrids-TestData.csv"
+                              },
+                              "type": "csv",
+                              "name": "04-FITDM_Search_GFSContractsByPrids-TestData.csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": true
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "04-FITDM_Search_GFSContractsByPrids-TestData.csv",
+                              "quoted": true,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "_04EntityPrid",
+                                    "headerName": "04EntityPrid"
+                                 },
+                                 {
+                                    "propertyName": "_04EntityPrid1",
+                                    "headerName": "04EntityPrid1"
+                                 },
+                                 {
+                                    "propertyName": "_04StartDate",
+                                    "headerName": "04StartDate"
+                                 },
+                                 {
+                                    "propertyName": "_04EndDate",
+                                    "headerName": "04EndDate"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "restored": 1695825313,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "tags": [
+            {
+               "id": 468619,
+               "label": "04-FITDM_Search_GFSContractsByPrids-25Concurrency"
+            }
+         ],
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 12698391,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-6480ddd3c9209791945489"
+         ]
+      }
+   ],
+   "request_id": "653fb6c80b549",
+   "limit": 10,
+   "skip": 0,
+   "total": 1,
+   "hidden": 0
+}

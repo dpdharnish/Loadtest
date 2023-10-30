@@ -1,0 +1,145 @@
+{
+   "api_version": 4,
+   "error": null,
+   "result": [
+      {
+         "id": 68946530,
+         "name": "54-FITDM_Search_LineofService",
+         "userId": 2057801,
+         "publicToken": "ljE8KhbiLHH45mhBv8Def06bFFCkfkpMJ1Nd8dJtp5SdIqnRV8",
+         "ended": 1690319377,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 25,
+         "created": 1690315625,
+         "updated": 1698473645,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 2,
+         "parallelTestsInAccount": 2,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "5d14a552a12096287c71e6de4053ba8cb04c8eb105d9b76d60e54676a93f723c",
+               "name": "default-scenario-12933382",
+               "test": "54-FITDM_Search_LineofService",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 25,
+               "usersNotConfigured": false,
+               "holdFor": "59m",
+               "durationIsNotConfigured": false,
+               "iterationAndDurationDisabled": false,
+               "rampUp": "1m",
+               "steps": 0,
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 25
+               },
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "9745e1b898a203e9bebdcc9e52e62095c3300ff9",
+               "scenario": "default-scenario-12933382"
+            }
+         ],
+         "useV4Pipeline": true,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "_54_FITDM_Search_LineofService": {
+                        "title": "54-FITDM_Search_LineofService",
+                        "type": "object",
+                        "properties": {
+                           "_54LineofServiceNK": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "_54LineofServiceNK": "valueOfCSV(\"54-FITDM_Search_LineofService.csv\", \"54LineofServiceNK\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "54-FITDM_Search_LineofService.csv"
+                              },
+                              "type": "csv",
+                              "name": "54-FITDM_Search_LineofService.csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": false
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "54-FITDM_Search_LineofService.csv",
+                              "quoted": false,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "_54LineofServiceNK",
+                                    "headerName": "54LineofServiceNK"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "restored": 1695833170,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "tags": [
+            {
+               "id": 510357,
+               "label": "54-FITDM_Search_LineofService-25C"
+            }
+         ],
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 12933382,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-64c02b6a4b4c1116873824"
+         ]
+      }
+   ],
+   "request_id": "653fb8069d4fa",
+   "limit": 10,
+   "skip": 0,
+   "total": 1,
+   "hidden": 0
+}

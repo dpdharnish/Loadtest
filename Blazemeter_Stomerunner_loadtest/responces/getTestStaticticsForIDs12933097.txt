@@ -1,0 +1,145 @@
+{
+   "api_version": 4,
+   "error": null,
+   "result": [
+      {
+         "id": 68945566,
+         "name": "53-FITDM_Search_LegalCompany",
+         "userId": 2057801,
+         "publicToken": "A22v26c1CXKYHrkPyKF0qDFsBqmrwIC2KtND8om1UDvuSJiavB",
+         "ended": 1690315146,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 25,
+         "created": 1690311405,
+         "updated": 1698473645,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 2,
+         "parallelTestsInAccount": 2,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "7ad472ac0f44023ae49137a6f9725943a630917248b13c47a0d441595fd3a942",
+               "name": "default-scenario-12933097",
+               "test": "53-FITDM_Search_LegalCompany",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 25,
+               "usersNotConfigured": false,
+               "holdFor": "59m",
+               "durationIsNotConfigured": false,
+               "iterationAndDurationDisabled": false,
+               "rampUp": "1m",
+               "steps": 0,
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 25
+               },
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "b7d6299d67b324e50c8dc7acb0405c3c0ca5519f",
+               "scenario": "default-scenario-12933097"
+            }
+         ],
+         "useV4Pipeline": true,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "_53_FITDM_Search_LegalCompany": {
+                        "title": "53-FITDM_Search_LegalCompany",
+                        "type": "object",
+                        "properties": {
+                           "_53LegalCompanyNK": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "_53LegalCompanyNK": "valueOfCSV(\"53-FITDM_Search_LegalCompany.csv\", \"53LegalCompanyNK\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "53-FITDM_Search_LegalCompany.csv"
+                              },
+                              "type": "csv",
+                              "name": "53-FITDM_Search_LegalCompany.csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": false
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "53-FITDM_Search_LegalCompany.csv",
+                              "quoted": false,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "_53LegalCompanyNK",
+                                    "headerName": "53LegalCompanyNK"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "restored": 1695833160,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "tags": [
+            {
+               "id": 510330,
+               "label": "53-FITDM_Search_LegalCompany-25C"
+            }
+         ],
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 12933097,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-64c01aed9af07628556729"
+         ]
+      }
+   ],
+   "request_id": "653fb802bb744",
+   "limit": 10,
+   "skip": 0,
+   "total": 1,
+   "hidden": 0
+}

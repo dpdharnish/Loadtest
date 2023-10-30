@@ -1,0 +1,379 @@
+{
+   "api_version": 4,
+   "error": null,
+   "result": [
+      {
+         "id": 69685270,
+         "name": "61-FITDM_Calculate_CoveredPersonPIO",
+         "userId": 2057801,
+         "publicToken": "8wZ2fj7gYq5OLZpxlIxG3K85iASt9fNKrHjYdOBmwYSXVyay0c",
+         "ended": 1695325575,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 1,
+         "created": 1695321926,
+         "updated": 1697985306,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 1,
+         "parallelTestsInAccount": 1,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "8777f6fd62ac968a1b8e7df47caf7c384072d10eb102949df506cd6af31105a4",
+               "name": "default-scenario-13344379",
+               "test": "61-FITDM_Calculate_CoveredPersonPIO",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 1,
+               "usersNotConfigured": false,
+               "holdFor": "3599s",
+               "durationIsNotConfigured": false,
+               "iterationAndDurationDisabled": true,
+               "rampUp": "1s",
+               "iterations": -1,
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 1
+               },
+               "locationsWeighted": false,
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "577a2a4969de8bd7e6bab30429efe1fa95bc1b11",
+               "scenario": "default-scenario-13344379"
+            }
+         ],
+         "useV4Pipeline": true,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "_61_FITDM_Calculate_CoveredPersonPIO": {
+                        "title": "61-FITDM_Calculate_CoveredPersonPIO",
+                        "type": "object",
+                        "properties": {
+                           "_61employeenk": {
+                              "type": "string"
+                           },
+                           "_61CoveredPersonStartDate": {
+                              "type": "string"
+                           },
+                           "_61PortfolioRelationshipNK": {
+                              "type": "string"
+                           },
+                           "_61PRID": {
+                              "type": "string"
+                           },
+                           "_61SecurityNK": {
+                              "type": "string"
+                           },
+                           "_61CESSecurityNK": {
+                              "type": "string"
+                           },
+                           "_61cesentityidentifier": {
+                              "type": "string"
+                           },
+                           "_61indgrp": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "_61employeenk": "valueOfCSV(\"61-FITDM_Calculate_CoveredPersonPIO.csv\", \"61employeenk\")",
+                           "_61CoveredPersonStartDate": "valueOfCSV(\"61-FITDM_Calculate_CoveredPersonPIO.csv\", \"61CoveredPersonStartDate\")",
+                           "_61PortfolioRelationshipNK": "valueOfCSV(\"61-FITDM_Calculate_CoveredPersonPIO.csv\", \"61PortfolioRelationshipNK\")",
+                           "_61PRID": "valueOfCSV(\"61-FITDM_Calculate_CoveredPersonPIO.csv\", \"61PRID\")",
+                           "_61SecurityNK": "valueOfCSV(\"61-FITDM_Calculate_CoveredPersonPIO.csv\", \"61SecurityNK\")",
+                           "_61CESSecurityNK": "valueOfCSV(\"61-FITDM_Calculate_CoveredPersonPIO.csv\", \"61CESSecurityNK\")",
+                           "_61cesentityidentifier": "valueOfCSV(\"61-FITDM_Calculate_CoveredPersonPIO.csv\", \"61cesentityidentifier\")",
+                           "_61indgrp": "valueOfCSV(\"61-FITDM_Calculate_CoveredPersonPIO.csv\", \"61indgrp\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "61-FITDM_Calculate_CoveredPersonPIO.csv"
+                              },
+                              "type": "csv",
+                              "name": "61-FITDM_Calculate_CoveredPersonPIO.csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": false
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "61-FITDM_Calculate_CoveredPersonPIO.csv",
+                              "quoted": false,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "_61employeenk",
+                                    "headerName": "61employeenk"
+                                 },
+                                 {
+                                    "propertyName": "_61CoveredPersonStartDate",
+                                    "headerName": "61CoveredPersonStartDate"
+                                 },
+                                 {
+                                    "propertyName": "_61PortfolioRelationshipNK",
+                                    "headerName": "61PortfolioRelationshipNK"
+                                 },
+                                 {
+                                    "propertyName": "_61PRID",
+                                    "headerName": "61PRID"
+                                 },
+                                 {
+                                    "propertyName": "_61SecurityNK",
+                                    "headerName": "61SecurityNK"
+                                 },
+                                 {
+                                    "propertyName": "_61CESSecurityNK",
+                                    "headerName": "61CESSecurityNK"
+                                 },
+                                 {
+                                    "propertyName": "_61cesentityidentifier",
+                                    "headerName": "61cesentityidentifier"
+                                 },
+                                 {
+                                    "propertyName": "_61indgrp",
+                                    "headerName": "61indgrp"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 13344379,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-650c8f46e6e23839784949"
+         ]
+      },
+      {
+         "id": 69684285,
+         "name": "61-FITDM_Calculate_CoveredPersonPIO",
+         "userId": 2057801,
+         "publicToken": "NEF97HHoq2r5F0eoQaOQlpiDBXIKtLljUJYQQZZOZ3auwMpm2Z",
+         "ended": 1695321584,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 1,
+         "created": 1695317935,
+         "updated": 1697983265,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 1,
+         "parallelTestsInAccount": 1,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "8777f6fd62ac968a1b8e7df47caf7c384072d10eb102949df506cd6af31105a4",
+               "name": "default-scenario-13344379",
+               "test": "61-FITDM_Calculate_CoveredPersonPIO",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 1,
+               "usersNotConfigured": false,
+               "holdFor": "3599s",
+               "durationIsNotConfigured": false,
+               "iterationAndDurationDisabled": true,
+               "rampUp": "1s",
+               "iterations": -1,
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 1
+               },
+               "locationsWeighted": false,
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "c4e13101d1af8622caf16c6d487b1f324e55febd",
+               "scenario": "default-scenario-13344379"
+            }
+         ],
+         "useV4Pipeline": true,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "_61_FITDM_Calculate_CoveredPersonPIO": {
+                        "title": "61-FITDM_Calculate_CoveredPersonPIO",
+                        "type": "object",
+                        "properties": {
+                           "_61employeenk": {
+                              "type": "string"
+                           },
+                           "_61CoveredPersonStartDate": {
+                              "type": "string"
+                           },
+                           "_61PortfolioRelationshipNK": {
+                              "type": "string"
+                           },
+                           "_61PRID": {
+                              "type": "string"
+                           },
+                           "_61SecurityNK": {
+                              "type": "string"
+                           },
+                           "_61CESSecurityNK": {
+                              "type": "string"
+                           },
+                           "_61cesentityidentifier": {
+                              "type": "string"
+                           },
+                           "_61indgrp": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "_61employeenk": "valueOfCSV(\"61-FITDM_Calculate_CoveredPersonPIO.csv\", \"61employeenk\")",
+                           "_61CoveredPersonStartDate": "valueOfCSV(\"61-FITDM_Calculate_CoveredPersonPIO.csv\", \"61CoveredPersonStartDate\")",
+                           "_61PortfolioRelationshipNK": "valueOfCSV(\"61-FITDM_Calculate_CoveredPersonPIO.csv\", \"61PortfolioRelationshipNK\")",
+                           "_61PRID": "valueOfCSV(\"61-FITDM_Calculate_CoveredPersonPIO.csv\", \"61PRID\")",
+                           "_61SecurityNK": "valueOfCSV(\"61-FITDM_Calculate_CoveredPersonPIO.csv\", \"61SecurityNK\")",
+                           "_61CESSecurityNK": "valueOfCSV(\"61-FITDM_Calculate_CoveredPersonPIO.csv\", \"61CESSecurityNK\")",
+                           "_61cesentityidentifier": "valueOfCSV(\"61-FITDM_Calculate_CoveredPersonPIO.csv\", \"61cesentityidentifier\")",
+                           "_61indgrp": "valueOfCSV(\"61-FITDM_Calculate_CoveredPersonPIO.csv\", \"61indgrp\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "61-FITDM_Calculate_CoveredPersonPIO.csv"
+                              },
+                              "type": "csv",
+                              "name": "61-FITDM_Calculate_CoveredPersonPIO.csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": false
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "61-FITDM_Calculate_CoveredPersonPIO.csv",
+                              "quoted": false,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "_61employeenk",
+                                    "headerName": "61employeenk"
+                                 },
+                                 {
+                                    "propertyName": "_61CoveredPersonStartDate",
+                                    "headerName": "61CoveredPersonStartDate"
+                                 },
+                                 {
+                                    "propertyName": "_61PortfolioRelationshipNK",
+                                    "headerName": "61PortfolioRelationshipNK"
+                                 },
+                                 {
+                                    "propertyName": "_61PRID",
+                                    "headerName": "61PRID"
+                                 },
+                                 {
+                                    "propertyName": "_61SecurityNK",
+                                    "headerName": "61SecurityNK"
+                                 },
+                                 {
+                                    "propertyName": "_61CESSecurityNK",
+                                    "headerName": "61CESSecurityNK"
+                                 },
+                                 {
+                                    "propertyName": "_61cesentityidentifier",
+                                    "headerName": "61cesentityidentifier"
+                                 },
+                                 {
+                                    "propertyName": "_61indgrp",
+                                    "headerName": "61indgrp"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 13344379,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-650c7fafd28f4031629890"
+         ]
+      }
+   ],
+   "request_id": "653fb82bed3ed",
+   "limit": 10,
+   "skip": 0,
+   "total": 2,
+   "hidden": 0
+}

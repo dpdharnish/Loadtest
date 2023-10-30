@@ -1,0 +1,152 @@
+{
+   "api_version": 4,
+   "error": null,
+   "result": [
+      {
+         "id": 68263901,
+         "name": "16-FITDM_Fetch_Worklocation-Test2Env",
+         "userId": 2057801,
+         "publicToken": "2BkjD8NJy30DUXOvFUHJIrp4hJZeilMy3hVI1iSeiQinbpSEgu",
+         "ended": 1686261701,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 50,
+         "created": 1686257740,
+         "updated": 1698473046,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 3,
+         "parallelTestsInAccount": 3,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "12dec4168ecec98e9e0f768ab6da2026372924f4585293622f3d54017cd1ed63",
+               "name": "default-scenario-12703799",
+               "test": "16-FITDM_Fetch_Worklocation-Test2Env",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 50,
+               "usersNotConfigured": false,
+               "holdFor": "59m",
+               "durationIsNotConfigured": false,
+               "iterationAndDurationDisabled": false,
+               "rampUp": "1m",
+               "steps": 0,
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 50
+               },
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "b423c71f5f2b520d801fe9727249f8438d575f6b",
+               "scenario": "default-scenario-12703799"
+            }
+         ],
+         "useV4Pipeline": true,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "_16_FITDM_Fetch_Worklocation_TestData": {
+                        "title": "16-FITDM_Fetch_Worklocation-TestData",
+                        "type": "object",
+                        "properties": {
+                           "_16WorkLocationSK": {
+                              "type": "string"
+                           },
+                           "_16CountryNK": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "_16WorkLocationSK": "valueOfCSV(\"16-FITDM_Fetch_Worklocation-TestData.csv\", \"16WorkLocationSK\")",
+                           "_16CountryNK": "valueOfCSV(\"16-FITDM_Fetch_Worklocation-TestData.csv\", \"16CountryNK\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "16-FITDM_Fetch_Worklocation-TestData.csv"
+                              },
+                              "type": "csv",
+                              "name": "16-FITDM_Fetch_Worklocation-TestData.csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": false
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "16-FITDM_Fetch_Worklocation-TestData.csv",
+                              "quoted": false,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "_16WorkLocationSK",
+                                    "headerName": "16WorkLocationSK"
+                                 },
+                                 {
+                                    "propertyName": "_16CountryNK",
+                                    "headerName": "16CountryNK"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "restored": 1695825832,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "tags": [
+            {
+               "id": 469442,
+               "label": "16-FITDM_Fetch_Worklocation-50Concurrency"
+            }
+         ],
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 12703799,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-6482404cdf9bf634974163"
+         ]
+      }
+   ],
+   "request_id": "653fb718ae101",
+   "limit": 10,
+   "skip": 0,
+   "total": 1,
+   "hidden": 0
+}

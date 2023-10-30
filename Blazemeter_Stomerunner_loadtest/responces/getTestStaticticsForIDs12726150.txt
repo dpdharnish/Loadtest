@@ -1,0 +1,161 @@
+{
+   "api_version": 4,
+   "error": null,
+   "result": [
+      {
+         "id": 68354645,
+         "name": "12-FITDM_Search_GFSWBSCodes-Test2Env-June_14",
+         "userId": 2057801,
+         "publicToken": "DDEnql7Bh3h6U2G1y9ckpahFHJYzWZ872p7ijN65dieQyRCOsd",
+         "ended": 1686752295,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 50,
+         "created": 1686748438,
+         "updated": 1698473163,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 5,
+         "parallelTestsInAccount": 5,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "a7ae7979906834b8f0c86b1c575e4f5de5fc7eaa07b7321080f89b478fca1f80",
+               "name": "default-scenario-12726150",
+               "test": "12-FITDM_Search_GFSWBSCodes-Test2Env-June_14",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 50,
+               "usersNotConfigured": false,
+               "holdFor": "59m",
+               "durationIsNotConfigured": false,
+               "iterationAndDurationDisabled": false,
+               "rampUp": "1m",
+               "steps": 0,
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 50
+               },
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "06795bca17c0c64e167e088f7291d8a59acf3944",
+               "scenario": "default-scenario-12726150"
+            }
+         ],
+         "useV4Pipeline": true,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "_12_FITDM_Search_GFSWBSCodes": {
+                        "title": "12-FITDM_Search_GFSWBSCodes",
+                        "type": "object",
+                        "properties": {
+                           "_12EntityPRID": {
+                              "type": "string"
+                           },
+                           "_12ClientContractNK": {
+                              "type": "string"
+                           },
+                           "_12WBSDescription": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "_12EntityPRID": "valueOfCSV(\"12-FITDM_Search_GFSWBSCodes.csv\", \"12EntityPRID\")",
+                           "_12ClientContractNK": "valueOfCSV(\"12-FITDM_Search_GFSWBSCodes.csv\", \"12ClientContractNK\")",
+                           "_12WBSDescription": "valueOfCSV(\"12-FITDM_Search_GFSWBSCodes.csv\", \"12WBSDescription\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "12-FITDM_Search_GFSWBSCodes.csv"
+                              },
+                              "type": "csv",
+                              "name": "12-FITDM_Search_GFSWBSCodes.csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": true
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "12-FITDM_Search_GFSWBSCodes.csv",
+                              "quoted": true,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "_12EntityPRID",
+                                    "headerName": "12EntityPRID"
+                                 },
+                                 {
+                                    "propertyName": "_12ClientContractNK",
+                                    "headerName": "12ClientContractNK"
+                                 },
+                                 {
+                                    "propertyName": "_12WBSDescription",
+                                    "headerName": "12WBSDescription"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "restored": 1695825735,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "tags": [
+            {
+               "id": 474314,
+               "label": "12-FITDM_Search_GFSWBSCodes-50Concurrency"
+            }
+         ],
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 12726150,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-6489bd16d91a3111383402"
+         ]
+      }
+   ],
+   "request_id": "653fb700749fb",
+   "limit": 10,
+   "skip": 0,
+   "total": 1,
+   "hidden": 0
+}

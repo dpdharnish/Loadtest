@@ -1,0 +1,94 @@
+{
+   "api_version": 4,
+   "error": null,
+   "result": [
+      {
+         "id": 68490828,
+         "name": "23-FITDM_Fetch_WorkOfficeCluster-June_22",
+         "userId": 2057801,
+         "publicToken": "aiS8ETwNVyplqnUEs3fGLbkrMjET0dnx9fm6ynQuB04ynUJY0u",
+         "ended": 1687443358,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 50,
+         "created": 1687439560,
+         "updated": 1698473166,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 3,
+         "parallelTestsInAccount": 3,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "646d362106c1f302c9c1aa80d29237544a7146e0021b9fa15e69e49006282df9",
+               "name": "default-scenario-12760758",
+               "test": "23-FITDM_Fetch_WorkOfficeCluster-June_22",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 50,
+               "usersNotConfigured": false,
+               "holdFor": "59m",
+               "durationIsNotConfigured": false,
+               "iterationAndDurationDisabled": false,
+               "rampUp": "1m",
+               "steps": 0,
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 50
+               },
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "2edabad7528f228d6ee64e7fae4487eb6e249941",
+               "scenario": "default-scenario-12760758"
+            }
+         ],
+         "useV4Pipeline": true,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            []
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "restored": 1695826135,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "tags": [
+            {
+               "id": 481000,
+               "label": "23-FITDM_Fetch_WorkOfficeCluster-50Concurrency"
+            }
+         ],
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 12760758,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-649448c885af5773819414"
+         ]
+      }
+   ],
+   "request_id": "653fb73d82d40",
+   "limit": 10,
+   "skip": 0,
+   "total": 1,
+   "hidden": 0
+}

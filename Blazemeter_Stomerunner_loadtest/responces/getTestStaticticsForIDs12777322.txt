@@ -1,0 +1,1529 @@
+{
+   "api_version": 4,
+   "error": null,
+   "result": [
+      {
+         "id": 68604194,
+         "name": "24-FITDM_Get_BrokerAccounts",
+         "userId": 2057801,
+         "publicToken": "d5rtpBOqHcRSJT70JsbGABid5MVNULHEwQHptFiBSDR2xAvmzj",
+         "ended": 1688066372,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 15,
+         "created": 1688061959,
+         "updated": 1698473287,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 2,
+         "parallelTestsInAccount": 2,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "71e33b46a858a9cc87ab00f590b153f1a559067177aa66a52f43072398001ac6",
+               "name": "default-scenario-12777322",
+               "test": "24-FITDM_Get_BrokerAccounts",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 15,
+               "usersNotConfigured": false,
+               "holdFor": "259199s",
+               "durationIsNotConfigured": true,
+               "iterationAndDurationDisabled": true,
+               "rampUp": "1s",
+               "iterations": 1,
+               "steps": 0,
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 1
+               },
+               "locationsWeighted": false,
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "fa0b6276011629ba9a8110f2edb8daa9d8212d1a",
+               "scenario": "default-scenario-12777322"
+            }
+         ],
+         "useV4Pipeline": true,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "_24_FITDM_Get_BrokerAccounts_": {
+                        "title": "24-FITDM_Get_BrokerAccounts ",
+                        "type": "object",
+                        "properties": {
+                           "_24EmployeeNK": {
+                              "type": "string"
+                           },
+                           "_24AccountOpeningDate": {
+                              "type": "string"
+                           },
+                           "_24AccountClosingDate": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "_24EmployeeNK": "valueOfCSV(\"24-FITDM_Get_BrokerAccounts .csv\", \"24EmployeeNK\")",
+                           "_24AccountOpeningDate": "valueOfCSV(\"24-FITDM_Get_BrokerAccounts .csv\", \"24AccountOpeningDate\")",
+                           "_24AccountClosingDate": "valueOfCSV(\"24-FITDM_Get_BrokerAccounts .csv\", \"24AccountClosingDate\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "24-FITDM_Get_BrokerAccounts .csv"
+                              },
+                              "type": "csv",
+                              "name": "24-FITDM_Get_BrokerAccounts .csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": false
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "24-FITDM_Get_BrokerAccounts .csv",
+                              "quoted": false,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "_24EmployeeNK",
+                                    "headerName": "24EmployeeNK"
+                                 },
+                                 {
+                                    "propertyName": "_24AccountOpeningDate",
+                                    "headerName": "24AccountOpeningDate"
+                                 },
+                                 {
+                                    "propertyName": "_24AccountClosingDate",
+                                    "headerName": "24AccountClosingDate"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "restored": 1695829363,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "tags": [
+            {
+               "id": 484790,
+               "label": "24-FITDM_Get_BrokerAccounts-DiffScenario"
+            }
+         ],
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 12777322,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-649dc8090356a309492288"
+         ]
+      },
+      {
+         "id": 68600704,
+         "name": "24-FITDM_Get_BrokerAccounts",
+         "userId": 2057801,
+         "publicToken": "FbVeOO7mjcjNvkD4E2FhTiAPgmZ4RvI82CGxDqBYlJO1bd8Ipk",
+         "ended": 1688042981,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 15,
+         "created": 1688041016,
+         "updated": 1698473286,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 2,
+         "parallelTestsInAccount": 2,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "71e33b46a858a9cc87ab00f590b153f1a559067177aa66a52f43072398001ac6",
+               "name": "default-scenario-12777322",
+               "test": "24-FITDM_Get_BrokerAccounts",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 15,
+               "usersNotConfigured": false,
+               "holdFor": "259199s",
+               "durationIsNotConfigured": true,
+               "iterationAndDurationDisabled": true,
+               "rampUp": "1s",
+               "iterations": 1,
+               "steps": 0,
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 1
+               },
+               "locationsWeighted": false,
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "d4d6f4a8847af4e57a45881542e860aefc04a9ba",
+               "scenario": "default-scenario-12777322"
+            }
+         ],
+         "useV4Pipeline": true,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "_24_FITDM_Get_BrokerAccounts_": {
+                        "title": "24-FITDM_Get_BrokerAccounts ",
+                        "type": "object",
+                        "properties": {
+                           "_24EmployeeNK": {
+                              "type": "string"
+                           },
+                           "_24AccountOpeningDate": {
+                              "type": "string"
+                           },
+                           "_24AccountClosingDate": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "_24EmployeeNK": "valueOfCSV(\"24-FITDM_Get_BrokerAccounts .csv\", \"24EmployeeNK\")",
+                           "_24AccountOpeningDate": "valueOfCSV(\"24-FITDM_Get_BrokerAccounts .csv\", \"24AccountOpeningDate\")",
+                           "_24AccountClosingDate": "valueOfCSV(\"24-FITDM_Get_BrokerAccounts .csv\", \"24AccountClosingDate\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "24-FITDM_Get_BrokerAccounts .csv"
+                              },
+                              "type": "csv",
+                              "name": "24-FITDM_Get_BrokerAccounts .csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": false
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "24-FITDM_Get_BrokerAccounts .csv",
+                              "quoted": false,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "_24EmployeeNK",
+                                    "headerName": "24EmployeeNK"
+                                 },
+                                 {
+                                    "propertyName": "_24AccountOpeningDate",
+                                    "headerName": "24AccountOpeningDate"
+                                 },
+                                 {
+                                    "propertyName": "_24AccountClosingDate",
+                                    "headerName": "24AccountClosingDate"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "restored": 1695829369,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "tags": [
+            {
+               "id": 484790,
+               "label": "24-FITDM_Get_BrokerAccounts-DiffScenario"
+            }
+         ],
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 12777322,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-649d7638c37f5028314113"
+         ]
+      },
+      {
+         "id": 68567263,
+         "name": "24-FITDM_Get_BrokerAccounts",
+         "userId": 2057801,
+         "publicToken": "IxEY4uQK8NpNaMVBVSObpDWoyDs6vdMKHUU2G4lez3x0xVQPCS",
+         "ended": 1687878348,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 15,
+         "created": 1687876372,
+         "updated": 1698473285,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 2,
+         "parallelTestsInAccount": 2,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "71e33b46a858a9cc87ab00f590b153f1a559067177aa66a52f43072398001ac6",
+               "name": "default-scenario-12777322",
+               "test": "24-FITDM_Get_BrokerAccounts",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 15,
+               "usersNotConfigured": false,
+               "holdFor": "259199s",
+               "durationIsNotConfigured": true,
+               "iterationAndDurationDisabled": true,
+               "rampUp": "1s",
+               "iterations": 1,
+               "steps": 0,
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 1
+               },
+               "locationsWeighted": false,
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "d4d6f4a8847af4e57a45881542e860aefc04a9ba",
+               "scenario": "default-scenario-12777322"
+            }
+         ],
+         "useV4Pipeline": true,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "_24_FITDM_Get_BrokerAccounts_": {
+                        "title": "24-FITDM_Get_BrokerAccounts ",
+                        "type": "object",
+                        "properties": {
+                           "_24EmployeeNK": {
+                              "type": "string"
+                           },
+                           "_24AccountOpeningDate": {
+                              "type": "string"
+                           },
+                           "_24AccountClosingDate": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "_24EmployeeNK": "valueOfCSV(\"24-FITDM_Get_BrokerAccounts .csv\", \"24EmployeeNK\")",
+                           "_24AccountOpeningDate": "valueOfCSV(\"24-FITDM_Get_BrokerAccounts .csv\", \"24AccountOpeningDate\")",
+                           "_24AccountClosingDate": "valueOfCSV(\"24-FITDM_Get_BrokerAccounts .csv\", \"24AccountClosingDate\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "24-FITDM_Get_BrokerAccounts .csv"
+                              },
+                              "type": "csv",
+                              "name": "24-FITDM_Get_BrokerAccounts .csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": false
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "24-FITDM_Get_BrokerAccounts .csv",
+                              "quoted": false,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "_24EmployeeNK",
+                                    "headerName": "24EmployeeNK"
+                                 },
+                                 {
+                                    "propertyName": "_24AccountOpeningDate",
+                                    "headerName": "24AccountOpeningDate"
+                                 },
+                                 {
+                                    "propertyName": "_24AccountClosingDate",
+                                    "headerName": "24AccountClosingDate"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "restored": 1695829327,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "tags": [
+            {
+               "id": 484790,
+               "label": "24-FITDM_Get_BrokerAccounts-DiffScenario"
+            }
+         ],
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 12777322,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-649af31542b1e228971412"
+         ]
+      },
+      {
+         "id": 68568465,
+         "name": "24-FITDM_Get_BrokerAccounts",
+         "userId": 2057801,
+         "ended": 1687880689,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "created": 1687880379,
+         "updated": 1698473285,
+         "reportStatus": "abort",
+         "parallelTestsInWorkspace": 4,
+         "parallelTestsInAccount": 4,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "gui",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "71e33b46a858a9cc87ab00f590b153f1a559067177aa66a52f43072398001ac6",
+               "name": "default-scenario-12777322",
+               "test": "24-FITDM_Get_BrokerAccounts",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 15,
+               "usersNotConfigured": false,
+               "holdFor": "259199s",
+               "durationIsNotConfigured": true,
+               "iterationAndDurationDisabled": true,
+               "rampUp": "1s",
+               "iterations": 1,
+               "steps": 0,
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 1
+               },
+               "locationsWeighted": false,
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "d4d6f4a8847af4e57a45881542e860aefc04a9ba",
+               "scenario": "default-scenario-12777322"
+            }
+         ],
+         "useV4Pipeline": true,
+         "terminatedAt": 1687880688,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": false,
+         "hasData": false,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "_24_FITDM_Get_BrokerAccounts_": {
+                        "title": "24-FITDM_Get_BrokerAccounts ",
+                        "type": "object",
+                        "properties": {
+                           "_24EmployeeNK": {
+                              "type": "string"
+                           },
+                           "_24AccountOpeningDate": {
+                              "type": "string"
+                           },
+                           "_24AccountClosingDate": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "_24EmployeeNK": "valueOfCSV(\"24-FITDM_Get_BrokerAccounts .csv\", \"24EmployeeNK\")",
+                           "_24AccountOpeningDate": "valueOfCSV(\"24-FITDM_Get_BrokerAccounts .csv\", \"24AccountOpeningDate\")",
+                           "_24AccountClosingDate": "valueOfCSV(\"24-FITDM_Get_BrokerAccounts .csv\", \"24AccountClosingDate\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "24-FITDM_Get_BrokerAccounts .csv"
+                              },
+                              "type": "csv",
+                              "name": "24-FITDM_Get_BrokerAccounts .csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": false
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "24-FITDM_Get_BrokerAccounts .csv",
+                              "quoted": false,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "_24EmployeeNK",
+                                    "headerName": "24EmployeeNK"
+                                 },
+                                 {
+                                    "propertyName": "_24AccountOpeningDate",
+                                    "headerName": "24AccountOpeningDate"
+                                 },
+                                 {
+                                    "propertyName": "_24AccountClosingDate",
+                                    "headerName": "24AccountClosingDate"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "restored": 1695829339,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "tags": [
+            {
+               "id": 484790,
+               "label": "24-FITDM_Get_BrokerAccounts-DiffScenario"
+            }
+         ],
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 12777322,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-649b02bb80b92389142758"
+         ]
+      },
+      {
+         "id": 68569285,
+         "name": "24-FITDM_Get_BrokerAccounts",
+         "userId": 2057801,
+         "ended": 1687883576,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "created": 1687883107,
+         "updated": 1698473285,
+         "reportStatus": "abort",
+         "parallelTestsInWorkspace": 3,
+         "parallelTestsInAccount": 3,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "gui",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6239da3913bdb86e0a3bbb83"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "71e33b46a858a9cc87ab00f590b153f1a559067177aa66a52f43072398001ac6",
+               "name": "default-scenario-12777322",
+               "test": "24-FITDM_Get_BrokerAccounts",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 15,
+               "usersNotConfigured": false,
+               "holdFor": "259199s",
+               "durationIsNotConfigured": true,
+               "iterationAndDurationDisabled": true,
+               "rampUp": "1s",
+               "iterations": 1,
+               "steps": 0,
+               "locations": {
+                  "harbor-6239da3913bdb86e0a3bbb83": 1
+               },
+               "locationsWeighted": false,
+               "locationsPercents": {
+                  "harbor-6239da3913bdb86e0a3bbb83": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "d4d6f4a8847af4e57a45881542e860aefc04a9ba",
+               "scenario": "default-scenario-12777322"
+            }
+         ],
+         "useV4Pipeline": true,
+         "terminatedAt": 1687883572,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": false,
+         "hasData": false,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "_24_FITDM_Get_BrokerAccounts_": {
+                        "title": "24-FITDM_Get_BrokerAccounts ",
+                        "type": "object",
+                        "properties": {
+                           "_24EmployeeNK": {
+                              "type": "string"
+                           },
+                           "_24AccountOpeningDate": {
+                              "type": "string"
+                           },
+                           "_24AccountClosingDate": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "_24EmployeeNK": "valueOfCSV(\"24-FITDM_Get_BrokerAccounts .csv\", \"24EmployeeNK\")",
+                           "_24AccountOpeningDate": "valueOfCSV(\"24-FITDM_Get_BrokerAccounts .csv\", \"24AccountOpeningDate\")",
+                           "_24AccountClosingDate": "valueOfCSV(\"24-FITDM_Get_BrokerAccounts .csv\", \"24AccountClosingDate\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "24-FITDM_Get_BrokerAccounts .csv"
+                              },
+                              "type": "csv",
+                              "name": "24-FITDM_Get_BrokerAccounts .csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": false
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "24-FITDM_Get_BrokerAccounts .csv",
+                              "quoted": false,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "_24EmployeeNK",
+                                    "headerName": "24EmployeeNK"
+                                 },
+                                 {
+                                    "propertyName": "_24AccountOpeningDate",
+                                    "headerName": "24AccountOpeningDate"
+                                 },
+                                 {
+                                    "propertyName": "_24AccountClosingDate",
+                                    "headerName": "24AccountClosingDate"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "restored": 1695829354,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "tags": [
+            {
+               "id": 484790,
+               "label": "24-FITDM_Get_BrokerAccounts-DiffScenario"
+            }
+         ],
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 12777322,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-649b0d639711e855781585"
+         ]
+      },
+      {
+         "id": 68570011,
+         "name": "24-FITDM_Get_BrokerAccounts",
+         "userId": 2057801,
+         "publicToken": "Uw8yIZRjddzDGMvGkBUyELso0QHDRhGQ3Hbftm3FFglZssMdhB",
+         "ended": 1687887864,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 15,
+         "created": 1687885886,
+         "updated": 1698473285,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 2,
+         "parallelTestsInAccount": 2,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6239da3913bdb86e0a3bbb83"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "71e33b46a858a9cc87ab00f590b153f1a559067177aa66a52f43072398001ac6",
+               "name": "default-scenario-12777322",
+               "test": "24-FITDM_Get_BrokerAccounts",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 15,
+               "usersNotConfigured": false,
+               "holdFor": "259199s",
+               "durationIsNotConfigured": true,
+               "iterationAndDurationDisabled": true,
+               "rampUp": "1s",
+               "iterations": 1,
+               "steps": 0,
+               "locations": {
+                  "harbor-6239da3913bdb86e0a3bbb83": 1
+               },
+               "locationsWeighted": false,
+               "locationsPercents": {
+                  "harbor-6239da3913bdb86e0a3bbb83": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "d4d6f4a8847af4e57a45881542e860aefc04a9ba",
+               "scenario": "default-scenario-12777322"
+            }
+         ],
+         "useV4Pipeline": true,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "_24_FITDM_Get_BrokerAccounts_": {
+                        "title": "24-FITDM_Get_BrokerAccounts ",
+                        "type": "object",
+                        "properties": {
+                           "_24EmployeeNK": {
+                              "type": "string"
+                           },
+                           "_24AccountOpeningDate": {
+                              "type": "string"
+                           },
+                           "_24AccountClosingDate": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "_24EmployeeNK": "valueOfCSV(\"24-FITDM_Get_BrokerAccounts .csv\", \"24EmployeeNK\")",
+                           "_24AccountOpeningDate": "valueOfCSV(\"24-FITDM_Get_BrokerAccounts .csv\", \"24AccountOpeningDate\")",
+                           "_24AccountClosingDate": "valueOfCSV(\"24-FITDM_Get_BrokerAccounts .csv\", \"24AccountClosingDate\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "24-FITDM_Get_BrokerAccounts .csv"
+                              },
+                              "type": "csv",
+                              "name": "24-FITDM_Get_BrokerAccounts .csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": false
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "24-FITDM_Get_BrokerAccounts .csv",
+                              "quoted": false,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "_24EmployeeNK",
+                                    "headerName": "24EmployeeNK"
+                                 },
+                                 {
+                                    "propertyName": "_24AccountOpeningDate",
+                                    "headerName": "24AccountOpeningDate"
+                                 },
+                                 {
+                                    "propertyName": "_24AccountClosingDate",
+                                    "headerName": "24AccountClosingDate"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "restored": 1695829380,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "tags": [
+            {
+               "id": 484790,
+               "label": "24-FITDM_Get_BrokerAccounts-DiffScenario"
+            }
+         ],
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 12777322,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-649b183f3c677510332794"
+         ]
+      },
+      {
+         "id": 68570445,
+         "name": "24-FITDM_Get_BrokerAccounts",
+         "userId": 2057801,
+         "publicToken": "QoFaRtoBQPYe4kQWPqNhxRTN2X9HyZZnP6FUL4PQluLJfmTvr9",
+         "ended": 1687890088,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 15,
+         "created": 1687888097,
+         "updated": 1698473285,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 2,
+         "parallelTestsInAccount": 2,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "71e33b46a858a9cc87ab00f590b153f1a559067177aa66a52f43072398001ac6",
+               "name": "default-scenario-12777322",
+               "test": "24-FITDM_Get_BrokerAccounts",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 15,
+               "usersNotConfigured": false,
+               "holdFor": "259199s",
+               "durationIsNotConfigured": true,
+               "iterationAndDurationDisabled": true,
+               "rampUp": "1s",
+               "iterations": 1,
+               "steps": 0,
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 1
+               },
+               "locationsWeighted": false,
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "d4d6f4a8847af4e57a45881542e860aefc04a9ba",
+               "scenario": "default-scenario-12777322"
+            }
+         ],
+         "useV4Pipeline": true,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "_24_FITDM_Get_BrokerAccounts_": {
+                        "title": "24-FITDM_Get_BrokerAccounts ",
+                        "type": "object",
+                        "properties": {
+                           "_24EmployeeNK": {
+                              "type": "string"
+                           },
+                           "_24AccountOpeningDate": {
+                              "type": "string"
+                           },
+                           "_24AccountClosingDate": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "_24EmployeeNK": "valueOfCSV(\"24-FITDM_Get_BrokerAccounts .csv\", \"24EmployeeNK\")",
+                           "_24AccountOpeningDate": "valueOfCSV(\"24-FITDM_Get_BrokerAccounts .csv\", \"24AccountOpeningDate\")",
+                           "_24AccountClosingDate": "valueOfCSV(\"24-FITDM_Get_BrokerAccounts .csv\", \"24AccountClosingDate\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "24-FITDM_Get_BrokerAccounts .csv"
+                              },
+                              "type": "csv",
+                              "name": "24-FITDM_Get_BrokerAccounts .csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": false
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "24-FITDM_Get_BrokerAccounts .csv",
+                              "quoted": false,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "_24EmployeeNK",
+                                    "headerName": "24EmployeeNK"
+                                 },
+                                 {
+                                    "propertyName": "_24AccountOpeningDate",
+                                    "headerName": "24AccountOpeningDate"
+                                 },
+                                 {
+                                    "propertyName": "_24AccountClosingDate",
+                                    "headerName": "24AccountClosingDate"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "restored": 1695829374,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "tags": [
+            {
+               "id": 484790,
+               "label": "24-FITDM_Get_BrokerAccounts-DiffScenario"
+            }
+         ],
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 12777322,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-649b20e22de09647027175"
+         ]
+      },
+      {
+         "id": 68566526,
+         "name": "24-FITDM_Get_BrokerAccounts",
+         "userId": 2057801,
+         "publicToken": "D0MkoztS5udRmQmRlxNBBIVC22KN3ecc21NV4kcsN3iD3PdoCP",
+         "ended": 1687875813,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 15,
+         "created": 1687873760,
+         "updated": 1698473225,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 3,
+         "parallelTestsInAccount": 3,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "71e33b46a858a9cc87ab00f590b153f1a559067177aa66a52f43072398001ac6",
+               "name": "default-scenario-12777322",
+               "test": "24-FITDM_Get_BrokerAccounts",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 15,
+               "usersNotConfigured": false,
+               "holdFor": "259199s",
+               "durationIsNotConfigured": true,
+               "iterationAndDurationDisabled": true,
+               "rampUp": "1s",
+               "iterations": 1,
+               "steps": 0,
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 1
+               },
+               "locationsWeighted": false,
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "d4d6f4a8847af4e57a45881542e860aefc04a9ba",
+               "scenario": "default-scenario-12777322"
+            }
+         ],
+         "useV4Pipeline": true,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "_24_FITDM_Get_BrokerAccounts_": {
+                        "title": "24-FITDM_Get_BrokerAccounts ",
+                        "type": "object",
+                        "properties": {
+                           "_24EmployeeNK": {
+                              "type": "string"
+                           },
+                           "_24AccountOpeningDate": {
+                              "type": "string"
+                           },
+                           "_24AccountClosingDate": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "_24EmployeeNK": "valueOfCSV(\"24-FITDM_Get_BrokerAccounts .csv\", \"24EmployeeNK\")",
+                           "_24AccountOpeningDate": "valueOfCSV(\"24-FITDM_Get_BrokerAccounts .csv\", \"24AccountOpeningDate\")",
+                           "_24AccountClosingDate": "valueOfCSV(\"24-FITDM_Get_BrokerAccounts .csv\", \"24AccountClosingDate\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "24-FITDM_Get_BrokerAccounts .csv"
+                              },
+                              "type": "csv",
+                              "name": "24-FITDM_Get_BrokerAccounts .csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": false
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "24-FITDM_Get_BrokerAccounts .csv",
+                              "quoted": false,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "_24EmployeeNK",
+                                    "headerName": "24EmployeeNK"
+                                 },
+                                 {
+                                    "propertyName": "_24AccountOpeningDate",
+                                    "headerName": "24AccountOpeningDate"
+                                 },
+                                 {
+                                    "propertyName": "_24AccountClosingDate",
+                                    "headerName": "24AccountClosingDate"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "restored": 1695829319,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "tags": [
+            {
+               "id": 484790,
+               "label": "24-FITDM_Get_BrokerAccounts-DiffScenario"
+            }
+         ],
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 12777322,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-649ae8e0f2aa8631077173"
+         ]
+      },
+      {
+         "id": 68549069,
+         "name": "24-FITDM_Get_BrokerAccounts",
+         "userId": 2057801,
+         "publicToken": "ygaLXHAUJvqnDRnyV28YrziEE73eVgIlEO1iHr294kFa1M7c2Z",
+         "ended": 1687789186,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 15,
+         "created": 1687784669,
+         "updated": 1698473224,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 3,
+         "parallelTestsInAccount": 3,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "71e33b46a858a9cc87ab00f590b153f1a559067177aa66a52f43072398001ac6",
+               "name": "default-scenario-12777322",
+               "test": "24-FITDM_Get_BrokerAccounts",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 15,
+               "usersNotConfigured": false,
+               "holdFor": "259199s",
+               "durationIsNotConfigured": true,
+               "iterationAndDurationDisabled": true,
+               "rampUp": "1s",
+               "iterations": 1,
+               "steps": 0,
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 1
+               },
+               "locationsWeighted": false,
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "83adbd024a221515bd0a505dab2ee08c3cfc8400",
+               "scenario": "default-scenario-12777322"
+            }
+         ],
+         "useV4Pipeline": true,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "_24_FITDM_Get_BrokerAccounts_": {
+                        "title": "24-FITDM_Get_BrokerAccounts ",
+                        "type": "object",
+                        "properties": {
+                           "_24EmployeeNK": {
+                              "type": "string"
+                           },
+                           "_24AccountOpeningDate": {
+                              "type": "string"
+                           },
+                           "_24AccountClosingDate": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "_24EmployeeNK": "valueOfCSV(\"24-FITDM_Get_BrokerAccounts .csv\", \"24EmployeeNK\")",
+                           "_24AccountOpeningDate": "valueOfCSV(\"24-FITDM_Get_BrokerAccounts .csv\", \"24AccountOpeningDate\")",
+                           "_24AccountClosingDate": "valueOfCSV(\"24-FITDM_Get_BrokerAccounts .csv\", \"24AccountClosingDate\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "24-FITDM_Get_BrokerAccounts .csv"
+                              },
+                              "type": "csv",
+                              "name": "24-FITDM_Get_BrokerAccounts .csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": false
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "24-FITDM_Get_BrokerAccounts .csv",
+                              "quoted": false,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "_24EmployeeNK",
+                                    "headerName": "24EmployeeNK"
+                                 },
+                                 {
+                                    "propertyName": "_24AccountOpeningDate",
+                                    "headerName": "24AccountOpeningDate"
+                                 },
+                                 {
+                                    "propertyName": "_24AccountClosingDate",
+                                    "headerName": "24AccountClosingDate"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "restored": 1695826158,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "tags": [
+            {
+               "id": 484790,
+               "label": "24-FITDM_Get_BrokerAccounts-DiffScenario"
+            }
+         ],
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 12777322,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-64998cddc3099206430965"
+         ]
+      },
+      {
+         "id": 68552371,
+         "name": "24-FITDM_Get_BrokerAccounts",
+         "userId": 2057801,
+         "publicToken": "NNMpYRPyVo7kIF0JqA5aYU5XhskM5pP9pO3g2QdSxk8YURjLLB",
+         "ended": 1687805763,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "created": 1687801585,
+         "updated": 1698473224,
+         "reportStatus": "abort",
+         "parallelTestsInWorkspace": 2,
+         "parallelTestsInAccount": 2,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "71e33b46a858a9cc87ab00f590b153f1a559067177aa66a52f43072398001ac6",
+               "name": "default-scenario-12777322",
+               "test": "24-FITDM_Get_BrokerAccounts",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 15,
+               "usersNotConfigured": false,
+               "holdFor": "259199s",
+               "durationIsNotConfigured": true,
+               "iterationAndDurationDisabled": true,
+               "rampUp": "1s",
+               "iterations": 1,
+               "steps": 0,
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 1
+               },
+               "locationsWeighted": false,
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "fa0b6276011629ba9a8110f2edb8daa9d8212d1a",
+               "scenario": "default-scenario-12777322"
+            }
+         ],
+         "useV4Pipeline": true,
+         "terminatedAt": 1687805763,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": false,
+         "hasData": false,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "_24_FITDM_Get_BrokerAccounts_": {
+                        "title": "24-FITDM_Get_BrokerAccounts ",
+                        "type": "object",
+                        "properties": {
+                           "_24EmployeeNK": {
+                              "type": "string"
+                           },
+                           "_24AccountOpeningDate": {
+                              "type": "string"
+                           },
+                           "_24AccountClosingDate": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "_24EmployeeNK": "valueOfCSV(\"24-FITDM_Get_BrokerAccounts .csv\", \"24EmployeeNK\")",
+                           "_24AccountOpeningDate": "valueOfCSV(\"24-FITDM_Get_BrokerAccounts .csv\", \"24AccountOpeningDate\")",
+                           "_24AccountClosingDate": "valueOfCSV(\"24-FITDM_Get_BrokerAccounts .csv\", \"24AccountClosingDate\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "24-FITDM_Get_BrokerAccounts .csv"
+                              },
+                              "type": "csv",
+                              "name": "24-FITDM_Get_BrokerAccounts .csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": false
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "24-FITDM_Get_BrokerAccounts .csv",
+                              "quoted": false,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "_24EmployeeNK",
+                                    "headerName": "24EmployeeNK"
+                                 },
+                                 {
+                                    "propertyName": "_24AccountOpeningDate",
+                                    "headerName": "24AccountOpeningDate"
+                                 },
+                                 {
+                                    "propertyName": "_24AccountClosingDate",
+                                    "headerName": "24AccountClosingDate"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "restored": 1695829304,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "tags": [
+            {
+               "id": 484790,
+               "label": "24-FITDM_Get_BrokerAccounts-DiffScenario"
+            }
+         ],
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 12777322,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-6499cef18a668386980173"
+         ]
+      }
+   ],
+   "request_id": "653fb74150345",
+   "limit": 10,
+   "skip": 0,
+   "total": 14,
+   "hidden": 0
+}

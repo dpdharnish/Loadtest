@@ -1,0 +1,289 @@
+[
+   {
+      "id": 423,
+      "testName": "Smoketest_2 User_15minutes",
+      "status": "PASSED",
+      "startOn": "1698161260130",
+      "duration": "943782",
+      "vusersNum": 2,
+      "errorCode": "-1",
+      "triggeredBy": "anusha sangili",
+      "uiVusersNum": 2,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {}
+      },
+      "totalCount": "12",
+      "isBenchmark": false
+   },
+   {
+      "id": 422,
+      "testName": "Smoketest_2 User_15minutes",
+      "status": "SYSTEM_ERROR",
+      "startOn": "-1",
+      "duration": "0",
+      "vusersNum": 3,
+      "errorCode": "-1016",
+      "triggeredBy": "anusha sangili",
+      "uiVusersNum": 3,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1016",
+         "params": {
+            "id": "-1016",
+            "data": {
+               "details": {
+                  "id": 2002,
+                  "msg": "failed to extract the test file",
+                  "detail": "Error: EPERM: operation not permitted, rename 'C:\\Users\\GLBL_R~1\\AppData\\Local\\Temp\\inj_d_-16688-IR5xBhS45GqZ' -> 'C:\\Users\\GLBL_R~1\\AppData\\Local\\Temp\\inj_d_-16688-IR5xBhS45GqZxxx'"
+               },
+               "responsible": "we",
+               "originSourceId": "injector-t_902815105-job-422-location-on-premise-node-0"
+            },
+            "deltaPassed": 0,
+            "terminationId": "-1016",
+            "termination_reason": "stopped due to system error",
+            "termination_status": "TERMINATED"
+         }
+      },
+      "totalCount": "12",
+      "isBenchmark": false
+   },
+   {
+      "id": 420,
+      "testName": "Smoketest_2 User_15minutes",
+      "status": "PASSED",
+      "startOn": "1697836994849",
+      "duration": "712301",
+      "vusersNum": 3,
+      "errorCode": "-1",
+      "triggeredBy": "anusha sangili",
+      "uiVusersNum": 3,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {}
+      },
+      "totalCount": "12",
+      "isBenchmark": false
+   },
+   {
+      "id": 419,
+      "testName": "Smoketest_2 User_15minutes",
+      "status": "STOPPED",
+      "startOn": "1697835814796",
+      "duration": "199411",
+      "vusersNum": 3,
+      "errorCode": "-1",
+      "triggeredBy": "anusha sangili",
+      "uiVusersNum": 3,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {
+            "id": "-1"
+         }
+      },
+      "totalCount": "12",
+      "isBenchmark": false
+   },
+   {
+      "id": 418,
+      "testName": "Smoketest_2 User_15minutes",
+      "status": "STOPPED",
+      "startOn": "1697834753967",
+      "duration": "327065",
+      "vusersNum": 1,
+      "errorCode": "-1",
+      "triggeredBy": "anusha sangili",
+      "uiVusersNum": 1,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {
+            "id": "-1"
+         }
+      },
+      "totalCount": "12",
+      "isBenchmark": false
+   },
+   {
+      "id": 417,
+      "testName": "Smoketest_2 User_15minutes",
+      "status": "STOPPED",
+      "startOn": "1697834034990",
+      "duration": "267214",
+      "vusersNum": 5,
+      "errorCode": "-1",
+      "triggeredBy": "anusha sangili",
+      "uiVusersNum": 5,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {
+            "id": "-1"
+         }
+      },
+      "totalCount": "12",
+      "isBenchmark": false
+   },
+   {
+      "id": 378,
+      "testName": "Smoketest_2 User_15minutes",
+      "status": "PASSED",
+      "startOn": "1697469077871",
+      "duration": "1084591",
+      "vusersNum": 3,
+      "errorCode": "-1",
+      "triggeredBy": "anusha sangili",
+      "uiVusersNum": 3,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {}
+      },
+      "totalCount": "12",
+      "isBenchmark": false
+   },
+   {
+      "id": 377,
+      "testName": "Smoketest_2 User_15minutes",
+      "status": "PASSED",
+      "startOn": "1697286285091",
+      "duration": "1052028",
+      "vusersNum": 2,
+      "errorCode": "-1",
+      "triggeredBy": "anusha sangili",
+      "uiVusersNum": 2,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {}
+      },
+      "totalCount": "12",
+      "isBenchmark": false
+   },
+   {
+      "id": 376,
+      "testName": "Smoketest_2 User_15minutes",
+      "status": "PASSED",
+      "startOn": "1697283592812",
+      "duration": "796672",
+      "vusersNum": 2,
+      "errorCode": "-1",
+      "triggeredBy": "anusha sangili",
+      "uiVusersNum": 2,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {}
+      },
+      "totalCount": "12",
+      "isBenchmark": false
+   },
+   {
+      "id": 375,
+      "testName": "Smoketest_2 User_15minutes",
+      "status": "PASSED",
+      "startOn": "1697249193179",
+      "duration": "969142",
+      "vusersNum": 1,
+      "errorCode": "-1",
+      "triggeredBy": "anusha sangili",
+      "uiVusersNum": 1,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {}
+      },
+      "totalCount": "12",
+      "isBenchmark": false
+   },
+   {
+      "id": 374,
+      "testName": "Smoketest_2 User_15minutes",
+      "status": "PASSED",
+      "startOn": "1697237141524",
+      "duration": "1122952",
+      "vusersNum": 3,
+      "errorCode": "-1",
+      "triggeredBy": "anusha sangili",
+      "uiVusersNum": 3,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {}
+      },
+      "totalCount": "12",
+      "isBenchmark": false
+   },
+   {
+      "id": 373,
+      "testName": "Smoketest_2 User_15minutes",
+      "status": "STOPPED",
+      "startOn": "1697235941172",
+      "duration": "252846",
+      "vusersNum": 3,
+      "errorCode": "-1",
+      "triggeredBy": "anusha sangili",
+      "uiVusersNum": 3,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {
+            "id": "-1"
+         }
+      },
+      "totalCount": "12",
+      "isBenchmark": false
+   }
+]

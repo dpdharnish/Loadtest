@@ -1,0 +1,53 @@
+{
+   "api_version": 4,
+   "error": null,
+   "result": [
+      {
+         "labelId": "3b6d1bf098957debc57a9e6fc732460ebc922e77571812dda2edb21ea0c80492",
+         "labelName": "HTTP Request",
+         "samples": 29433,
+         "avgResponseTime": 272.9575646383311,
+         "90line": 508,
+         "95line": 551,
+         "99line": 637,
+         "minResponseTime": 66,
+         "maxResponseTime": 7151,
+         "avgLatency": 136.32263106037442,
+         "stDev": 185.56046113842933,
+         "duration": 299,
+         "avgBytes": 57772.598,
+         "avgThroughput": 98.43812709030101,
+         "medianResponseTime": 227,
+         "errorsCount": 0,
+         "errorsRate": 0,
+         "hasLabelPassedThresholds": null,
+         "concurrency": 30
+      },
+      {
+         "labelId": "b5c7aed7cd2a308523e7d2847b7815909e864b2fd9c4ea88b00d35adb2ecdfd7",
+         "labelName": "ALL",
+         "samples": 29433,
+         "avgResponseTime": 272.9575646383311,
+         "90line": 508,
+         "95line": 551,
+         "99line": 637,
+         "minResponseTime": 66,
+         "maxResponseTime": 7151,
+         "avgLatency": 136.32263106037442,
+         "stDev": 185.56046113842933,
+         "duration": 299,
+         "avgBytes": 57772.598,
+         "avgThroughput": 98.43812709030101,
+         "medianResponseTime": 227,
+         "errorsCount": 0,
+         "errorsRate": 0,
+         "hasLabelPassedThresholds": null,
+         "concurrency": 30
+      }
+   ],
+   "request_id": "652d0cd3538e8",
+   "apiVersion": 4,
+   "cached": true,
+   "dataSource": "dagger",
+   "requestId": "652d0cd3538e8"
+}

@@ -1,0 +1,279 @@
+{
+   "api_version": 4,
+   "error": null,
+   "result": [
+      {
+         "id": 69063213,
+         "name": "58-FITDM_Validate_Employees ",
+         "userId": 2057801,
+         "publicToken": "4wToHe5pxeggvLhBJIt6L5FZjloO6iIv0VO8XWX4UFQALcK1ip",
+         "ended": 1691074017,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 50,
+         "created": 1691070206,
+         "updated": 1698473768,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 1,
+         "parallelTestsInAccount": 1,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "0251475743c62153c4564174cdafd8a4e45ebe32d3db65d4a6bda9b6b1d5f5a7",
+               "name": "default-scenario-12943865",
+               "test": "58-FITDM_Validate_Employees ",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 50,
+               "usersNotConfigured": false,
+               "holdFor": "59m",
+               "durationIsNotConfigured": false,
+               "iterationAndDurationDisabled": false,
+               "rampUp": "1m",
+               "steps": 0,
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 50
+               },
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "60862ec13e6729e91d7d713eb7b7b133bc23e9f2",
+               "scenario": "default-scenario-12943865"
+            }
+         ],
+         "useV4Pipeline": true,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "_58_FITDM_Validate_Employees_": {
+                        "title": "58-FITDM_Validate_Employees ",
+                        "type": "object",
+                        "properties": {
+                           "_58EmployeeNK": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "_58EmployeeNK": "valueOfCSV(\"58-FITDM_Validate_Employees .csv\", \"58EmployeeNK\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "58-FITDM_Validate_Employees .csv"
+                              },
+                              "type": "csv",
+                              "name": "58-FITDM_Validate_Employees .csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": false
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "58-FITDM_Validate_Employees .csv",
+                              "quoted": false,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "_58EmployeeNK",
+                                    "headerName": "58EmployeeNK"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "restored": 1695833262,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "tags": [
+            {
+               "id": 511210,
+               "label": "58-FITDM_Validate_Employees -50C"
+            }
+         ],
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 12943865,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-64cbaeff394cb561694309"
+         ]
+      },
+      {
+         "id": 68958725,
+         "name": "58-FITDM_Validate_Employees ",
+         "userId": 2057801,
+         "publicToken": "MPVbkFluyNWZo5rR1IElJyIKlSOWif3VVjvqkzlwqJoXICcSHr",
+         "ended": 1690391161,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 50,
+         "created": 1690387381,
+         "updated": 1698473645,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 1,
+         "parallelTestsInAccount": 1,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "0251475743c62153c4564174cdafd8a4e45ebe32d3db65d4a6bda9b6b1d5f5a7",
+               "name": "default-scenario-12943865",
+               "test": "58-FITDM_Validate_Employees ",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 50,
+               "usersNotConfigured": false,
+               "holdFor": "59m",
+               "durationIsNotConfigured": false,
+               "iterationAndDurationDisabled": false,
+               "rampUp": "1m",
+               "steps": 0,
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 50
+               },
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "60862ec13e6729e91d7d713eb7b7b133bc23e9f2",
+               "scenario": "default-scenario-12943865"
+            }
+         ],
+         "useV4Pipeline": true,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "_58_FITDM_Validate_Employees_": {
+                        "title": "58-FITDM_Validate_Employees ",
+                        "type": "object",
+                        "properties": {
+                           "_58EmployeeNK": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "_58EmployeeNK": "valueOfCSV(\"58-FITDM_Validate_Employees .csv\", \"58EmployeeNK\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "58-FITDM_Validate_Employees .csv"
+                              },
+                              "type": "csv",
+                              "name": "58-FITDM_Validate_Employees .csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": false
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "58-FITDM_Validate_Employees .csv",
+                              "quoted": false,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "_58EmployeeNK",
+                                    "headerName": "58EmployeeNK"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "restored": 1695833257,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "tags": [
+            {
+               "id": 511210,
+               "label": "58-FITDM_Validate_Employees -50C"
+            }
+         ],
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 12943865,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-64c143c595340507127347"
+         ]
+      }
+   ],
+   "request_id": "653fb81c45823",
+   "limit": 10,
+   "skip": 0,
+   "total": 2,
+   "hidden": 0
+}

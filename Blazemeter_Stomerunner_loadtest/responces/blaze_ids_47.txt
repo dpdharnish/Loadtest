@@ -1,0 +1,941 @@
+[
+   {
+      "id": 363,
+      "testName": "Domain -4 PerfromanceManagement UI Load Test",
+      "status": "STOPPED",
+      "startOn": "1696601300020",
+      "duration": "176868",
+      "vusersNum": 50,
+      "errorCode": "-1",
+      "triggeredBy": "Shubham Jain",
+      "uiVusersNum": 50,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {
+            "id": "-1"
+         }
+      },
+      "totalCount": "40",
+      "isBenchmark": false
+   },
+   {
+      "id": 362,
+      "testName": "Domain -4 PerfromanceManagement UI Load Test",
+      "status": "STOPPED",
+      "startOn": "1696596395576",
+      "duration": "236997",
+      "vusersNum": 50,
+      "errorCode": "-1",
+      "triggeredBy": "Anurag Kumar",
+      "uiVusersNum": 50,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {
+            "id": "-1"
+         }
+      },
+      "totalCount": "40",
+      "isBenchmark": false
+   },
+   {
+      "id": 359,
+      "testName": "Domain -4 PerfromanceManagement UI Load Test",
+      "status": "STOPPED",
+      "startOn": "1696593671959",
+      "duration": "631053",
+      "vusersNum": 20,
+      "errorCode": "-1",
+      "triggeredBy": "Anurag Kumar",
+      "uiVusersNum": 20,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {
+            "id": "-1"
+         }
+      },
+      "totalCount": "40",
+      "isBenchmark": false
+   },
+   {
+      "id": 354,
+      "testName": "Domain -4 PerfromanceManagement UI Load Test",
+      "status": "STOPPED",
+      "startOn": "1696567200497",
+      "duration": "115487",
+      "vusersNum": 50,
+      "errorCode": "-1",
+      "triggeredBy": "Anurag Kumar",
+      "uiVusersNum": 50,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {
+            "id": "-1"
+         }
+      },
+      "totalCount": "40",
+      "isBenchmark": false
+   },
+   {
+      "id": 352,
+      "testName": "Domain -4 PerfromanceManagement UI Load Test",
+      "status": "STOPPED",
+      "startOn": "1696547266064",
+      "duration": "212889",
+      "vusersNum": 50,
+      "errorCode": "-1",
+      "triggeredBy": "Muntazir Mahdi",
+      "uiVusersNum": 50,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {
+            "id": "-1"
+         }
+      },
+      "totalCount": "40",
+      "isBenchmark": false
+   },
+   {
+      "id": 349,
+      "testName": "Domain -4 PerfromanceManagement UI Load Test",
+      "status": "PASSED",
+      "startOn": "1696507094290",
+      "duration": "1857763",
+      "vusersNum": 50,
+      "errorCode": "-1",
+      "triggeredBy": "Anurag Kumar",
+      "uiVusersNum": 50,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {}
+      },
+      "totalCount": "40",
+      "isBenchmark": false
+   },
+   {
+      "id": 333,
+      "testName": "Domain -4 PerfromanceManagement UI Load Test",
+      "status": "PASSED",
+      "startOn": "1695808767651",
+      "duration": "1853536",
+      "vusersNum": 50,
+      "errorCode": "-1",
+      "triggeredBy": "Anurag Kumar",
+      "uiVusersNum": 50,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {}
+      },
+      "totalCount": "40",
+      "isBenchmark": false
+   },
+   {
+      "id": 332,
+      "testName": "Domain -4 PerfromanceManagement UI Load Test",
+      "status": "PASSED",
+      "startOn": "1695804162991",
+      "duration": "1867896",
+      "vusersNum": 50,
+      "errorCode": "-1",
+      "triggeredBy": "Anurag Kumar",
+      "uiVusersNum": 50,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {}
+      },
+      "totalCount": "40",
+      "isBenchmark": false
+   },
+   {
+      "id": 331,
+      "testName": "Domain -4 PerfromanceManagement UI Load Test",
+      "status": "PASSED",
+      "startOn": "1695800113955",
+      "duration": "1865959",
+      "vusersNum": 50,
+      "errorCode": "-1",
+      "triggeredBy": "Anurag Kumar",
+      "uiVusersNum": 50,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {}
+      },
+      "totalCount": "40",
+      "isBenchmark": false
+   },
+   {
+      "id": 329,
+      "testName": "Domain -4 PerfromanceManagement UI Load Test",
+      "status": "PASSED",
+      "startOn": "1695746288259",
+      "duration": "1907087",
+      "vusersNum": 50,
+      "errorCode": "-1",
+      "triggeredBy": "Muntazir Mahdi",
+      "uiVusersNum": 50,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {}
+      },
+      "totalCount": "40",
+      "isBenchmark": false
+   },
+   {
+      "id": 327,
+      "testName": "Domain -4 PerfromanceManagement UI Load Test",
+      "status": "PASSED",
+      "startOn": "1695742871057",
+      "duration": "1631723",
+      "vusersNum": 50,
+      "errorCode": "-1",
+      "triggeredBy": "Anurag Kumar",
+      "uiVusersNum": 50,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {}
+      },
+      "totalCount": "40",
+      "isBenchmark": false
+   },
+   {
+      "id": 326,
+      "testName": "Domain -4 PerfromanceManagement UI Load Test",
+      "status": "STOPPED",
+      "startOn": "1695742475153",
+      "duration": "122946",
+      "vusersNum": 10,
+      "errorCode": "-1",
+      "triggeredBy": "Anurag Kumar",
+      "uiVusersNum": 10,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {
+            "id": "-1"
+         }
+      },
+      "totalCount": "40",
+      "isBenchmark": false
+   },
+   {
+      "id": 325,
+      "testName": "Domain -4 PerfromanceManagement UI Load Test",
+      "status": "STOPPED",
+      "startOn": "1695741864701",
+      "duration": "340823",
+      "vusersNum": 10,
+      "errorCode": "-1",
+      "triggeredBy": "Anurag Kumar",
+      "uiVusersNum": 10,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {
+            "id": "-1"
+         }
+      },
+      "totalCount": "40",
+      "isBenchmark": false
+   },
+   {
+      "id": 324,
+      "testName": "Domain -4 PerfromanceManagement UI Load Test",
+      "status": "STOPPED",
+      "startOn": "1695741556485",
+      "duration": "107184",
+      "vusersNum": 50,
+      "errorCode": "-1",
+      "triggeredBy": "Anurag Kumar",
+      "uiVusersNum": 50,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {
+            "id": "-1"
+         }
+      },
+      "totalCount": "40",
+      "isBenchmark": false
+   },
+   {
+      "id": 322,
+      "testName": "Domain -4 PerfromanceManagement UI Load Test",
+      "status": "STOPPED",
+      "startOn": "1695740921272",
+      "duration": "250333",
+      "vusersNum": 50,
+      "errorCode": "-1",
+      "triggeredBy": "Anurag Kumar",
+      "uiVusersNum": 50,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {
+            "id": "-1"
+         }
+      },
+      "totalCount": "40",
+      "isBenchmark": false
+   },
+   {
+      "id": 321,
+      "testName": "Domain -4 PerfromanceManagement UI Load Test",
+      "status": "STOPPED",
+      "startOn": "1695739868762",
+      "duration": "280127",
+      "vusersNum": 10,
+      "errorCode": "-1",
+      "triggeredBy": "Anurag Kumar",
+      "uiVusersNum": 10,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {
+            "id": "-1"
+         }
+      },
+      "totalCount": "40",
+      "isBenchmark": false
+   },
+   {
+      "id": 316,
+      "testName": "Domain -4 PerfromanceManagement UI Load Test",
+      "status": "STOPPED",
+      "startOn": "1695702534661",
+      "duration": "274392",
+      "vusersNum": 10,
+      "errorCode": "-1",
+      "triggeredBy": "Anurag Kumar",
+      "uiVusersNum": 10,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {
+            "id": "-1"
+         }
+      },
+      "totalCount": "40",
+      "isBenchmark": false
+   },
+   {
+      "id": 315,
+      "testName": "Domain -4 PerfromanceManagement UI Load Test",
+      "status": "STOPPED",
+      "startOn": "1695672828696",
+      "duration": "239170",
+      "vusersNum": 1,
+      "errorCode": "-1",
+      "triggeredBy": "Muntazir Mahdi",
+      "uiVusersNum": 1,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {
+            "id": "-1"
+         }
+      },
+      "totalCount": "40",
+      "isBenchmark": false
+   },
+   {
+      "id": 314,
+      "testName": "Domain -4 PerfromanceManagement UI Load Test",
+      "status": "STOPPED",
+      "startOn": "1695672211429",
+      "duration": "393849",
+      "vusersNum": 10,
+      "errorCode": "-1",
+      "triggeredBy": "Muntazir Mahdi",
+      "uiVusersNum": 10,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {
+            "id": "-1"
+         }
+      },
+      "totalCount": "40",
+      "isBenchmark": false
+   },
+   {
+      "id": 310,
+      "testName": "Domain -4 PerfromanceManagement UI Load Test",
+      "status": "STOPPED",
+      "startOn": "1695664571626",
+      "duration": "670125",
+      "vusersNum": 10,
+      "errorCode": "-1",
+      "triggeredBy": "Muntazir Mahdi",
+      "uiVusersNum": 10,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {
+            "id": "-1"
+         }
+      },
+      "totalCount": "40",
+      "isBenchmark": false
+   },
+   {
+      "id": 309,
+      "testName": "Domain -4 PerfromanceManagement UI Load Test",
+      "status": "STOPPED",
+      "startOn": "1695658499848",
+      "duration": "971220",
+      "vusersNum": 10,
+      "errorCode": "-1",
+      "triggeredBy": "Muntazir Mahdi",
+      "uiVusersNum": 10,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {
+            "id": "-1"
+         }
+      },
+      "totalCount": "40",
+      "isBenchmark": false
+   },
+   {
+      "id": 308,
+      "testName": "Domain -4 PerfromanceManagement UI Load Test",
+      "status": "STOPPED",
+      "startOn": "1695657748803",
+      "duration": "463901",
+      "vusersNum": 10,
+      "errorCode": "-1",
+      "triggeredBy": "Muntazir Mahdi",
+      "uiVusersNum": 10,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {
+            "id": "-1"
+         }
+      },
+      "totalCount": "40",
+      "isBenchmark": false
+   },
+   {
+      "id": 307,
+      "testName": "Domain -4 PerfromanceManagement UI Load Test",
+      "status": "STOPPED",
+      "startOn": "1695656785705",
+      "duration": "599132",
+      "vusersNum": 50,
+      "errorCode": "-1",
+      "triggeredBy": "Muntazir Mahdi",
+      "uiVusersNum": 50,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {
+            "id": "-1"
+         }
+      },
+      "totalCount": "40",
+      "isBenchmark": false
+   },
+   {
+      "id": 306,
+      "testName": "Domain -4 PerfromanceManagement UI Load Test",
+      "status": "PASSED",
+      "startOn": "1695648832519",
+      "duration": "2145152",
+      "vusersNum": 50,
+      "errorCode": "-1",
+      "triggeredBy": "Anurag Kumar",
+      "uiVusersNum": 50,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {}
+      },
+      "totalCount": "40",
+      "isBenchmark": false
+   },
+   {
+      "id": 303,
+      "testName": "Domain -4 PerfromanceManagement UI Load Test",
+      "status": "PASSED",
+      "startOn": "1695632993978",
+      "duration": "2162542",
+      "vusersNum": 50,
+      "errorCode": "-1",
+      "triggeredBy": "Anurag Kumar",
+      "uiVusersNum": 50,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {}
+      },
+      "totalCount": "40",
+      "isBenchmark": false
+   },
+   {
+      "id": 302,
+      "testName": "Domain -4 PerfromanceManagement UI Load Test",
+      "status": "PASSED",
+      "startOn": "1695625893563",
+      "duration": "2151547",
+      "vusersNum": 50,
+      "errorCode": "-1",
+      "triggeredBy": "Anurag Kumar",
+      "uiVusersNum": 50,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {}
+      },
+      "totalCount": "40",
+      "isBenchmark": false
+   },
+   {
+      "id": 300,
+      "testName": "Domain -4 PerfromanceManagement UI Load Test",
+      "status": "PASSED",
+      "startOn": "1695610118186",
+      "duration": "2162499",
+      "vusersNum": 50,
+      "errorCode": "-1",
+      "triggeredBy": "Anurag Kumar",
+      "uiVusersNum": 50,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {}
+      },
+      "totalCount": "40",
+      "isBenchmark": false
+   },
+   {
+      "id": 298,
+      "testName": "Domain -4 PerfromanceManagement UI Load Test",
+      "status": "PASSED",
+      "startOn": "1695551213336",
+      "duration": "2113036",
+      "vusersNum": 50,
+      "errorCode": "-1",
+      "triggeredBy": "Anurag Kumar",
+      "uiVusersNum": 50,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {}
+      },
+      "totalCount": "40",
+      "isBenchmark": false
+   },
+   {
+      "id": 294,
+      "testName": "Domain -4 PerfromanceManagement UI Load Test",
+      "status": "PASSED",
+      "startOn": "1695421459251",
+      "duration": "2146526",
+      "vusersNum": 50,
+      "errorCode": "-1",
+      "triggeredBy": "Anurag Kumar",
+      "uiVusersNum": 50,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {}
+      },
+      "totalCount": "40",
+      "isBenchmark": false
+   },
+   {
+      "id": 293,
+      "testName": "Domain -4 PerfromanceManagement UI Load Test",
+      "status": "PASSED",
+      "startOn": "1695418090330",
+      "duration": "2152392",
+      "vusersNum": 50,
+      "errorCode": "-1",
+      "triggeredBy": "Anurag Kumar",
+      "uiVusersNum": 50,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {}
+      },
+      "totalCount": "40",
+      "isBenchmark": false
+   },
+   {
+      "id": 281,
+      "testName": "Domain -4 PerfromanceManagement UI Load Test",
+      "status": "PASSED",
+      "startOn": "1695139668307",
+      "duration": "2118938",
+      "vusersNum": 50,
+      "errorCode": "-1",
+      "triggeredBy": "Anurag Kumar",
+      "uiVusersNum": 50,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {}
+      },
+      "totalCount": "40",
+      "isBenchmark": false
+   },
+   {
+      "id": 280,
+      "testName": "Domain -4 PerfromanceManagement UI Load Test",
+      "status": "SYSTEM_ERROR",
+      "startOn": "-1",
+      "duration": "0",
+      "vusersNum": 50,
+      "errorCode": "-1016",
+      "triggeredBy": "Anurag Kumar",
+      "uiVusersNum": 50,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1016",
+         "params": {
+            "id": "-1016",
+            "data": {
+               "details": {
+                  "id": 2002,
+                  "msg": "failed to extract the test file",
+                  "detail": "Error: EPERM: operation not permitted, rename 'C:\\Users\\GLBL_R~1\\AppData\\Local\\Temp\\inj_d_-17052-ZiA301ltwizU' -> 'C:\\Users\\GLBL_R~1\\AppData\\Local\\Temp\\inj_d_-17052-ZiA301ltwizUxxx'"
+               },
+               "responsible": "we",
+               "originSourceId": "injector-t_902815105-job-280-location-on-premise-node-0"
+            },
+            "deltaPassed": 0,
+            "terminationId": "-1016",
+            "termination_reason": "stopped due to system error",
+            "termination_status": "TERMINATED"
+         }
+      },
+      "totalCount": "40",
+      "isBenchmark": false
+   },
+   {
+      "id": 278,
+      "testName": "Domain -4 PerfromanceManagement UI Load Test",
+      "status": "STOPPED",
+      "startOn": "1695137506657",
+      "duration": "410326",
+      "vusersNum": 50,
+      "errorCode": "-1",
+      "triggeredBy": "Anurag Kumar",
+      "uiVusersNum": 50,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {
+            "id": "-1"
+         }
+      },
+      "totalCount": "40",
+      "isBenchmark": false
+   },
+   {
+      "id": 270,
+      "testName": "Domain -4 PerfromanceManagement UI Load Test",
+      "status": "STOPPED",
+      "startOn": "1695115916827",
+      "duration": "235051",
+      "vusersNum": 10,
+      "errorCode": "-1",
+      "triggeredBy": "Anurag Kumar",
+      "uiVusersNum": 10,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {
+            "id": "-1"
+         }
+      },
+      "totalCount": "40",
+      "isBenchmark": false
+   },
+   {
+      "id": 259,
+      "testName": "Domain -4 PerfromanceManagement UI Load Test",
+      "status": "PASSED",
+      "startOn": "1695078399578",
+      "duration": "2502314",
+      "vusersNum": 10,
+      "errorCode": "-1",
+      "triggeredBy": "Muntazir Mahdi",
+      "uiVusersNum": 10,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {}
+      },
+      "totalCount": "40",
+      "isBenchmark": false
+   },
+   {
+      "id": 257,
+      "testName": "Domain -4 PerfromanceManagement UI Load Test",
+      "status": "STOPPED",
+      "startOn": "1695060781847",
+      "duration": "276956",
+      "vusersNum": 10,
+      "errorCode": "-1",
+      "triggeredBy": "Anurag Kumar",
+      "uiVusersNum": 10,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {
+            "id": "-1"
+         }
+      },
+      "totalCount": "40",
+      "isBenchmark": false
+   },
+   {
+      "id": 256,
+      "testName": "Domain -4 PerfromanceManagement UI Load Test",
+      "status": "PASSED",
+      "startOn": "1695057460662",
+      "duration": "1263907",
+      "vusersNum": 10,
+      "errorCode": "-1",
+      "triggeredBy": "Anurag Kumar",
+      "uiVusersNum": 10,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {}
+      },
+      "totalCount": "40",
+      "isBenchmark": false
+   },
+   {
+      "id": 254,
+      "testName": "Domain -4 PerfromanceManagement UI Load Test",
+      "status": "STOPPED",
+      "startOn": "1695054342293",
+      "duration": "946277",
+      "vusersNum": 15,
+      "errorCode": "-1",
+      "triggeredBy": "Anurag Kumar",
+      "uiVusersNum": 15,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {
+            "id": "-1"
+         }
+      },
+      "totalCount": "40",
+      "isBenchmark": false
+   },
+   {
+      "id": 215,
+      "testName": "Domain -4 PerfromanceManagement UI Load Test",
+      "status": "PASSED",
+      "startOn": "1693902952942",
+      "duration": "597529",
+      "vusersNum": 5,
+      "errorCode": "-1",
+      "triggeredBy": "Anurag Kumar",
+      "uiVusersNum": 5,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {}
+      },
+      "totalCount": "40",
+      "isBenchmark": false
+   },
+   {
+      "id": 214,
+      "testName": "Domain -4 PerfromanceManagement UI Load Test",
+      "status": "STOPPED",
+      "startOn": "1693902023970",
+      "duration": "409656",
+      "vusersNum": 5,
+      "errorCode": "-1",
+      "triggeredBy": "Anurag Kumar",
+      "uiVusersNum": 5,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 0,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {
+            "id": "-1"
+         }
+      },
+      "totalCount": "40",
+      "isBenchmark": false
+   }
+]

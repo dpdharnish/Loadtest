@@ -1,0 +1,279 @@
+{
+   "api_version": 4,
+   "error": null,
+   "result": [
+      {
+         "id": 69049519,
+         "name": "56-FITDM_Search_Territory ",
+         "userId": 2057801,
+         "publicToken": "vyufkUTOAy7DN4zEMEFK0VOp8b6SBTNYSKH2tO3bGTgvdWtjR8",
+         "ended": 1690995854,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 25,
+         "created": 1690992105,
+         "updated": 1698473707,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 1,
+         "parallelTestsInAccount": 1,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "8db3ea668dfb57befbee2d6bda56face66f61805d8208bdcb9feddba5cfabe0d",
+               "name": "default-scenario-12942743",
+               "test": "56-FITDM_Search_Territory ",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 25,
+               "usersNotConfigured": false,
+               "holdFor": "59m",
+               "durationIsNotConfigured": false,
+               "iterationAndDurationDisabled": false,
+               "rampUp": "1m",
+               "steps": 0,
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 25
+               },
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "4c02df82ef234d96e7ff04600ebcbedd7f9e6e50",
+               "scenario": "default-scenario-12942743"
+            }
+         ],
+         "useV4Pipeline": true,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "_56_FITDM_Search_Territory": {
+                        "title": "56-FITDM_Search_Territory",
+                        "type": "object",
+                        "properties": {
+                           "_56TerritoryCode": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "_56TerritoryCode": "valueOfCSV(\"56-FITDM_Search_Territory.csv\", \"56TerritoryCode\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "56-FITDM_Search_Territory.csv"
+                              },
+                              "type": "csv",
+                              "name": "56-FITDM_Search_Territory.csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": false
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "56-FITDM_Search_Territory.csv",
+                              "quoted": false,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "_56TerritoryCode",
+                                    "headerName": "56TerritoryCode"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "restored": 1695833200,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "tags": [
+            {
+               "id": 511203,
+               "label": "56-FITDM_Search_Territory -25C"
+            }
+         ],
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 12942743,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-64ca7de9bd495712276685"
+         ]
+      },
+      {
+         "id": 68957609,
+         "name": "56-FITDM_Search_Territory ",
+         "userId": 2057801,
+         "publicToken": "R5M1OogDBHERwaNNA7bOvQKD7pfp2uwNR6UjSf14g8yppGznBS",
+         "ended": 1690386947,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 25,
+         "created": 1690381385,
+         "updated": 1698473645,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 1,
+         "parallelTestsInAccount": 1,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "8db3ea668dfb57befbee2d6bda56face66f61805d8208bdcb9feddba5cfabe0d",
+               "name": "default-scenario-12942743",
+               "test": "56-FITDM_Search_Territory ",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 25,
+               "usersNotConfigured": false,
+               "holdFor": "59m",
+               "durationIsNotConfigured": false,
+               "iterationAndDurationDisabled": false,
+               "rampUp": "1m",
+               "steps": 0,
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 25
+               },
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "4c02df82ef234d96e7ff04600ebcbedd7f9e6e50",
+               "scenario": "default-scenario-12942743"
+            }
+         ],
+         "useV4Pipeline": true,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "_56_FITDM_Search_Territory": {
+                        "title": "56-FITDM_Search_Territory",
+                        "type": "object",
+                        "properties": {
+                           "_56TerritoryCode": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "_56TerritoryCode": "valueOfCSV(\"56-FITDM_Search_Territory.csv\", \"56TerritoryCode\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "56-FITDM_Search_Territory.csv"
+                              },
+                              "type": "csv",
+                              "name": "56-FITDM_Search_Territory.csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": false
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "56-FITDM_Search_Territory.csv",
+                              "quoted": false,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "_56TerritoryCode",
+                                    "headerName": "56TerritoryCode"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "restored": 1695833257,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "tags": [
+            {
+               "id": 511203,
+               "label": "56-FITDM_Search_Territory -25C"
+            }
+         ],
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 12942743,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-64c12c4a51342373229582"
+         ]
+      }
+   ],
+   "request_id": "653fb80e66280",
+   "limit": 10,
+   "skip": 0,
+   "total": 2,
+   "hidden": 0
+}

@@ -1,0 +1,413 @@
+{
+   "api_version": 4,
+   "error": null,
+   "result": [
+      {
+         "id": 68763750,
+         "name": "33-FITDM_Search_ClearanceType",
+         "userId": 2057801,
+         "publicToken": "K0lFtHFHof8B8SuHdArWPg9DV5BjQuWipzX6OtourUgpdQE6aE",
+         "ended": 1689110487,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 25,
+         "created": 1689106747,
+         "updated": 1698473349,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 1,
+         "parallelTestsInAccount": 1,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "21a268af1b1c32dda6dd6f28e750e38fb362ff43a5537bd8be13eb254733c987",
+               "name": "default-scenario-12843697",
+               "test": "33-FITDM_Search_ClearanceType",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 25,
+               "usersNotConfigured": false,
+               "holdFor": "59m",
+               "durationIsNotConfigured": false,
+               "iterationAndDurationDisabled": false,
+               "rampUp": "1m",
+               "steps": 0,
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 25
+               },
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "0b820a0ab1a3772a61f3b763d832d8c14472fd45",
+               "scenario": "default-scenario-12843697"
+            }
+         ],
+         "useV4Pipeline": true,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "_33_FITDM_Search_ClearanceType": {
+                        "title": "33-FITDM_Search_ClearanceType",
+                        "type": "object",
+                        "properties": {
+                           "_33ClearanceTypeDescription": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "_33ClearanceTypeDescription": "valueOfCSV(\"33-FITDM_Search_ClearanceType.csv\", \"33ClearanceTypeDescription\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "33-FITDM_Search_ClearanceType.csv"
+                              },
+                              "type": "csv",
+                              "name": "33-FITDM_Search_ClearanceType.csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": false
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "33-FITDM_Search_ClearanceType.csv",
+                              "quoted": false,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "_33ClearanceTypeDescription",
+                                    "headerName": "33ClearanceTypeDescription"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "restored": 1695829578,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "tags": [
+            {
+               "id": 498196,
+               "label": "33-FITDM_Search_ClearanceType"
+            }
+         ],
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 12843697,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-64adb93c19038839586636"
+         ]
+      },
+      {
+         "id": 68763051,
+         "name": "33-FITDM_Search_ClearanceType",
+         "userId": 2057801,
+         "publicToken": "YjJu68vLCbkXZdnGjkCRgdqjSvZ3UGz7Nn4Gsk3hdBGanoId1f",
+         "ended": 1689105756,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 25,
+         "created": 1689102010,
+         "updated": 1698473346,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 2,
+         "parallelTestsInAccount": 2,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "21a268af1b1c32dda6dd6f28e750e38fb362ff43a5537bd8be13eb254733c987",
+               "name": "default-scenario-12843697",
+               "test": "33-FITDM_Search_ClearanceType",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 25,
+               "usersNotConfigured": false,
+               "holdFor": "59m",
+               "durationIsNotConfigured": false,
+               "iterationAndDurationDisabled": false,
+               "rampUp": "1m",
+               "steps": 0,
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 25
+               },
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "91682d7109be8c86a1e54dee2bcf8438162e47a4",
+               "scenario": "default-scenario-12843697"
+            }
+         ],
+         "useV4Pipeline": true,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "_33_FITDM_Search_ClearanceType": {
+                        "title": "33-FITDM_Search_ClearanceType",
+                        "type": "object",
+                        "properties": {
+                           "_33ClearanceTypeDescription": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "_33ClearanceTypeDescription": "valueOfCSV(\"33-FITDM_Search_ClearanceType.csv\", \"33ClearanceTypeDescription\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "33-FITDM_Search_ClearanceType.csv"
+                              },
+                              "type": "csv",
+                              "name": "33-FITDM_Search_ClearanceType.csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": false
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "33-FITDM_Search_ClearanceType.csv",
+                              "quoted": false,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "_33ClearanceTypeDescription",
+                                    "headerName": "33ClearanceTypeDescription"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "restored": 1695829568,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "tags": [
+            {
+               "id": 498196,
+               "label": "33-FITDM_Search_ClearanceType"
+            }
+         ],
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 12843697,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-64ada6bb77e34304922895"
+         ]
+      },
+      {
+         "id": 68763697,
+         "name": "33-FITDM_Search_ClearanceType",
+         "userId": 2057801,
+         "publicToken": "2aRU5CsMxKnkje50dYGdti8937gMYuivPZ3tipQPD8RLMuhGIb",
+         "ended": 1689106507,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 5,
+         "created": 1689106360,
+         "updated": 1698473346,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 1,
+         "parallelTestsInAccount": 1,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "21a268af1b1c32dda6dd6f28e750e38fb362ff43a5537bd8be13eb254733c987",
+               "name": "default-scenario-12843697",
+               "test": "33-FITDM_Search_ClearanceType",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 5,
+               "usersNotConfigured": false,
+               "holdFor": "0m",
+               "durationIsNotConfigured": false,
+               "iterationAndDurationDisabled": false,
+               "rampUp": "1m",
+               "steps": 0,
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 5
+               },
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "0b820a0ab1a3772a61f3b763d832d8c14472fd45",
+               "scenario": "default-scenario-12843697"
+            }
+         ],
+         "useV4Pipeline": true,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "_33_FITDM_Search_ClearanceType": {
+                        "title": "33-FITDM_Search_ClearanceType",
+                        "type": "object",
+                        "properties": {
+                           "_33ClearanceTypeDescription": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "_33ClearanceTypeDescription": "valueOfCSV(\"33-FITDM_Search_ClearanceType.csv\", \"33ClearanceTypeDescription\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "33-FITDM_Search_ClearanceType.csv"
+                              },
+                              "type": "csv",
+                              "name": "33-FITDM_Search_ClearanceType.csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": false
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "33-FITDM_Search_ClearanceType.csv",
+                              "quoted": false,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "_33ClearanceTypeDescription",
+                                    "headerName": "33ClearanceTypeDescription"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "restored": 1695829578,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "tags": [
+            {
+               "id": 498196,
+               "label": "33-FITDM_Search_ClearanceType"
+            }
+         ],
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 12843697,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-64adb7b8c2af9746169842"
+         ]
+      }
+   ],
+   "request_id": "653fb7663a826",
+   "limit": 10,
+   "skip": 0,
+   "total": 3,
+   "hidden": 0
+}

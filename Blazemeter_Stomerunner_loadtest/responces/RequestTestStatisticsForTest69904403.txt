@@ -1,0 +1,53 @@
+{
+   "api_version": 4,
+   "error": null,
+   "result": [
+      {
+         "labelId": "b5c7aed7cd2a308523e7d2847b7815909e864b2fd9c4ea88b00d35adb2ecdfd7",
+         "labelName": "ALL",
+         "samples": 131,
+         "avgResponseTime": 11582.610687022901,
+         "90line": 22831,
+         "95line": 24223,
+         "99line": 28079,
+         "minResponseTime": 1256,
+         "maxResponseTime": 80831,
+         "avgLatency": 11581.923664122138,
+         "stDev": 11548.264379528066,
+         "duration": 3599,
+         "avgBytes": 0.014,
+         "avgThroughput": 0.03639899972214504,
+         "medianResponseTime": 3715,
+         "errorsCount": 1,
+         "errorsRate": 0.7633587786259541,
+         "hasLabelPassedThresholds": null,
+         "concurrency": 1
+      },
+      {
+         "labelId": "3e879fb742c038486a560de576f4e4bd8bf78800a2749d6779e70a602fc88ba1",
+         "labelName": "62-FITDM_Calculate_CoveredPersonPS",
+         "samples": 131,
+         "avgResponseTime": 11582.610687022901,
+         "90line": 22831,
+         "95line": 24223,
+         "99line": 28079,
+         "minResponseTime": 1256,
+         "maxResponseTime": 80831,
+         "avgLatency": 11581.923664122138,
+         "stDev": 11548.264379528066,
+         "duration": 3599,
+         "avgBytes": 0.014,
+         "avgThroughput": 0.03639899972214504,
+         "medianResponseTime": 3715,
+         "errorsCount": 1,
+         "errorsRate": 0.7633587786259541,
+         "hasLabelPassedThresholds": null,
+         "concurrency": 1
+      }
+   ],
+   "request_id": "653fb83da6b12",
+   "apiVersion": 4,
+   "cached": true,
+   "dataSource": "dagger",
+   "requestId": "653fb83da6b12"
+}

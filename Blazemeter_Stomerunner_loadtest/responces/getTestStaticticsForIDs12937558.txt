@@ -1,0 +1,145 @@
+{
+   "api_version": 4,
+   "error": null,
+   "result": [
+      {
+         "id": 68956734,
+         "name": "55-FITDM_Search_ManagementLevel",
+         "userId": 2057801,
+         "publicToken": "YzB3XLtTbPB6w9C10dcRPUQAnMbTaZQ1Q4TNGpxEIvVY4p7b8H",
+         "ended": 1690379959,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 25,
+         "created": 1690376210,
+         "updated": 1698473645,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 1,
+         "parallelTestsInAccount": 1,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "e10cc1db79b51c1be8ec03e4c88142ba3f6b558ab14c94c3bdee2a2ed483e578",
+               "name": "default-scenario-12937558",
+               "test": "55-FITDM_Search_ManagementLevel",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 25,
+               "usersNotConfigured": false,
+               "holdFor": "59m",
+               "durationIsNotConfigured": false,
+               "iterationAndDurationDisabled": false,
+               "rampUp": "1m",
+               "steps": 0,
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 25
+               },
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "785f8ca33c06f37142803e06100102f9aa03fdc7",
+               "scenario": "default-scenario-12937558"
+            }
+         ],
+         "useV4Pipeline": true,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "_55_FITDM_Search_ManagementLevel": {
+                        "title": "55-FITDM_Search_ManagementLevel",
+                        "type": "object",
+                        "properties": {
+                           "_55ManagementLevelNK": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "_55ManagementLevelNK": "valueOfCSV(\"55-FITDM_Search_ManagementLevel.csv\", \"55ManagementLevelNK\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "55-FITDM_Search_ManagementLevel.csv"
+                              },
+                              "type": "csv",
+                              "name": "55-FITDM_Search_ManagementLevel.csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": false
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "55-FITDM_Search_ManagementLevel.csv",
+                              "quoted": false,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "_55ManagementLevelNK",
+                                    "headerName": "55ManagementLevelNK"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "restored": 1695833180,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "tags": [
+            {
+               "id": 511199,
+               "label": "55-FITDM_Search_ManagementLevel-25C"
+            }
+         ],
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 12937558,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-64c11812857cf881774603"
+         ]
+      }
+   ],
+   "request_id": "653fb80a6acb0",
+   "limit": 10,
+   "skip": 0,
+   "total": 1,
+   "hidden": 0
+}

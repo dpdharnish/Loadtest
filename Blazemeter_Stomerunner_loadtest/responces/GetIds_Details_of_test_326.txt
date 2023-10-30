@@ -1,0 +1,51 @@
+[
+   {
+      "name": "T01_Launch Application",
+      "loadTestScriptId": 269,
+      "scriptName": "Snapshots-PM (1)",
+      "breakers": 0,
+      "slaStatus": "N/A",
+      "slaThreshold": null,
+      "percentileTRT_90": 4.056800150871277,
+      "slaTrend": -1.276926443919651,
+      "passed": 7,
+      "failed": 0,
+      "avgTRT": 2.3045712985992433,
+      "minTRT": 0.7529999198913574,
+      "maxTRT": 4.754000057220459,
+      "percentileTRT": 4.056800150871277,
+      "stdDeviation": 1.1482604152534246
+   },
+   {
+      "name": "T02_Enter Email & Next",
+      "loadTestScriptId": 269,
+      "scriptName": "Snapshots-PM (1)",
+      "breakers": 0,
+      "slaStatus": "N/A",
+      "slaThreshold": null,
+      "percentileTRT_90": 1.133699941635132,
+      "passed": 6,
+      "failed": 0,
+      "avgTRT": 0.716999828974406,
+      "minTRT": 0.4980001525878906,
+      "maxTRT": 1.1769999332427978,
+      "percentileTRT": 1.133699941635132,
+      "stdDeviation": 0.2245566588561003
+   },
+   {
+      "name": "T03_Click on Initiate Snapshot",
+      "loadTestScriptId": 269,
+      "scriptName": "Snapshots-PM (1)",
+      "breakers": 0,
+      "slaStatus": "N/A",
+      "slaThreshold": null,
+      "percentileTRT_90": 2.1010000705718994,
+      "passed": 4,
+      "failed": 0,
+      "avgTRT": 1.0032497506141662,
+      "minTRT": 0.6190000190734863,
+      "maxTRT": 2.1009999561309813,
+      "percentileTRT": 2.1010000705718994,
+      "stdDeviation": 0.6340680753414096
+   }
+]

@@ -1,0 +1,53 @@
+{
+   "api_version": 4,
+   "error": null,
+   "result": [
+      {
+         "labelId": "b5c7aed7cd2a308523e7d2847b7815909e864b2fd9c4ea88b00d35adb2ecdfd7",
+         "labelName": "ALL",
+         "samples": 867,
+         "avgResponseTime": 426.53287197231833,
+         "90line": 90,
+         "95line": 4607,
+         "99line": 5051,
+         "minResponseTime": 16,
+         "maxResponseTime": 57183,
+         "avgLatency": 423.60438292964244,
+         "stDev": 2383.240833869381,
+         "duration": 2466,
+         "avgBytes": 3.765,
+         "avgThroughput": 0.3515815085158151,
+         "medianResponseTime": 46,
+         "errorsCount": 67,
+         "errorsRate": 7.7277970011534025,
+         "hasLabelPassedThresholds": null,
+         "concurrency": 25
+      },
+      {
+         "labelId": "1c3ffd6296c8fbf993c3d412c926000622c56d0e84d919d802e540f91fd855bf",
+         "labelName": "49-FITDM_LDV_GetSecuritiesAssociatedWithClientDetails",
+         "samples": 867,
+         "avgResponseTime": 426.53287197231833,
+         "90line": 90,
+         "95line": 4607,
+         "99line": 5051,
+         "minResponseTime": 16,
+         "maxResponseTime": 57183,
+         "avgLatency": 423.60438292964244,
+         "stDev": 2383.240833869381,
+         "duration": 2466,
+         "avgBytes": 3.765,
+         "avgThroughput": 0.3515815085158151,
+         "medianResponseTime": 46,
+         "errorsCount": 67,
+         "errorsRate": 7.7277970011534025,
+         "hasLabelPassedThresholds": null,
+         "concurrency": 25
+      }
+   ],
+   "request_id": "6538b7daec187",
+   "apiVersion": 4,
+   "cached": true,
+   "dataSource": "dagger",
+   "requestId": "6538b7daec187"
+}

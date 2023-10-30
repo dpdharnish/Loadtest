@@ -1,0 +1,145 @@
+{
+   "api_version": 4,
+   "error": null,
+   "result": [
+      {
+         "id": 68511490,
+         "name": "31-FITDM_Search_JobProfile",
+         "userId": 2057801,
+         "publicToken": "Jz3JxQKAhfuOFPSYggjpTr797nP1yHHpxk4dhe7BV0ceYNjbRp",
+         "ended": 1687530144,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 25,
+         "created": 1687526391,
+         "updated": 1698473225,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 1,
+         "parallelTestsInAccount": 1,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "b4e7b616c4c33da4aa274ecd33b25bdb39870e65acf2592af76271c3369ed5ce",
+               "name": "default-scenario-12765818",
+               "test": "31-FITDM_Search_JobProfile",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 25,
+               "usersNotConfigured": false,
+               "holdFor": "59m",
+               "durationIsNotConfigured": false,
+               "iterationAndDurationDisabled": false,
+               "rampUp": "1m",
+               "steps": 0,
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 25
+               },
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "68c70ae949889d7380c214aaa7583a62ea81e0cf",
+               "scenario": "default-scenario-12765818"
+            }
+         ],
+         "useV4Pipeline": true,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "_31_FITDM_Search_JobProfile": {
+                        "title": "31-FITDM_Search_JobProfile",
+                        "type": "object",
+                        "properties": {
+                           "_31JobCodeNK": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "_31JobCodeNK": "valueOfCSV(\"31-FITDM_Search_JobProfile.csv\", \"31JobCodeNK\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "31-FITDM_Search_JobProfile.csv"
+                              },
+                              "type": "csv",
+                              "name": "31-FITDM_Search_JobProfile.csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": false
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "31-FITDM_Search_JobProfile.csv",
+                              "quoted": false,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "_31JobCodeNK",
+                                    "headerName": "31JobCodeNK"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "restored": 1695829527,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "tags": [
+            {
+               "id": 481918,
+               "label": "31-FITDM_Search_JobProfile-25Concurrency"
+            }
+         ],
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 12765818,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-64959bf81332a770088038"
+         ]
+      }
+   ],
+   "request_id": "653fb75b2fa66",
+   "limit": 10,
+   "skip": 0,
+   "total": 1,
+   "hidden": 0
+}

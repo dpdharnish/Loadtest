@@ -1,0 +1,311 @@
+{
+   "api_version": 4,
+   "error": null,
+   "result": [
+      {
+         "id": 69052055,
+         "name": "41-FITDM_LDV_GetEntitiesOfferingOFACount",
+         "userId": 2057801,
+         "publicToken": "ommgLfBXIFmpmfWUmgJvBc6RFKeuXe0HSPTPReeiBhZBb51Yho",
+         "ended": 1691008887,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 25,
+         "created": 1691005142,
+         "updated": 1698473765,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 2,
+         "parallelTestsInAccount": 2,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "a0b7585a6b04552c06b327b4054016076e87676150c40d6a144e076847780a49",
+               "name": "default-scenario-12906218",
+               "test": "41-FITDM_LDV_GetEntitiesOfferingOFACount",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 25,
+               "usersNotConfigured": false,
+               "holdFor": "59m",
+               "durationIsNotConfigured": false,
+               "iterationAndDurationDisabled": false,
+               "rampUp": "1m",
+               "steps": 0,
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 25
+               },
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "e6f9791fc2cfe9a4ea10a470c0b0e983cb62b605",
+               "scenario": "default-scenario-12906218"
+            }
+         ],
+         "useV4Pipeline": true,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "_41_FITDM_LDV_GetEntitiesOfferingOFACount_": {
+                        "title": "41-FITDM_LDV_GetEntitiesOfferingOFACount ",
+                        "type": "object",
+                        "properties": {
+                           "_41ParentEntityPartyReferenceID": {
+                              "type": "string"
+                           },
+                           "_41ArrangementType": {
+                              "type": "string"
+                           },
+                           "_41Searchterm": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "_41ParentEntityPartyReferenceID": "valueOfCSV(\"41-FITDM_LDV_GetEntitiesOfferingOFACount .csv\", \"41ParentEntityPartyReferenceID\")",
+                           "_41ArrangementType": "valueOfCSV(\"41-FITDM_LDV_GetEntitiesOfferingOFACount .csv\", \"41ArrangementType\")",
+                           "_41Searchterm": "valueOfCSV(\"41-FITDM_LDV_GetEntitiesOfferingOFACount .csv\", \"41Searchterm\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "41-FITDM_LDV_GetEntitiesOfferingOFACount .csv"
+                              },
+                              "type": "csv",
+                              "name": "41-FITDM_LDV_GetEntitiesOfferingOFACount .csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": false
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "41-FITDM_LDV_GetEntitiesOfferingOFACount .csv",
+                              "quoted": false,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "_41ParentEntityPartyReferenceID",
+                                    "headerName": "41ParentEntityPartyReferenceID"
+                                 },
+                                 {
+                                    "propertyName": "_41ArrangementType",
+                                    "headerName": "41ArrangementType"
+                                 },
+                                 {
+                                    "propertyName": "_41Searchterm",
+                                    "headerName": "41Searchterm"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "restored": 1695830421,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "tags": [
+            {
+               "id": 506280,
+               "label": "41-FITDM_LDV_GetEntitiesOfferingOFACount-25c"
+            }
+         ],
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 12906218,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-64cab0d776053996648160"
+         ]
+      },
+      {
+         "id": 68885991,
+         "name": "41-FITDM_LDV_GetEntitiesOfferingOFACount",
+         "userId": 2057801,
+         "publicToken": "L8JFLsufcpcGw1jcDdImCFvq8oVfwBUjiDMrzypotLFVJcamg7",
+         "ended": 1689896860,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 25,
+         "created": 1689893117,
+         "updated": 1698473528,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 1,
+         "parallelTestsInAccount": 1,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "a0b7585a6b04552c06b327b4054016076e87676150c40d6a144e076847780a49",
+               "name": "default-scenario-12906218",
+               "test": "41-FITDM_LDV_GetEntitiesOfferingOFACount",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 25,
+               "usersNotConfigured": false,
+               "holdFor": "59m",
+               "durationIsNotConfigured": false,
+               "iterationAndDurationDisabled": false,
+               "rampUp": "1m",
+               "steps": 0,
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 25
+               },
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "e6f9791fc2cfe9a4ea10a470c0b0e983cb62b605",
+               "scenario": "default-scenario-12906218"
+            }
+         ],
+         "useV4Pipeline": true,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "_41_FITDM_LDV_GetEntitiesOfferingOFACount_": {
+                        "title": "41-FITDM_LDV_GetEntitiesOfferingOFACount ",
+                        "type": "object",
+                        "properties": {
+                           "_41ParentEntityPartyReferenceID": {
+                              "type": "string"
+                           },
+                           "_41ArrangementType": {
+                              "type": "string"
+                           },
+                           "_41Searchterm": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "_41ParentEntityPartyReferenceID": "valueOfCSV(\"41-FITDM_LDV_GetEntitiesOfferingOFACount .csv\", \"41ParentEntityPartyReferenceID\")",
+                           "_41ArrangementType": "valueOfCSV(\"41-FITDM_LDV_GetEntitiesOfferingOFACount .csv\", \"41ArrangementType\")",
+                           "_41Searchterm": "valueOfCSV(\"41-FITDM_LDV_GetEntitiesOfferingOFACount .csv\", \"41Searchterm\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "41-FITDM_LDV_GetEntitiesOfferingOFACount .csv"
+                              },
+                              "type": "csv",
+                              "name": "41-FITDM_LDV_GetEntitiesOfferingOFACount .csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": false
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "41-FITDM_LDV_GetEntitiesOfferingOFACount .csv",
+                              "quoted": false,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "_41ParentEntityPartyReferenceID",
+                                    "headerName": "41ParentEntityPartyReferenceID"
+                                 },
+                                 {
+                                    "propertyName": "_41ArrangementType",
+                                    "headerName": "41ArrangementType"
+                                 },
+                                 {
+                                    "propertyName": "_41Searchterm",
+                                    "headerName": "41Searchterm"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "restored": 1695830419,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "tags": [
+            {
+               "id": 506280,
+               "label": "41-FITDM_LDV_GetEntitiesOfferingOFACount-25c"
+            }
+         ],
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 12906218,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-64b9b8fd9e280506571350"
+         ]
+      }
+   ],
+   "request_id": "653fb799d55e6",
+   "limit": 10,
+   "skip": 0,
+   "total": 2,
+   "hidden": 0
+}

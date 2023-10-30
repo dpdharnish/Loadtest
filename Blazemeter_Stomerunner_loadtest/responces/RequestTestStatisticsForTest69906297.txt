@@ -1,0 +1,53 @@
+{
+   "api_version": 4,
+   "error": null,
+   "result": [
+      {
+         "labelId": "b5c7aed7cd2a308523e7d2847b7815909e864b2fd9c4ea88b00d35adb2ecdfd7",
+         "labelName": "ALL",
+         "samples": 120,
+         "avgResponseTime": 80.225,
+         "90line": 194,
+         "95line": 277,
+         "99line": 868,
+         "minResponseTime": 10,
+         "maxResponseTime": 963,
+         "avgLatency": 79.6,
+         "stDev": 135.20968052744348,
+         "duration": 3570,
+         "avgBytes": 0.008,
+         "avgThroughput": 0.03361344537815126,
+         "medianResponseTime": 22,
+         "errorsCount": 0,
+         "errorsRate": 0,
+         "hasLabelPassedThresholds": null,
+         "concurrency": 1
+      },
+      {
+         "labelId": "153f8851fd69578ef1fabda2ebc6b574dd8bd08e37ccbcdf3f4dda9c572b9d57",
+         "labelName": "60-FITDM_Calculate_CoveredPersonCOC",
+         "samples": 120,
+         "avgResponseTime": 80.225,
+         "90line": 194,
+         "95line": 277,
+         "99line": 868,
+         "minResponseTime": 10,
+         "maxResponseTime": 963,
+         "avgLatency": 79.6,
+         "stDev": 135.20968052744348,
+         "duration": 3570,
+         "avgBytes": 0.008,
+         "avgThroughput": 0.03361344537815126,
+         "medianResponseTime": 22,
+         "errorsCount": 0,
+         "errorsRate": 0,
+         "hasLabelPassedThresholds": null,
+         "concurrency": 1
+      }
+   ],
+   "request_id": "653fb829522cc",
+   "apiVersion": 4,
+   "cached": true,
+   "dataSource": "dagger",
+   "requestId": "653fb829522cc"
+}

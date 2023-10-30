@@ -1,0 +1,295 @@
+{
+   "api_version": 4,
+   "error": null,
+   "result": [
+      {
+         "id": 69080223,
+         "name": "44-FITDM_LDV_GetEntitiesOfferingOFALMCount",
+         "userId": 2057801,
+         "publicToken": "brJ2P7ZS9JJayfUW9CArCFB2tElkRen6MtS8bqdzZB3PUhTlTe",
+         "ended": 1691171613,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 25,
+         "created": 1691167868,
+         "updated": 1698473768,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 1,
+         "parallelTestsInAccount": 1,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "65e4ddd5fcbdda3d18a7331fb114dd2bfc8b0672bf76a2cc8cb4789f45715958",
+               "name": "default-scenario-12918919",
+               "test": "44-FITDM_LDV_GetEntitiesOfferingOFALMCount",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 25,
+               "usersNotConfigured": false,
+               "holdFor": "59m",
+               "durationIsNotConfigured": false,
+               "iterationAndDurationDisabled": false,
+               "rampUp": "1m",
+               "steps": 0,
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 25
+               },
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "94820b547cf70c93d3a5233c839a5b46fc9a21e5",
+               "scenario": "default-scenario-12918919"
+            }
+         ],
+         "useV4Pipeline": true,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "_44_FITDM_LDV_GetEntitiesOfferingOFALMCount": {
+                        "title": "44-FITDM_LDV_GetEntitiesOfferingOFALMCount",
+                        "type": "object",
+                        "properties": {
+                           "_44ParentEntityPartyReferenceID": {
+                              "type": "string"
+                           },
+                           "_44ParentEntityPartyReferenceID1": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "_44ParentEntityPartyReferenceID": "valueOfCSV(\"44-FITDM_LDV_GetEntitiesOfferingOFALMCount.csv\", \"44ParentEntityPartyReferenceID\")",
+                           "_44ParentEntityPartyReferenceID1": "valueOfCSV(\"44-FITDM_LDV_GetEntitiesOfferingOFALMCount.csv\", \"44ParentEntityPartyReferenceID1\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "44-FITDM_LDV_GetEntitiesOfferingOFALMCount.csv"
+                              },
+                              "type": "csv",
+                              "name": "44-FITDM_LDV_GetEntitiesOfferingOFALMCount.csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": false
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "44-FITDM_LDV_GetEntitiesOfferingOFALMCount.csv",
+                              "quoted": false,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "_44ParentEntityPartyReferenceID",
+                                    "headerName": "44ParentEntityPartyReferenceID"
+                                 },
+                                 {
+                                    "propertyName": "_44ParentEntityPartyReferenceID1",
+                                    "headerName": "44ParentEntityPartyReferenceID1"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "restored": 1695830995,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "tags": [
+            {
+               "id": 508673,
+               "label": "44-FITDM_LDV_GetEntitiesOfferingOFALMCount-25C"
+            }
+         ],
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 12918919,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-64cd2c7d135ee332954034"
+         ]
+      },
+      {
+         "id": 68926318,
+         "name": "44-FITDM_LDV_GetEntitiesOfferingOFALMCount",
+         "userId": 2057801,
+         "publicToken": "sGfAtPtbEB1T44fKK8hO0WM0O5EAEPXi0RTv3F6xq3yWz4jlgF",
+         "ended": 1690208116,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 25,
+         "created": 1690204355,
+         "updated": 1698473585,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 2,
+         "parallelTestsInAccount": 2,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "65e4ddd5fcbdda3d18a7331fb114dd2bfc8b0672bf76a2cc8cb4789f45715958",
+               "name": "default-scenario-12918919",
+               "test": "44-FITDM_LDV_GetEntitiesOfferingOFALMCount",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 25,
+               "usersNotConfigured": false,
+               "holdFor": "59m",
+               "durationIsNotConfigured": false,
+               "iterationAndDurationDisabled": false,
+               "rampUp": "1m",
+               "steps": 0,
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 25
+               },
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "94820b547cf70c93d3a5233c839a5b46fc9a21e5",
+               "scenario": "default-scenario-12918919"
+            }
+         ],
+         "useV4Pipeline": true,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "_44_FITDM_LDV_GetEntitiesOfferingOFALMCount": {
+                        "title": "44-FITDM_LDV_GetEntitiesOfferingOFALMCount",
+                        "type": "object",
+                        "properties": {
+                           "_44ParentEntityPartyReferenceID": {
+                              "type": "string"
+                           },
+                           "_44ParentEntityPartyReferenceID1": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "_44ParentEntityPartyReferenceID": "valueOfCSV(\"44-FITDM_LDV_GetEntitiesOfferingOFALMCount.csv\", \"44ParentEntityPartyReferenceID\")",
+                           "_44ParentEntityPartyReferenceID1": "valueOfCSV(\"44-FITDM_LDV_GetEntitiesOfferingOFALMCount.csv\", \"44ParentEntityPartyReferenceID1\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "44-FITDM_LDV_GetEntitiesOfferingOFALMCount.csv"
+                              },
+                              "type": "csv",
+                              "name": "44-FITDM_LDV_GetEntitiesOfferingOFALMCount.csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": false
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "44-FITDM_LDV_GetEntitiesOfferingOFALMCount.csv",
+                              "quoted": false,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "_44ParentEntityPartyReferenceID",
+                                    "headerName": "44ParentEntityPartyReferenceID"
+                                 },
+                                 {
+                                    "propertyName": "_44ParentEntityPartyReferenceID1",
+                                    "headerName": "44ParentEntityPartyReferenceID1"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "restored": 1695830995,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "tags": [
+            {
+               "id": 508673,
+               "label": "44-FITDM_LDV_GetEntitiesOfferingOFALMCount-25C"
+            }
+         ],
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 12918919,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-64be78c3e137f477235740"
+         ]
+      }
+   ],
+   "request_id": "653fb7b086927",
+   "limit": 10,
+   "skip": 0,
+   "total": 2,
+   "hidden": 0
+}

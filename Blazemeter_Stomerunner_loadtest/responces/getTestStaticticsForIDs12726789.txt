@@ -1,0 +1,299 @@
+{
+   "api_version": 4,
+   "error": null,
+   "result": [
+      {
+         "id": 68357304,
+         "name": "01-FITDM_Get_PersonalInformationByDate-Test2Env",
+         "userId": 2057801,
+         "publicToken": "XgbUl2Ahknly0yjDRurA4ENETiykrXhxlMu09Z65VKH2KCMnzA",
+         "ended": 1686763103,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 15,
+         "created": 1686758625,
+         "updated": 1698473168,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 8,
+         "parallelTestsInAccount": 8,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "10efa5fd791cb4b9a26633bc29c91c2a850ea42f866a5c8efdcd120de1df4d3a",
+               "name": "default-scenario-12726789",
+               "test": "01-FITDM_Get_PersonalInformationByDate-Test2Env",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 15,
+               "usersNotConfigured": false,
+               "holdFor": "259199s",
+               "durationIsNotConfigured": true,
+               "iterationAndDurationDisabled": true,
+               "rampUp": "1s",
+               "iterations": 1,
+               "steps": 0,
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 1
+               },
+               "locationsWeighted": false,
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "e00ff752653a75d4393d1728447f10c1639ea0a1",
+               "scenario": "default-scenario-12726789"
+            }
+         ],
+         "useV4Pipeline": true,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "_01_FITDM_Get_PersonalInformationByDate_TestData": {
+                        "title": "01-FITDM_Get_PersonalInformationByDate-TestData",
+                        "type": "object",
+                        "properties": {
+                           "_01EmployeeID": {
+                              "type": "string"
+                           },
+                           "_01snapshotDate": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "_01EmployeeID": "valueOfCSV(\"01-FITDM_Get_PersonalInformationByDate-TestData.csv\", \"01EmployeeID\")",
+                           "_01snapshotDate": "valueOfCSV(\"01-FITDM_Get_PersonalInformationByDate-TestData.csv\", \"01snapshotDate\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "01-FITDM_Get_PersonalInformationByDate-TestData.csv"
+                              },
+                              "type": "csv",
+                              "name": "01-FITDM_Get_PersonalInformationByDate-TestData.csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": true
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "01-FITDM_Get_PersonalInformationByDate-TestData.csv",
+                              "quoted": true,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "_01EmployeeID",
+                                    "headerName": "01EmployeeID"
+                                 },
+                                 {
+                                    "propertyName": "_01snapshotDate",
+                                    "headerName": "01snapshotDate"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "restored": 1695825180,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "tags": [
+            {
+               "id": 474385,
+               "label": "01-FITDM_Get_PersonalInformationByDate-Diffscenario"
+            }
+         ],
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 12726789,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-6489e4e1c77df832384349"
+         ]
+      },
+      {
+         "id": 68358506,
+         "name": "01-FITDM_Get_PersonalInformationByDate-Test2Env",
+         "userId": 2057801,
+         "publicToken": "ULAwk3hHgbkhummBKbhzJfNwE3TpAVr4SGmsTbz2JCNvQ4Ud3C",
+         "ended": 1686768703,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 15,
+         "created": 1686764265,
+         "updated": 1698473167,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 6,
+         "parallelTestsInAccount": 6,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "10efa5fd791cb4b9a26633bc29c91c2a850ea42f866a5c8efdcd120de1df4d3a",
+               "name": "default-scenario-12726789",
+               "test": "01-FITDM_Get_PersonalInformationByDate-Test2Env",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 15,
+               "usersNotConfigured": false,
+               "holdFor": "259199s",
+               "durationIsNotConfigured": true,
+               "iterationAndDurationDisabled": true,
+               "rampUp": "1s",
+               "iterations": 1,
+               "steps": 0,
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 1
+               },
+               "locationsWeighted": false,
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "9af5caf45a496facdae13d29d26914731bf633be",
+               "scenario": "default-scenario-12726789"
+            }
+         ],
+         "useV4Pipeline": true,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "_01_FITDM_Get_PersonalInformationByDate_TestData": {
+                        "title": "01-FITDM_Get_PersonalInformationByDate-TestData",
+                        "type": "object",
+                        "properties": {
+                           "_01EmployeeID": {
+                              "type": "string"
+                           },
+                           "_01snapshotDate": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "_01EmployeeID": "valueOfCSV(\"01-FITDM_Get_PersonalInformationByDate-TestData.csv\", \"01EmployeeID\")",
+                           "_01snapshotDate": "valueOfCSV(\"01-FITDM_Get_PersonalInformationByDate-TestData.csv\", \"01snapshotDate\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "01-FITDM_Get_PersonalInformationByDate-TestData.csv"
+                              },
+                              "type": "csv",
+                              "name": "01-FITDM_Get_PersonalInformationByDate-TestData.csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": true
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "01-FITDM_Get_PersonalInformationByDate-TestData.csv",
+                              "quoted": true,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "_01EmployeeID",
+                                    "headerName": "01EmployeeID"
+                                 },
+                                 {
+                                    "propertyName": "_01snapshotDate",
+                                    "headerName": "01snapshotDate"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "restored": 1695825190,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "tags": [
+            {
+               "id": 474385,
+               "label": "01-FITDM_Get_PersonalInformationByDate-Diffscenario"
+            }
+         ],
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 12726789,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-6489fae9e656a082283852"
+         ]
+      }
+   ],
+   "request_id": "653fb6b81cb08",
+   "limit": 10,
+   "skip": 0,
+   "total": 2,
+   "hidden": 0
+}

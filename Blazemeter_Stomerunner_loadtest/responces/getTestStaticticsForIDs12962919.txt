@@ -1,0 +1,410 @@
+{
+   "api_version": 4,
+   "error": null,
+   "result": [
+      {
+         "id": 69261177,
+         "name": "51-FITDM_Report_AuditSecurityList",
+         "userId": 2057801,
+         "publicToken": "K9rOzyeakRJbKyTrppUMFNa0hFDwjnUMiknlHGr7fmekHogHjQ",
+         "ended": 1692381848,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 1,
+         "created": 1692378172,
+         "updated": 1698473885,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 2,
+         "parallelTestsInAccount": 2,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "7db3806fcd489057f205277ad80dbe26c028eecfb8f8ca16cbb50470e4a49159",
+               "name": "default-scenario-12962919",
+               "test": "51-FITDM_Report_AuditSecurityList",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 1,
+               "usersNotConfigured": false,
+               "holdFor": "60m",
+               "durationIsNotConfigured": false,
+               "iterationAndDurationDisabled": false,
+               "rampUp": "0m",
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 1
+               },
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "e4f90f45aae7e767f98ebd9fe140e049889eb16c",
+               "scenario": "default-scenario-12962919"
+            }
+         ],
+         "useV4Pipeline": true,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "_51_FITDM_Report_AuditSecurityList": {
+                        "title": "51-FITDM_Report_AuditSecurityList",
+                        "type": "object",
+                        "properties": {
+                           "_51ParentEntityPartyReferenceID": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "_51ParentEntityPartyReferenceID": "valueOfCSV(\"51-FITDM_Report_AuditSecurityList.csv\", \"51ParentEntityPartyReferenceID\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "51-FITDM_Report_AuditSecurityList.csv"
+                              },
+                              "type": "csv",
+                              "name": "51-FITDM_Report_AuditSecurityList.csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": false
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "51-FITDM_Report_AuditSecurityList.csv",
+                              "quoted": false,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "_51ParentEntityPartyReferenceID",
+                                    "headerName": "51ParentEntityPartyReferenceID"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "restored": 1695833134,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "tags": [
+            {
+               "id": 513356,
+               "label": "51-FITDM_Report_AuditSecurityList-1C"
+            }
+         ],
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 12962919,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-64dfa43c8e6c9421835646"
+         ]
+      },
+      {
+         "id": 68987608,
+         "name": "51-FITDM_Report_AuditSecurityList",
+         "userId": 2057801,
+         "publicToken": "fpjxWQUTrY7xH7QmpxJdot4xcuTLWfH9yO4jJY3W8n7hcE0d4g",
+         "ended": 1690567857,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 1,
+         "created": 1690564188,
+         "updated": 1698473706,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 2,
+         "parallelTestsInAccount": 2,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "7db3806fcd489057f205277ad80dbe26c028eecfb8f8ca16cbb50470e4a49159",
+               "name": "default-scenario-12962919",
+               "test": "51-FITDM_Report_AuditSecurityList",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 1,
+               "usersNotConfigured": false,
+               "holdFor": "60m",
+               "durationIsNotConfigured": false,
+               "iterationAndDurationDisabled": false,
+               "rampUp": "0m",
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 1
+               },
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "e4f90f45aae7e767f98ebd9fe140e049889eb16c",
+               "scenario": "default-scenario-12962919"
+            }
+         ],
+         "useV4Pipeline": true,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "_51_FITDM_Report_AuditSecurityList": {
+                        "title": "51-FITDM_Report_AuditSecurityList",
+                        "type": "object",
+                        "properties": {
+                           "_51ParentEntityPartyReferenceID": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "_51ParentEntityPartyReferenceID": "valueOfCSV(\"51-FITDM_Report_AuditSecurityList.csv\", \"51ParentEntityPartyReferenceID\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "51-FITDM_Report_AuditSecurityList.csv"
+                              },
+                              "type": "csv",
+                              "name": "51-FITDM_Report_AuditSecurityList.csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": false
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "51-FITDM_Report_AuditSecurityList.csv",
+                              "quoted": false,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "_51ParentEntityPartyReferenceID",
+                                    "headerName": "51ParentEntityPartyReferenceID"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "restored": 1695833129,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "tags": [
+            {
+               "id": 513356,
+               "label": "51-FITDM_Report_AuditSecurityList-1C"
+            }
+         ],
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 12962919,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-64c3f65d34600398658162"
+         ]
+      },
+      {
+         "id": 69370626,
+         "name": "51-FITDM_Report_AuditSecurityList",
+         "userId": 2057801,
+         "publicToken": "8KwaxUbKOR8biplysWiMIz6bQrL4o8hICyurI3BGPIjZCWw2VY",
+         "ended": 1693243578,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 1,
+         "created": 1693241595,
+         "updated": 1695987370,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 2,
+         "parallelTestsInAccount": 2,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "7db3806fcd489057f205277ad80dbe26c028eecfb8f8ca16cbb50470e4a49159",
+               "name": "default-scenario-12962919",
+               "test": "51-FITDM_Report_AuditSecurityList",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 1,
+               "usersNotConfigured": false,
+               "holdFor": "60m",
+               "durationIsNotConfigured": false,
+               "iterationAndDurationDisabled": false,
+               "rampUp": "0m",
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 1
+               },
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "e4f90f45aae7e767f98ebd9fe140e049889eb16c",
+               "scenario": "default-scenario-12962919"
+            }
+         ],
+         "useV4Pipeline": true,
+         "shutdownAt": 1693243553,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "_51_FITDM_Report_AuditSecurityList": {
+                        "title": "51-FITDM_Report_AuditSecurityList",
+                        "type": "object",
+                        "properties": {
+                           "_51ParentEntityPartyReferenceID": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "_51ParentEntityPartyReferenceID": "valueOfCSV(\"51-FITDM_Report_AuditSecurityList.csv\", \"51ParentEntityPartyReferenceID\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "51-FITDM_Report_AuditSecurityList.csv"
+                              },
+                              "type": "csv",
+                              "name": "51-FITDM_Report_AuditSecurityList.csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": false
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "51-FITDM_Report_AuditSecurityList.csv",
+                              "quoted": false,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "_51ParentEntityPartyReferenceID",
+                                    "headerName": "51ParentEntityPartyReferenceID"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "tags": [
+            {
+               "id": 513356,
+               "label": "51-FITDM_Report_AuditSecurityList-1C"
+            }
+         ],
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 12962919,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-64ecd0fc57a99067597245"
+         ]
+      }
+   ],
+   "request_id": "653fb7f887cbc",
+   "limit": 10,
+   "skip": 0,
+   "total": 3,
+   "hidden": 0
+}

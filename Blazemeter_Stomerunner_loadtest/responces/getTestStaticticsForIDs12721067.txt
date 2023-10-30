@@ -1,0 +1,145 @@
+{
+   "api_version": 4,
+   "error": null,
+   "result": [
+      {
+         "id": 68338121,
+         "name": "08-FITDM_Fetch_EmployeeChargingEngagements-Test2Env-June_13",
+         "userId": 2057801,
+         "publicToken": "x16yXAtsRpW4MnAcPxECmo2dpKD0b5kY9QQPZPcESCIasjURqF",
+         "ended": 1686677077,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 25,
+         "created": 1686673310,
+         "updated": 1698473107,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 2,
+         "parallelTestsInAccount": 2,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "1dc16e1b608b97efb0e95b250bf74e0ebc5c263134fa6b638f254e00e46b3195",
+               "name": "default-scenario-12721067",
+               "test": "08-FITDM_Fetch_EmployeeChargingEngagements-Test2Env-June_13",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 25,
+               "usersNotConfigured": false,
+               "holdFor": "59m",
+               "durationIsNotConfigured": false,
+               "iterationAndDurationDisabled": false,
+               "rampUp": "1m",
+               "steps": 0,
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 25
+               },
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "d67a74d31d8e36ba2f0e3d9d50c673cca5a37ec7",
+               "scenario": "default-scenario-12721067"
+            }
+         ],
+         "useV4Pipeline": true,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "_08_FITDM_Fetch_EmployeeChargingEngagements": {
+                        "title": "08-FITDM_Fetch_EmployeeChargingEngagements",
+                        "type": "object",
+                        "properties": {
+                           "_08ReceivingWBSElementNK": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "_08ReceivingWBSElementNK": "valueOfCSV(\"08-FITDM_Fetch_EmployeeChargingEngagements.csv\", \"08ReceivingWBSElementNK\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "08-FITDM_Fetch_EmployeeChargingEngagements.csv"
+                              },
+                              "type": "csv",
+                              "name": "08-FITDM_Fetch_EmployeeChargingEngagements.csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": false
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "08-FITDM_Fetch_EmployeeChargingEngagements.csv",
+                              "quoted": false,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "_08ReceivingWBSElementNK",
+                                    "headerName": "08ReceivingWBSElementNK"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "restored": 1695825576,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "tags": [
+            {
+               "id": 473131,
+               "label": "08-FITDM_Fetch_EmployeeChargingEngagements-25Concurrency"
+            }
+         ],
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 12721067,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-6488979ef3653726525911"
+         ]
+      }
+   ],
+   "request_id": "653fb6dc3d683",
+   "limit": 10,
+   "skip": 0,
+   "total": 1,
+   "hidden": 0
+}

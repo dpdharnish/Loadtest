@@ -1,0 +1,311 @@
+{
+   "api_version": 4,
+   "error": null,
+   "result": [
+      {
+         "id": 68242718,
+         "name": "02-FITDM_Search_GFSContracts-Test2Env",
+         "userId": 2057801,
+         "publicToken": "lK6T1gBjBg8ILm47fv6xaaq9IMkzrNpFhPtEnaiZtiWN7CUHDd",
+         "ended": 1686163477,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 25,
+         "created": 1686159770,
+         "updated": 1698473048,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 2,
+         "parallelTestsInAccount": 2,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "c335ab76744cbdf78a1870c235d0dbf8a3bcdf7799a5c925fb2066f833a95eb3",
+               "name": "default-scenario-12695410",
+               "test": "02-FITDM_Search_GFSContracts-Test2Env",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 25,
+               "usersNotConfigured": false,
+               "holdFor": "59m",
+               "durationIsNotConfigured": false,
+               "iterationAndDurationDisabled": false,
+               "rampUp": "1m",
+               "steps": 0,
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 25
+               },
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "b7974aff90a2b5cf6fce605a934c3fd2ada7aa11",
+               "scenario": "default-scenario-12695410"
+            }
+         ],
+         "useV4Pipeline": true,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "FITDM_Search_GFSContracts_TestData": {
+                        "title": "FITDM_Search_GFSContracts-TestData",
+                        "type": "object",
+                        "properties": [],
+                        "requirements": [],
+                        "datasources": [],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "FITDM_Search_GFSContracts-TestData.csv",
+                              "quoted": false,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": []
+                           }
+                        }
+                     },
+                     "_02_FITDM_Search_GFSContracts_TestData": {
+                        "title": "02-FITDM_Search_GFSContracts-TestData",
+                        "type": "object",
+                        "properties": {
+                           "_02PartyReferenceID": {
+                              "type": "string"
+                           },
+                           "_02ClientContractNK": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "_02PartyReferenceID": "valueOfCSV(\"02-FITDM_Search_GFSContracts-TestData.csv\", \"02PartyReferenceID\")",
+                           "_02ClientContractNK": "valueOfCSV(\"02-FITDM_Search_GFSContracts-TestData.csv\", \"02ClientContractNK\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "02-FITDM_Search_GFSContracts-TestData.csv"
+                              },
+                              "type": "csv",
+                              "name": "02-FITDM_Search_GFSContracts-TestData.csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": false
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "02-FITDM_Search_GFSContracts-TestData.csv",
+                              "quoted": false,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "_02PartyReferenceID",
+                                    "headerName": "02PartyReferenceID"
+                                 },
+                                 {
+                                    "propertyName": "_02ClientContractNK",
+                                    "headerName": "02ClientContractNK"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "restored": 1695825252,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "tags": [
+            {
+               "id": 468435,
+               "label": "02-FITDM_Search_GFSContracts-25Concurrency"
+            }
+         ],
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 12695410,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-6480c19b08220635240176"
+         ]
+      },
+      {
+         "id": 68238471,
+         "name": "P2-FITDM_Search_GFSContracts-Test2",
+         "userId": 2057801,
+         "publicToken": "JRjnAPexTS9L1BxYoLrbjK5fNIzrIAxn9t0GDu1mStfSY8yuVT",
+         "ended": 1686149763,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 25,
+         "created": 1686144198,
+         "updated": 1698473045,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 3,
+         "parallelTestsInAccount": 4,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "c335ab76744cbdf78a1870c235d0dbf8a3bcdf7799a5c925fb2066f833a95eb3",
+               "name": "default-scenario-12695410",
+               "test": "P2-FITDM_Search_GFSContracts-Test2",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 25,
+               "usersNotConfigured": false,
+               "holdFor": "59m",
+               "durationIsNotConfigured": false,
+               "iterationAndDurationDisabled": false,
+               "rampUp": "1m",
+               "steps": 0,
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 25
+               },
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "61eb66cfe421690eafccc1e2648720b1b839da7f",
+               "scenario": "default-scenario-12695410"
+            }
+         ],
+         "useV4Pipeline": true,
+         "terminatedAt": 1686149762,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "FITDM_Search_GFSContracts_TestData": {
+                        "title": "FITDM_Search_GFSContracts-TestData",
+                        "type": "object",
+                        "properties": {
+                           "GFSEntityPrid": {
+                              "type": "string"
+                           },
+                           "ClientContractNK": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "GFSEntityPrid": "valueOfCSV(\"FITDM_Search_GFSContracts-TestData.csv\", \"GFSEntityPrid\")",
+                           "ClientContractNK": "valueOfCSV(\"FITDM_Search_GFSContracts-TestData.csv\", \"ClientContractNK\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "FITDM_Search_GFSContracts-TestData.csv"
+                              },
+                              "type": "csv",
+                              "name": "FITDM_Search_GFSContracts-TestData.csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": false
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "FITDM_Search_GFSContracts-TestData.csv",
+                              "quoted": false,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "GFSEntityPrid",
+                                    "headerName": "GFSEntityPrid"
+                                 },
+                                 {
+                                    "propertyName": "ClientContractNK",
+                                    "headerName": "ClientContractNK"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "restored": 1695825225,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "tags": [
+            {
+               "id": 467913,
+               "label": "P2-FITDM_Search_GFSContracts-Test2-25Concurrency"
+            }
+         ],
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 12695410,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-648084c750c74205910454"
+         ]
+      }
+   ],
+   "request_id": "653fb6bd66093",
+   "limit": 10,
+   "skip": 0,
+   "total": 2,
+   "hidden": 0
+}

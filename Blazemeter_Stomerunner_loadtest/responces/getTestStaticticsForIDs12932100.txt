@@ -1,0 +1,152 @@
+{
+   "api_version": 4,
+   "error": null,
+   "result": [
+      {
+         "id": 68944401,
+         "name": "52-FITDM_Report_AuditSSL",
+         "userId": 2057801,
+         "publicToken": "FV5xo7KckFv6fu0HlqZ0CUoOrKyyw1DqGRMlsHadJfSQ2gRSUd",
+         "ended": 1690310307,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 1,
+         "created": 1690306636,
+         "updated": 1698473645,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 2,
+         "parallelTestsInAccount": 2,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "1059f7cf96e4acebbb9aa3f73f4eae5791b03ca762f7373d0ebda2283d8980e1",
+               "name": "default-scenario-12932100",
+               "test": "52-FITDM_Report_AuditSSL",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 1,
+               "usersNotConfigured": false,
+               "holdFor": "60m",
+               "durationIsNotConfigured": false,
+               "iterationAndDurationDisabled": false,
+               "rampUp": "0m",
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 1
+               },
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "88b6d60a7ea72e227cb4d87319faaac8fa17004f",
+               "scenario": "default-scenario-12932100"
+            }
+         ],
+         "useV4Pipeline": true,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "_52_FITDM_Report_AuditSSL": {
+                        "title": "52-FITDM_Report_AuditSSL",
+                        "type": "object",
+                        "properties": {
+                           "_52ParentPRID": {
+                              "type": "string"
+                           },
+                           "_52ParentPRID1": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "_52ParentPRID": "valueOfCSV(\"52-FITDM_Report_AuditSSL.csv\", \"52ParentPRID\")",
+                           "_52ParentPRID1": "valueOfCSV(\"52-FITDM_Report_AuditSSL.csv\", \"52ParentPRID1\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "52-FITDM_Report_AuditSSL.csv"
+                              },
+                              "type": "csv",
+                              "name": "52-FITDM_Report_AuditSSL.csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": false
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "52-FITDM_Report_AuditSSL.csv",
+                              "quoted": false,
+                              "delimiter": ",",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "_52ParentPRID",
+                                    "headerName": "52ParentPRID"
+                                 },
+                                 {
+                                    "propertyName": "_52ParentPRID1",
+                                    "headerName": "52ParentPRID1"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "restored": 1695833154,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "tags": [
+            {
+               "id": 510144,
+               "label": "52-FITDM_Report_AuditSSL-1C"
+            }
+         ],
+         "useSecondsUnit": false,
+         "useLiveEngineMetrics": true,
+         "testId": 12932100,
+         "projectId": 1911335,
+         "sessionsId": [
+            "r-v4-64c0084d171dd734580714"
+         ]
+      }
+   ],
+   "request_id": "653fb7ff0086d",
+   "limit": 10,
+   "skip": 0,
+   "total": 1,
+   "hidden": 0
+}

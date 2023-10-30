@@ -1,0 +1,92 @@
+[
+   {
+      "id": 320,
+      "testName": "FAM_oneAD",
+      "status": "PASSED",
+      "startOn": "1695735972754",
+      "duration": "4055006",
+      "vusersNum": 15,
+      "errorCode": "-1",
+      "triggeredBy": "Tharak Raghavan",
+      "uiVusersNum": 0,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 15,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {}
+      },
+      "totalCount": "4",
+      "isBenchmark": false
+   },
+   {
+      "id": 319,
+      "testName": "FAM_oneAD",
+      "status": "PASSED",
+      "startOn": "1695735281555",
+      "duration": "292221",
+      "vusersNum": 15,
+      "errorCode": "-1",
+      "triggeredBy": "Tharak Raghavan",
+      "uiVusersNum": 0,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 15,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {}
+      },
+      "totalCount": "4",
+      "isBenchmark": false
+   },
+   {
+      "id": 318,
+      "testName": "FAM_oneAD",
+      "status": "PASSED",
+      "startOn": "1695730772850",
+      "duration": "3985255",
+      "vusersNum": 15,
+      "errorCode": "-1",
+      "triggeredBy": "Tharak Raghavan",
+      "uiVusersNum": 0,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 15,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {}
+      },
+      "totalCount": "4",
+      "isBenchmark": false
+   },
+   {
+      "id": 317,
+      "testName": "FAM_oneAD",
+      "status": "STOPPED",
+      "startOn": "1695715050690",
+      "duration": "151641",
+      "vusersNum": 1,
+      "errorCode": "-1",
+      "triggeredBy": "Tharak Raghavan",
+      "uiVusersNum": 0,
+      "apiVusersNum": 0,
+      "devVusersNum": 0,
+      "erpVusersNum": 1,
+      "legacyVusersNum": 0,
+      "mobileVusersNum": 0,
+      "terminationData": {
+         "id": "-1",
+         "params": {
+            "id": "-1"
+         }
+      },
+      "totalCount": "4",
+      "isBenchmark": false
+   }
+]

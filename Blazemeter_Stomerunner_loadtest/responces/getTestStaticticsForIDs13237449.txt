@@ -1,0 +1,288 @@
+{
+   "api_version": 4,
+   "error": null,
+   "result": [
+      {
+         "id": 69602483,
+         "name": "PIR_BB_Sep2023",
+         "userId": 1694171,
+         "publicToken": "VoZynQpsfkiYrarhTS8snu7t3tcpNutE8AzpBLXohJLUJB90su",
+         "ended": 1694755321,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 500,
+         "created": 1694751679,
+         "updated": 1697396710,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 3,
+         "parallelTestsInAccount": 3,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "45366af645fa452641dfb5bed35ba15ad4df9a9f9038df31036fca2584793c98",
+               "name": "default-scenario-13237449",
+               "test": "PIR_BB_Sep2023",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 500,
+               "usersNotConfigured": false,
+               "holdFor": "2700s",
+               "durationIsNotConfigured": false,
+               "iterationAndDurationDisabled": true,
+               "rampUp": "900s",
+               "iterations": 1,
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 1
+               },
+               "locationsWeighted": false,
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "364b29a5832720743b0406ed43dd718adc13b3f5",
+               "scenario": "default-scenario-13237449"
+            }
+         ],
+         "useV4Pipeline": true,
+         "shutdownAt": 1694755289,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "PIR_TestData": {
+                        "title": "PIR_TestData",
+                        "type": "object",
+                        "properties": {
+                           "CEmployeeID": {
+                              "type": "string"
+                           },
+                           "EmployeeName": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "CEmployeeID": "valueOfCSV(\"PIR_TestData.csv\", \"CEmployeeID\")",
+                           "EmployeeName": "valueOfCSV(\"PIR_TestData.csv\", \"EmployeeName\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "PIR_TestData.csv"
+                              },
+                              "type": "csv",
+                              "name": "PIR_TestData.csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": false,
+                              "fileEncoding": "UTF-8"
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "PIR_TestData.csv",
+                              "quoted": false,
+                              "delimiter": ",",
+                              "fileEncoding": "UTF-8",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "CEmployeeID",
+                                    "headerName": "CEmployeeID"
+                                 },
+                                 {
+                                    "propertyName": "EmployeeName",
+                                    "headerName": "EmployeeName"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "useSecondsUnit": true,
+         "useLiveEngineMetrics": true,
+         "testId": 13237449,
+         "projectId": 1086017,
+         "sessionsId": [
+            "r-v4-6503dbbfc1a2c247985748"
+         ]
+      },
+      {
+         "id": 69501719,
+         "name": "PIR_BB_Sep2023",
+         "userId": 1694171,
+         "publicToken": "pa5Ba9ZedTAEx9n2PLQLkY0INCTH5POEgZHQqPGs9r0z1VlmK4",
+         "ended": 1694058528,
+         "delayedStartReady": false,
+         "runnerUserId": 1623570,
+         "charges": [],
+         "maxUsers": 500,
+         "created": 1694054852,
+         "updated": 1696702162,
+         "reportStatus": "unset",
+         "parallelTestsInWorkspace": 2,
+         "parallelTestsInAccount": 2,
+         "isPrivateData": false,
+         "creatorClientId": "gui",
+         "executorClientId": "api",
+         "secondsPerLabelDoc": 60,
+         "labelsCollectionSuffix": "_17_12",
+         "isDebugRun": false,
+         "locations": [
+            "harbor-6299fb3a00063d208448f964"
+         ],
+         "scenariosMapping": [
+            {
+               "id": "45366af645fa452641dfb5bed35ba15ad4df9a9f9038df31036fca2584793c98",
+               "name": "default-scenario-13237449",
+               "test": "PIR_BB_Sep2023",
+               "isEndUserExperience": false
+            }
+         ],
+         "executions": [
+            {
+               "concurrency": 500,
+               "usersNotConfigured": false,
+               "holdFor": "2400s",
+               "durationIsNotConfigured": false,
+               "iterationAndDurationDisabled": true,
+               "rampUp": "1200s",
+               "iterations": 1,
+               "locations": {
+                  "harbor-6299fb3a00063d208448f964": 1
+               },
+               "locationsWeighted": false,
+               "locationsPercents": {
+                  "harbor-6299fb3a00063d208448f964": 100
+               },
+               "executor": "jmeter",
+               "scriptHash": "0f0600ef5f23a5d460b0d6e4b896a17f8ac45562",
+               "scenario": "default-scenario-13237449"
+            }
+         ],
+         "useV4Pipeline": true,
+         "isSelenium": false,
+         "hasMonitoringData": true,
+         "rpsCompatible": false,
+         "concurrencyControlCompatible": false,
+         "remoteControlCompatible": false,
+         "hasDaggerData": true,
+         "hasData": true,
+         "shouldUseDaggerReport": true,
+         "dependencies": [
+            {
+               "data": {
+                  "schema": "http://blazemeter.com/blazedata/schema",
+                  "id": "datamodels/testParameters",
+                  "title": "Test Parameters",
+                  "description": "",
+                  "kind": "tdm",
+                  "type": "object",
+                  "entities": {
+                     "PIR_TestData": {
+                        "title": "PIR_TestData",
+                        "type": "object",
+                        "properties": {
+                           "CEmployeeID": {
+                              "type": "string"
+                           },
+                           "EmployeeName": {
+                              "type": "string"
+                           }
+                        },
+                        "requirements": {
+                           "CEmployeeID": "valueOfCSV(\"PIR_TestData.csv\", \"CEmployeeID\")",
+                           "EmployeeName": "valueOfCSV(\"PIR_TestData.csv\", \"EmployeeName\")"
+                        },
+                        "datasources": [
+                           {
+                              "id": {
+                                 "fileName": "PIR_TestData.csv"
+                              },
+                              "type": "csv",
+                              "name": "PIR_TestData.csv",
+                              "loop": false,
+                              "headless": false,
+                              "delimiter": ",",
+                              "quoted": false,
+                              "fileEncoding": "UTF-8"
+                           }
+                        ],
+                        "targets": {
+                           "defaultCsv": {
+                              "type": "csv",
+                              "file": "PIR_TestData.csv",
+                              "quoted": false,
+                              "delimiter": ",",
+                              "fileEncoding": "UTF-8",
+                              "isHeadless": false,
+                              "columnMapping": [
+                                 {
+                                    "propertyName": "CEmployeeID",
+                                    "headerName": "CEmployeeID"
+                                 },
+                                 {
+                                    "propertyName": "EmployeeName",
+                                    "headerName": "EmployeeName"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ],
+         "sharedFoldersMap": [],
+         "dumped": true,
+         "dataDeleted": false,
+         "hasTransactionsFilter": false,
+         "useSecondsUnit": true,
+         "useLiveEngineMetrics": true,
+         "testId": 13237449,
+         "projectId": 1086017,
+         "sessionsId": [
+            "r-v4-64f939c59f762179899528"
+         ]
+      }
+   ],
+   "request_id": "653fb673d4a6f",
+   "limit": 10,
+   "skip": 0,
+   "total": 2,
+   "hidden": 0
+}
